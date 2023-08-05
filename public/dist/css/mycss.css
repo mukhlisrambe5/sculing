@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+.container-login {
+  height: 100%;
+  width: 100%;
+  max-width: 500px;
+  margin: 1em auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-image {
+  width: 200px;
+}
+
+.login-button {
+  width: 50%;
+  margin-top: 3em;
+  border-radius: 50px;
+  /* max-width: 200px;
+  margin-top: 3em; */
+  /* float: right; */
+}
+.public-spacebetween {
+  display: flex;
+  justify-content: space-between;
+}
