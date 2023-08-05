@@ -5,17 +5,17 @@ namespace App\Models;
 use CodeIgniter\Model;
 use PhpParser\Node\Expr\Isset_;
 
-class ModelUnit extends Model
+class ModelPegawai extends Model
 {
     public function all_data()
     {
-        return $this->db->table('tbl_unit')
+        return $this->db->table('tbl_pegawai')
             ->get()->getResultArray();
     }
 
-    var $column_order = array(null, 'nama_unit', null);
+    var $column_order = array(null, 'nama_pegawai', 'nip', 'jabatan', 'status', null);
 
-    var $order = array('nama_unit' => 'asc');
+    var $order = array('nama_pegawai' => 'asc');
 
 
 
@@ -24,9 +24,9 @@ class ModelUnit extends Model
         if (isset($_POST['search']['value'])) {
 
             $search = $_POST['search']['value'];
-            $kondisi_search = "nama_unit LIKE '%$search%'";
+            $kondisi_search = "nama_pegawai LIKE '%$search%' OR nip LIKE '%$search%' OR jabatan LIKE '%$search%' OR status LIKE '%$search%'";
         } else {
-            $kondisi_search = "id_unit!= ''";
+            $kondisi_search = "id_pegawai!= ''";
         }
 
 
@@ -46,7 +46,7 @@ class ModelUnit extends Model
             if ($_POST['length'] != -1)
                 ;
             $db = db_connect();
-            $builder = $db->table('tbl_unit');
+            $builder = $db->table('tbl_pegawai');
             $query = $builder->select('*')
                 ->where($kondisi_search)
                 ->orderBy($result_order, $result_dir)
@@ -62,7 +62,7 @@ class ModelUnit extends Model
 
     function jumlah_semua()
     {
-        $sQuery = "SELECT COUNT(id_user) as jml FROM tbl_user";
+        $sQuery = "SELECT COUNT(id_pegawai) as jml FROM tbl_pegawai";
         $db = db_connect();
         $query = $db->query($sQuery)->getRow();
         return $query;
@@ -73,12 +73,12 @@ class ModelUnit extends Model
 
         if (isset($_POST['search']['value'])) {
             $search = $_POST['search']['value'];
-            $kondisi_search = "AND (username LIKE '%$search%' OR password LIKE '%$search%' OR level LIKE '%$search%' OR status LIKE '%$search%' OR info LIKE '%$search%')";
+            $kondisi_search = "AND (nama_pegawai LIKE '%$search%' OR nip LIKE '%$search%' OR jabatan LIKE '%$search%' OR status LIKE '%$search%')";
         } else {
             $kondisi_search = "";
         }
 
-        $sQuery = "SELECT COUNT(id_user) as jml FROM tbl_user WHERE id_user != '' $kondisi_search";
+        $sQuery = "SELECT COUNT(id_pegawai) as jml FROM tbl_pegawai WHERE id_pegawai != '' $kondisi_search";
         $db = db_connect();
         $query = $db->query($sQuery)->getRow();
         return $query;
@@ -86,16 +86,16 @@ class ModelUnit extends Model
 
     function add_data($data)
     {
-        $this->db->table('tbl_unit')->insert($data);
+        $this->db->table('tbl_pegawai')->insert($data);
     }
 
-    function edit_data($data, $id_unit)
+    function edit_data($data, $id_pegawai)
     {
-        return $this->db->table('tbl_unit')->update($data, array('id_unit' => $id_unit));
+        return $this->db->table('tbl_pegawai')->update($data, array('id_pegawai' => $id_pegawai));
     }
-    function delete_data($id_unit)
+    function delete_data($id_pegawai)
     {
-        return $this->db->table('tbl_unit')->delete(array('id_unit' => $id_unit));
+        return $this->db->table('tbl_pegawai')->delete(array('id_pegawai' => $id_pegawai));
     }
 
 

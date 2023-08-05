@@ -57,6 +57,9 @@ $routes->get('data/downloadFile/(:any)', 'Data::downloadFile/$1');
 $routes->get('data/deleteData/(:any)', 'Data::deleteData/$1');
 $routes->get('data/editData/(:any)', 'Data::editData/$1');
 
+$routes->get('pegawai', 'Pegawai::index');
+$routes->get('pegawai/deletePegawai/(:any)', 'Pegawai::deletePegawai/$1');
+
 
 $routes->post('auth/cekLogin', 'Auth::cekLogin');
 $routes->post('Admin/dataUsers', 'Admin::dataUsers');
@@ -71,6 +74,9 @@ $routes->post('Unit/dataUnit', 'Unit::dataUnit');
 $routes->post('unit/tambahUnit', 'Unit::tambahUnit');
 $routes->post('unit/editUnit/(:any)', 'Unit::editUnit/$1');
 
+$routes->post('pegawai/dataPegawai', 'Pegawai::dataPegawai');
+$routes->post('pegawai/tambahPegawai', 'Pegawai::tambahPegawai');
+$routes->post('pegawai/editPegawai/(:any)', 'Pegawai::editPegawai/$1');
 
 
 

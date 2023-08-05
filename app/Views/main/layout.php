@@ -154,6 +154,10 @@
               <i class="fa fa-building text-primary"></i>
               <p class="text ml-1">Unit</p>
             </a>
+            <a href="<?= base_url('skill') ?>" class="nav-link">
+              <i class="fa fa-lightbulb text-primary"></i>
+              <p class="text ml-1">Keahlian</p>
+            </a>
             <a href="<?= base_url('admin/settingUsers') ?>" class="nav-link">
               <i class="fa fa-user text-primary"></i>
               <p class="text ml-1">Users</p>
@@ -274,6 +278,27 @@
         },
         "columnDefs": [{
           "targets": [0, 1],
+          "orderable": false
+        }],
+      }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
+
+      $('#tblPegawai').DataTable({
+        "order": [],
+        "processing": true,
+        "serverSide": true,
+        "responsive": true,
+        "lengthMenu": [
+          [10, 20, 50, 100],
+          [10, 20, 50, 100]
+        ],
+        "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"],
+        "dom": 'Blfrtip',
+        "ajax": {
+          "url": "<?= site_url('pegawai/dataPegawai') ?>",
+          "type": "POST"
+        },
+        "columnDefs": [{
+          "targets": [0, 5],
           "orderable": false
         }],
       }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');

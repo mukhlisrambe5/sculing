@@ -130,7 +130,9 @@ foreach ($users as $key => $value) { ?>
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Edit User</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Edit User
+            <?= $value['username'] ?>
+          </h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -160,7 +162,6 @@ foreach ($users as $key => $value) { ?>
             <label for="status" class="label-width col-sm-3 ">Status</label>
 
             <select name="status" id="status" class="form-control col-sm-9" required>
-              <option value="">--Pilih Status--</option>
               <option value="1" <?= $value['status'] == '1' ? 'selected' : '' ?>>Aktif</option>
               <option value="0" <?= $value['status'] == '0' ? 'selected' : '' ?>>Tidak Aktif</option>
             </select>

@@ -50,7 +50,9 @@ class Filters extends BaseConfig
                     'data',
                     'data/*',
                     'unit',
-                    'unit/*'
+                    'unit/*',
+                    'pegawai',
+                    'pegawai/*'
                 ]
             ]
         ],

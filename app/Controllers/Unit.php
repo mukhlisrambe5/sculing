@@ -36,7 +36,7 @@ class Unit extends BaseController
             $no++;
             $row = array();
 
-            $tomboldelete = "<a href=\"./unit/deleteUnit/$key->id_unit  \" class=\"btn btn-md btn-danger \" id=\"tomboldelete\" onclick=\"return confirm('Yakin ingin menghapus data user: $key->nama_unit?')\"><i class=\"fas fa-trash\"></i> Delete</a>";
+            $tomboldelete = "<a href=\"./unit/deleteUnit/$key->id_unit  \" class=\"btn btn-md btn-danger \" id=\"tomboldelete\" onclick=\"return confirm('Yakin ingin menghapus data unit: $key->nama_unit?')\"><i class=\"fas fa-trash\"></i> Delete</a>";
             $tomboledit = "<a class=\"btn btn-md btn-warning\" data-toggle=\"modal\" data-target=\"#edit\/$key->id_unit\"><i class=\"fas fa-edit\"></i> Edit</a>";
 
 

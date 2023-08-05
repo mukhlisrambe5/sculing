@@ -15,7 +15,7 @@ class ModelAdmin extends Model
 
     var $column_order = array(null, 'username', 'password', 'level', 'status', 'info');
 
-    var $order = array('username' => 'desc');
+    var $order = array('username' => 'asc');
 
 
 
