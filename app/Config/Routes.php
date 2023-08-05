@@ -46,6 +46,7 @@ $routes->get('admin/deleteUser/(:any)', 'Admin::deleteUser/$1');
 $routes->get('admin/tambahUser', 'Admin::tambahUser');
 
 $routes->get('unit', 'Unit::index');
+$routes->get('unit/deleteUnit/(:any)', 'Unit::deleteUnit/$1');
 
 
 $routes->get('/data', 'Data::index');
@@ -67,6 +68,8 @@ $routes->post('data/simpanData', 'Data::simpanData');
 $routes->post('data/updateData', 'Data::updateData');
 
 $routes->post('Unit/dataUnit', 'Unit::dataUnit');
+$routes->post('unit/tambahUnit', 'Unit::tambahUnit');
+$routes->post('unit/editUnit/(:any)', 'Unit::editUnit/$1');
 
 
 

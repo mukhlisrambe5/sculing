@@ -84,19 +84,19 @@ class ModelUnit extends Model
         return $query;
     }
 
-    // function add_data($data)
-    // {
-    //     $this->db->table('tbl_user')->insert($data);
-    // }
+    function add_data($data)
+    {
+        $this->db->table('tbl_unit')->insert($data);
+    }
 
-    // function edit_data($data, $id_user)
-    // {
-    //     return $this->db->table('tbl_user')->update($data, array('id_user' => $id_user));
-    // }
-    // function delete_data($id_user)
-    // {
-    //     return $this->db->table('tbl_user')->delete(array('id_user' => $id_user));
-    // }
+    function edit_data($data, $id_unit)
+    {
+        return $this->db->table('tbl_unit')->update($data, array('id_unit' => $id_unit));
+    }
+    function delete_data($id_unit)
+    {
+        return $this->db->table('tbl_unit')->delete(array('id_unit' => $id_unit));
+    }
 
 
 

@@ -40,7 +40,6 @@ class Admin extends BaseController
             $no++;
             $row = array();
 
-            // $tomboledit = "<a href=\"./editUser/$key->id_user  \" class=\"btn btn-md btn-success \" id=\"tomboledit\"><i class=\"fas fa-edit\"></i> Edit</a>";
 
             $tomboldelete = "<a href=\"./deleteUser/$key->id_user  \" class=\"btn btn-md btn-danger \" id=\"tomboldelete\" onclick=\"return confirm('Yakin ingin menghapus data user: $key->username?')\"><i class=\"fas fa-trash\"></i> Delete</a>";
 

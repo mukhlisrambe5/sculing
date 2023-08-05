@@ -65,7 +65,7 @@
 
 </section>
 
-<!-- modal add user -->
+<!-- modal add unit -->
 <div class="modal fade" id="tambah_unit" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -93,10 +93,46 @@
   </div>
 </div>
 
+<!-- modal edit user -->
+<?php
+foreach ($unit as $key => $value) { ?>
+  <div class="modal fade" id="edit/<?= $value['id_unit'] ?>" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Edit Unit</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <?= form_open('unit/editUnit/' . $value['id_unit']) ?>
+        <div class="modal-body">
+          <input type="hidden" name="id_unit" value="<?= $value['id_unit'] ?>">
+          <div class="form-group detail-content public-spacebetween">
+            <label for="nama_unit" class="label-width col-sm-3">Username</label>
+            <input type="text" class="form-control col-sm-9" id="nama_unit_edit" name="nama_unit" required minlength=4
+              value="<?= $value['nama_unit'] ?>">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="submit" id="submitEdit" class="btn btn-primary">Update</button>
+        </div>
+        <?= form_close() ?>
+      </div>
+    </div>
+  </div>
+
+<?php } ?>
+
 <script>
   const nama_unit = document.getElementById("nama_unit");
-
   const submit = document.getElementById("submit");
+
+  const nama_unit_edit = document.getElementById("nama_unit_edit");
+  const submitEdit = document.getElementById("submitEdit");
+
 
 
   submit.addEventListener('click', () => {
@@ -107,8 +143,16 @@
     } else {
       nama_unit.setCustomValidity('');
     }
+  })
 
-
+  submitEdit.addEventListener('click', () => {
+    if (nama_unit_edit.validity.valueMissing) {
+      nama_unit_edit.setCustomValidity('Nama Unit tidak boleh kosong');
+    } else if (nama_unit_edit.validity.tooShort) {
+      nama_unit_edit.setCustomValidity('Minimal 4 Karakter');
+    } else {
+      nama_unit_edit.setCustomValidity('');
+    }
 
 
   })
