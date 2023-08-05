@@ -104,33 +104,66 @@
             </a>
           </div>
         </div>
-        <nav class="mt-2">
-          <ul class="nav nav-pills nav-sidebar flex-column">
-            <li class="nav-header">Menu Utama</li>
-            <li class="nav-item">
-              <a href="<?= base_url('data') ?>" class="nav-link">
-                <i class="fa fa-database"></i>
-                <p class="text ml-2">Database</p>
-              </a>
-            </li>
-            <br />
-            <li class="nav-header">Setting</li>
-            <li class="nav-item">
-              <a href="<?= base_url('unit') ?>" class="nav-link">
-                <i class="fa fa-users text-primary"></i>
-                <p class="text ml-1">Unit</p>
-              </a>
-              <a href="<?= base_url('admin/settingUsers') ?>" class="nav-link">
-                <i class="fa fa-user text-primary"></i>
-                <p class="text ml-2">Users</p>
-              </a>
-              <a href="<?= base_url('auth/signout') ?>" class="nav-link">
-                <i class="fa fa-sign-out-alt text-secondary"></i>
-                <p class="text ml-2">Logout</p>
-              </a>
-            </li>
-          </ul>
-        </nav>
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <li class="nav-header">Menu Utama</li>
+          <li class="nav-item">
+            <a href="<?= base_url('data') ?>" class="nav-link">
+              <i class="fa fa-history text-success"></i>
+              <p class="text ml-2">History Penempatan</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="fa fa-address-card text-success"></i>
+              <p class="text ml-2">
+                Detail Pegawai
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="pages/forms/general.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Penempatan</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="pages/forms/advanced.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Keahlian</p>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="<?= base_url('data') ?>" class="nav-link">
+              <i class="fa fa-trophy text-success"></i>
+              <p class="text ml-2">BOSCU</p>
+            </a>
+          </li>
+
+          <br />
+          <li class="nav-header">Setting</li>
+          <li class="nav-item">
+            <a href="<?= base_url('pegawai') ?>" class="nav-link">
+              <i class="fa fa-user-tie text-primary"></i>
+              <p class="text ml-1">Pegawai</p>
+            </a>
+            <a href="<?= base_url('unit') ?>" class="nav-link">
+              <i class="fa fa-building text-primary"></i>
+              <p class="text ml-1">Unit</p>
+            </a>
+            <a href="<?= base_url('admin/settingUsers') ?>" class="nav-link">
+              <i class="fa fa-user text-primary"></i>
+              <p class="text ml-1">Users</p>
+            </a>
+            <a href="<?= base_url('auth/signout') ?>" class="nav-link">
+              <i class="fa fa-sign-out-alt text-secondary"></i>
+              <p class="text ml-">Logout</p>
+            </a>
+          </li>
+        </ul>
       </div>
     </aside>
 
