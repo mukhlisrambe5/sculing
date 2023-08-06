@@ -52,7 +52,9 @@ class Filters extends BaseConfig
                     'unit',
                     'unit/*',
                     'pegawai',
-                    'pegawai/*'
+                    'pegawai/*',
+                    'skill',
+                    'skill/*'
                 ]
             ]
         ],

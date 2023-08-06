@@ -4314,3 +4314,252 @@ WARNING - 2023-08-05 23:45:07 --> [DEPRECATED] Creation of dynamic property App\
  2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
  3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-05 23:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-05 23:55:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pegawai::$ModelPegawai is deprecated in APPPATH\Controllers\Pegawai.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pegawai->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-05 23:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-05 23:55:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pegawai::$ModelPegawai is deprecated in APPPATH\Controllers\Pegawai.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pegawai->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-05 23:55:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-05 23:55:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Skill::$ModelSkill is deprecated in APPPATH\Controllers\Skill.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Skill->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 23:55:37 --> Undefined variable $value
+in APPPATH\Views\setting\skill.php on line 74.
+ 1 APPPATH\Views\setting\skill.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'C:\\wamp64\\www\\sculing\\app\\Views\\setting\\skill.php', 74)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\setting\\skill.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('setting/skill', [], true)
+ 5 APPPATH\Controllers\Skill.php(21): view('setting/skill', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Skill->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skill))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-05 23:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-05 23:56:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Skill::$ModelSkill is deprecated in APPPATH\Controllers\Skill.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Skill->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 23:56:16 --> Undefined variable $value
+in APPPATH\Views\setting\skill.php on line 74.
+ 1 APPPATH\Views\setting\skill.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'C:\\wamp64\\www\\sculing\\app\\Views\\setting\\skill.php', 74)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\setting\\skill.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('setting/skill', [], true)
+ 5 APPPATH\Controllers\Skill.php(21): view('setting/skill', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Skill->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skill))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-05 23:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-05 23:56:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pegawai::$ModelPegawai is deprecated in APPPATH\Controllers\Pegawai.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pegawai->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-05 23:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-05 23:56:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pegawai::$ModelPegawai is deprecated in APPPATH\Controllers\Pegawai.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pegawai->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-05 23:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-05 23:56:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Skill::$ModelSkill is deprecated in APPPATH\Controllers\Skill.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Skill->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 23:56:21 --> Undefined variable $value
+in APPPATH\Views\setting\skill.php on line 74.
+ 1 APPPATH\Views\setting\skill.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'C:\\wamp64\\www\\sculing\\app\\Views\\setting\\skill.php', 74)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\setting\\skill.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('setting/skill', [], true)
+ 5 APPPATH\Controllers\Skill.php(21): view('setting/skill', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Skill->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skill))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-05 23:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-05 23:56:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Skill::$ModelSkill is deprecated in APPPATH\Controllers\Skill.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Skill->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 23:56:57 --> Undefined variable $value
+in APPPATH\Views\setting\skill.php on line 74.
+ 1 APPPATH\Views\setting\skill.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'C:\\wamp64\\www\\sculing\\app\\Views\\setting\\skill.php', 74)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\setting\\skill.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('setting/skill', [], true)
+ 5 APPPATH\Controllers\Skill.php(21): view('setting/skill', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Skill->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skill))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-05 23:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-05 23:56:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pegawai::$ModelPegawai is deprecated in APPPATH\Controllers\Pegawai.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pegawai->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-05 23:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-05 23:56:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pegawai::$ModelPegawai is deprecated in APPPATH\Controllers\Pegawai.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pegawai->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-05 23:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-05 23:57:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Skill::$ModelSkill is deprecated in APPPATH\Controllers\Skill.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Skill->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 23:57:04 --> Undefined variable $value
+in APPPATH\Views\setting\skill.php on line 74.
+ 1 APPPATH\Views\setting\skill.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'C:\\wamp64\\www\\sculing\\app\\Views\\setting\\skill.php', 74)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\setting\\skill.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('setting/skill', [], true)
+ 5 APPPATH\Controllers\Skill.php(21): view('setting/skill', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Skill->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skill))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-05 23:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-05 23:57:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pegawai::$ModelPegawai is deprecated in APPPATH\Controllers\Pegawai.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pegawai->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-05 23:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-05 23:57:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pegawai::$ModelPegawai is deprecated in APPPATH\Controllers\Pegawai.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pegawai->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-05 23:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-05 23:58:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pegawai::$ModelPegawai is deprecated in APPPATH\Controllers\Pegawai.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pegawai->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-05 23:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-05 23:58:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pegawai::$ModelPegawai is deprecated in APPPATH\Controllers\Pegawai.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pegawai->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-05 23:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-05 23:58:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Skill::$ModelSkill is deprecated in APPPATH\Controllers\Skill.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Skill->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 23:58:03 --> Undefined variable $value
+in APPPATH\Views\setting\skill.php on line 74.
+ 1 APPPATH\Views\setting\skill.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'C:\\wamp64\\www\\sculing\\app\\Views\\setting\\skill.php', 74)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\setting\\skill.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('setting/skill', [], true)
+ 5 APPPATH\Controllers\Skill.php(21): view('setting/skill', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Skill->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skill))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-05 23:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-05 23:58:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Skill::$ModelSkill is deprecated in APPPATH\Controllers\Skill.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Skill->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 23:58:54 --> Undefined variable $value
+in APPPATH\Views\setting\skill.php on line 74.
+ 1 APPPATH\Views\setting\skill.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'C:\\wamp64\\www\\sculing\\app\\Views\\setting\\skill.php', 74)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\setting\\skill.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('setting/skill', [], true)
+ 5 APPPATH\Controllers\Skill.php(21): view('setting/skill', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Skill->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skill))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-05 23:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-05 23:58:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Skill::$ModelSkill is deprecated in APPPATH\Controllers\Skill.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Skill->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 23:58:54 --> Undefined variable $value
+in APPPATH\Views\setting\skill.php on line 74.
+ 1 APPPATH\Views\setting\skill.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'C:\\wamp64\\www\\sculing\\app\\Views\\setting\\skill.php', 74)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\setting\\skill.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('setting/skill', [], true)
+ 5 APPPATH\Controllers\Skill.php(21): view('setting/skill', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Skill->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skill))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-05 23:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-05 23:58:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pegawai::$ModelPegawai is deprecated in APPPATH\Controllers\Pegawai.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pegawai->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-05 23:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-05 23:58:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pegawai::$ModelPegawai is deprecated in APPPATH\Controllers\Pegawai.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pegawai->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-05 23:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-05 23:58:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pegawai::$ModelPegawai is deprecated in APPPATH\Controllers\Pegawai.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pegawai->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-05 23:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-05 23:58:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pegawai::$ModelPegawai is deprecated in APPPATH\Controllers\Pegawai.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pegawai->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-05 23:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-05 23:58:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pegawai::$ModelPegawai is deprecated in APPPATH\Controllers\Pegawai.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pegawai->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-05 23:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-05 23:58:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pegawai::$ModelPegawai is deprecated in APPPATH\Controllers\Pegawai.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pegawai->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-05 23:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-05 23:58:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Skill::$ModelSkill is deprecated in APPPATH\Controllers\Skill.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Skill->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 23:58:58 --> Undefined variable $value
+in APPPATH\Views\setting\skill.php on line 74.
+ 1 APPPATH\Views\setting\skill.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'C:\\wamp64\\www\\sculing\\app\\Views\\setting\\skill.php', 74)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\setting\\skill.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('setting/skill', [], true)
+ 5 APPPATH\Controllers\Skill.php(21): view('setting/skill', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Skill->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skill))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -60,6 +60,9 @@ $routes->get('data/editData/(:any)', 'Data::editData/$1');
 $routes->get('pegawai', 'Pegawai::index');
 $routes->get('pegawai/deletePegawai/(:any)', 'Pegawai::deletePegawai/$1');
 
+$routes->get('skill', 'Skill::index');
+$routes->get('skill/deleteSkill/(:any)', 'Skill::deleteSkill/$1');
+
 
 $routes->post('auth/cekLogin', 'Auth::cekLogin');
 $routes->post('Admin/dataUsers', 'Admin::dataUsers');
@@ -78,7 +81,9 @@ $routes->post('pegawai/dataPegawai', 'Pegawai::dataPegawai');
 $routes->post('pegawai/tambahPegawai', 'Pegawai::tambahPegawai');
 $routes->post('pegawai/editPegawai/(:any)', 'Pegawai::editPegawai/$1');
 
-
+$routes->post('skill/dataSkill', 'Skill::dataSkill');
+$routes->post('skill/tambahSkill', 'Skill::tambahSkill');
+$routes->post('skill/editSkill/(:any)', 'Skill::editSkill/$1');
 
 /*
  * --------------------------------------------------------------------

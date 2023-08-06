@@ -302,6 +302,26 @@
           "orderable": false
         }],
       }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
+
+      $('#tblSkill').DataTable({
+        "order": [],
+        "processing": true,
+        "serverSide": true,
+        "responsive": true,
+        "lengthMenu": [
+          [10, 20, 50, 100],
+          [10, 20, 50, 100]
+        ],
+        "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"],
+        "ajax": {
+          "url": "<?= site_url('skill/dataSkill') ?>",
+          "type": "POST"
+        },
+        "columnDefs": [{
+          "targets": [0, 1],
+          "orderable": false
+        }],
+      }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
     });
   </script>
 
