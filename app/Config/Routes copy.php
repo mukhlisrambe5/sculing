@@ -29,39 +29,40 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Auth::index', ['filter' => 'filterLogged']);
-$routes->get('/auth', 'Auth::index', ['filter' => 'filterLogged']);
+$routes->get('/', 'Auth::index');
+$routes->get('/auth', 'Auth::index');
 $routes->get('/auth/signout', 'Auth::signout');
 $routes->get('auth/cekLogin', 'Auth::cekLogin');
 
-$routes->get('/home', 'Home::index', ['filter' => 'filterLogin']);
+$routes->get('/home', 'Home::index');
 // $routes->get('/home', 'Home::index', ['filter' => 'filterAdmin']);
 
-$routes->get('/admin', 'Admin::settingUsers', ['filter' => 'filterLogin']);
-$routes->get('admin/settingUsers', 'Admin::settingUsers', ['filter' => 'filterLogin']);
-$routes->get('admin/dataUsers', 'Admin::dataUsers', ['filter' => 'filterLogin']);
-$routes->get('Admin/dataUsers', 'Admin::dataUsers', ['filter' => 'filterLogin']);
-$routes->get('admin/tambahUser', 'Admin::tambahUser', ['filter' => 'filterLogin']);
-$routes->get('admin/editUser/(:any)', 'Admin::editUser/$1', ['filter' => 'filterLogin']);
-$routes->get('admin/deleteUser/(:any)', 'Admin::deleteUser/$1', ['filter' => 'filterLogin']);
-$routes->get('admin/tambahUser', 'Admin::tambahUser', ['filter' => 'filterLogin']);
+$routes->get('/admin', 'Admin::settingUsers');
+$routes->get('admin/settingUsers', 'Admin::settingUsers');
+$routes->get('admin/dataUsers', 'Admin::dataUsers');
+$routes->get('Admin/dataUsers', 'Admin::dataUsers');
+$routes->get('admin/tambahUser', 'Admin::tambahUser');
+$routes->get('admin/editUser/(:any)', 'Admin::editUser/$1');
+$routes->get('admin/deleteUser/(:any)', 'Admin::deleteUser/$1');
+$routes->get('admin/tambahUser', 'Admin::tambahUser');
 
-$routes->get('unit', 'Unit::index', ['filter' => 'filterLogin']);
-$routes->get('unit/deleteUnit/(:any)', 'Unit::deleteUnit/$1', ['filter' => 'filterLogin']);
+$routes->get('unit', 'Unit::index');
+$routes->get('unit/deleteUnit/(:any)', 'Unit::deleteUnit/$1');
 
 
-$routes->get('/data', 'Data::index', ['filter' => 'filterLogin']);
-$routes->get('/data/tambahData', 'Data::tambahData', ['filter' => 'filterLogin']);
-$routes->get('Data/dataBase', 'Data::dataBase', ['filter' => 'filterLogin']);
-$routes->get('data/downloadImage/(:any)', 'Data::downloadImage/$1', ['filter' => 'filterLogin']);
-$routes->get('data/downloadFile/(:any)', 'Data::downloadFile/$1', ['filter' => 'filterLogin']);
-$routes->get('data/deleteData/(:any)', 'Data::deleteData/$1', ['filter' => 'filterLogin']);
-$routes->get('data/editData/(:any)', 'Data::editData/$1', ['filter' => 'filterLogin']);
+$routes->get('/data', 'Data::index');
+$routes->get('/data/tambahData', 'Data::tambahData');
+$routes->get('Data/dataBase', 'Data::dataBase');
+$routes->get('data/downloadImage/(:any)', 'Data::downloadImage/$1');
+$routes->get('data/downloadFile/(:any)', 'Data::downloadFile/$1');
+$routes->get('data/deleteData/(:any)', 'Data::deleteData/$1');
+$routes->get('data/editData/(:any)', 'Data::editData/$1');
 
-$routes->get('pegawai', 'Pegawai::index', ['filter' => 'filterLogin']);
-$routes->get('pegawai/deletePegawai/(:any)', 'Pegawai::deletePegawai/$1', ['filter' => 'filterLogin']);
-$routes->get('skill', 'Skill::index', ['filter' => 'filterLogin']);
-$routes->get('skill/deleteSkill/(:any)', 'Skill::deleteSkill/$1', ['filter' => 'filterLogin']);
+$routes->get('pegawai', 'Pegawai::index');
+$routes->get('pegawai/deletePegawai/(:any)', 'Pegawai::deletePegawai/$1');
+
+$routes->get('skill', 'Skill::index');
+$routes->get('skill/deleteSkill/(:any)', 'Skill::deleteSkill/$1');
 
 
 $routes->post('auth/cekLogin', 'Auth::cekLogin');

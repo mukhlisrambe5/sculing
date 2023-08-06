@@ -6,7 +6,7 @@ use CodeIgniter\Filters\FilterInterface;
 use CodeIgniter\HTTP\RequestInterface;
 use CodeIgniter\HTTP\ResponseInterface;
 
-class FilterAdmin implements FilterInterface
+class FilterLogin implements FilterInterface
 {
     /**
      * Do whatever processing this filter needs to do.
@@ -25,10 +25,7 @@ class FilterAdmin implements FilterInterface
      */
     public function before(RequestInterface $request, $arguments = null)
     {
-        if (session()->get('level') == 1) {
-            // return redirect()->to('home');
-            return redirect()->to(base_url('home'));
-        } else {
+        if (session()->get('level') == '') {
             return redirect()->to('auth');
         }
     }
@@ -48,7 +45,7 @@ class FilterAdmin implements FilterInterface
     public function after(RequestInterface $request, ResponseInterface $response, $arguments = null)
     {
         // if (session()->get('level') == 1) {
-        //     return redirect()->to('home');
+        //     return redirect()->to('unit');
         // }
     }
 }
