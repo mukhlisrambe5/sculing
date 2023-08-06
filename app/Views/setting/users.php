@@ -98,15 +98,16 @@
             <option value="2">Petugas</option>
           </select>
         </div>
-        <div class="form-group detail-content public-spacebetween">
+        <!-- <div class="form-group detail-content public-spacebetween">
           <label for="status" class="label-width col-sm-3 ">Status</label>
 
           <select name="status" id="status" class="form-control col-sm-9" required>
             <option value="">--Pilih Status--</option>
-            <option value="1">Aktif</option>
-            <option value="0">Non-Aktif</option>
+            <option value="Aktif">Aktif</option>
+            <option value="Tidak Aktif">Tidak Aktif</option>
           </select>
-        </div>
+        </div> -->
+        <input type="hidden" name="status" value="Aktif">
         <div class="form-group detail-content public-spacebetween">
           <label for="info" class="label-width col-sm-3 ">Info</label>
           <textarea name="info" id="" cols="30" rows="10" class="form-control col-sm-9"></textarea>
@@ -162,8 +163,8 @@ foreach ($users as $key => $value) { ?>
             <label for="status" class="label-width col-sm-3 ">Status</label>
 
             <select name="status" id="status" class="form-control col-sm-9" required>
-              <option value="1" <?= $value['status'] == '1' ? 'selected' : '' ?>>Aktif</option>
-              <option value="0" <?= $value['status'] == '0' ? 'selected' : '' ?>>Tidak Aktif</option>
+              <option value="Aktif" <?= $value['status'] == 'Aktif' ? 'selected' : '' ?>>Aktif</option>
+              <option value="Tidak Aktif" <?= $value['status'] == 'Tidak Aktif' ? 'selected' : '' ?>>Tidak Aktif</option>
             </select>
           </div>
           <div class="form-group detail-content public-spacebetween">

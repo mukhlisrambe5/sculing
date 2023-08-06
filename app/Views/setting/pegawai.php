@@ -92,7 +92,7 @@
         </div>
 
         <div class="form-group detail-content public-spacebetween">
-          <label for="status" class="label-width col-sm-4 ">Jabatan</label>
+          <label for="jabatan" class="label-width col-sm-4 ">Jabatan</label>
 
           <select name="jabatan" id="jabatan" class="form-control col-sm-8" required>
             <option value="">--Pilih Jabatan--</option>
@@ -138,7 +138,7 @@ foreach ($pegawai as $key => $value) { ?>
               minlength=4 value="<?= $value['nama_pegawai'] ?>">
           </div>
           <div class="form-group detail-content public-spacebetween">
-            <label for="nip" class="label-width col-sm-4 mt-2">Nip</label>
+            <label for="nip" class="label-width col-sm-4 mt-2">NIP</label>
             <input type="text" class="form-control col-sm-8" id="nip" name="nip" required minlength=4
               value="<?= $value['nip'] ?>">
           </div>

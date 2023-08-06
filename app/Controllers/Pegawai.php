@@ -3,12 +3,16 @@
 namespace App\Controllers;
 
 use App\Models\ModelPegawai;
+use App\Models\ModelUnit;
+
 
 class Pegawai extends BaseController
 {
     public function __construct()
     {
         $this->ModelPegawai = new ModelPegawai();
+        $this->ModelUnit = new ModelUnit();
+
         helper('form');
 
 
@@ -17,6 +21,7 @@ class Pegawai extends BaseController
     {
         $data = [
             'pegawai' => $this->ModelPegawai->all_data(),
+            'unit' => $this->ModelUnit->all_data(),
         ];
         return view('setting/pegawai', $data);
     }

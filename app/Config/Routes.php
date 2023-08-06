@@ -63,6 +63,8 @@ $routes->get('pegawai/deletePegawai/(:any)', 'Pegawai::deletePegawai/$1', ['filt
 $routes->get('skill', 'Skill::index', ['filter' => 'filterLogin']);
 $routes->get('skill/deleteSkill/(:any)', 'Skill::deleteSkill/$1', ['filter' => 'filterLogin']);
 
+$routes->get('penempatan', 'Penempatan::index', ['filter' => 'filterLogin']);
+
 
 $routes->post('auth/cekLogin', 'Auth::cekLogin');
 $routes->post('Admin/dataUsers', 'Admin::dataUsers');

@@ -52,7 +52,7 @@ class Admin extends BaseController
             $row[] = $no;
             $row[] = $key->username;
             $row[] = $key->level == 1 ? "Admin" : "Petugas";
-            $row[] = $key->status == 1 ? "Aktif" : "Tidak Aktif";
+            $row[] = $key->status == "Aktif" ? "Aktif" : "Tidak Aktif";
             $row[] = $key->info == "" ? "-" : $key->info;
             $row[] = "<div class=\"text-center\">" . $tomboledit . " " . $tomboldelete . "</div>";
             $data[] = $row;
