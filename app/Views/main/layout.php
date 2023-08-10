@@ -107,9 +107,15 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <li class="nav-header">Menu Utama</li>
           <li class="nav-item">
-            <a href="<?= base_url('penempatan') ?>" class="nav-link">
+            <a href="<?= base_url('first') ?>" class="nav-link">
+              <i class="fa fa-share text-success"></i>
+              <p class="text ml-2">Penempatan Pertama</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="<?= base_url('rolling') ?>" class="nav-link">
               <i class="fa fa-history text-success"></i>
-              <p class="text ml-2">Penempatan</p>
+              <p class="text ml-2">Rekam Rolling</p>
             </a>
           </li>
           <li class="nav-item">
@@ -323,6 +329,48 @@
         }],
       }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
     });
+
+    $('#tblFirst').DataTable({
+      "order": [],
+      "processing": true,
+      "serverSide": true,
+      "responsive": true,
+      "lengthMenu": [
+        [10, 20, 50, 100],
+        [10, 20, 50, 100]
+      ],
+      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"],
+      "ajax": {
+        "url": "<?= site_url('first/dataFirst') ?>",
+        // "url": "<?= site_url('first/dataFirst') ?>",
+
+        "type": "POST"
+      },
+      "columnDefs": [{
+        "targets": [0, 1],
+        "orderable": false
+      }],
+    }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
+
+    $('#tblRolling').DataTable({
+      "order": [],
+      "processing": true,
+      "serverSide": true,
+      "responsive": true,
+      "lengthMenu": [
+        [10, 20, 50, 100],
+        [10, 20, 50, 100]
+      ],
+      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"],
+      "ajax": {
+        "url": "<?= site_url('rolling/dataRolling') ?>",
+        "type": "POST"
+      },
+      "columnDefs": [{
+        "targets": [0, 1],
+        "orderable": false
+      }],
+    }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
   </script>
 
   <!-- script untuk menghilngkan flashdata otomatis -->

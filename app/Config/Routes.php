@@ -63,7 +63,10 @@ $routes->get('pegawai/deletePegawai/(:any)', 'Pegawai::deletePegawai/$1', ['filt
 $routes->get('skill', 'Skill::index', ['filter' => 'filterLogin']);
 $routes->get('skill/deleteSkill/(:any)', 'Skill::deleteSkill/$1', ['filter' => 'filterLogin']);
 
-$routes->get('penempatan', 'Penempatan::index', ['filter' => 'filterLogin']);
+$routes->get('first', 'First::index', ['filter' => 'filterLogin']);
+
+
+$routes->get('rolling', 'Rolling::index', ['filter' => 'filterLogin']);
 
 
 $routes->post('auth/cekLogin', 'Auth::cekLogin');
@@ -86,6 +89,12 @@ $routes->post('pegawai/editPegawai/(:any)', 'Pegawai::editPegawai/$1');
 $routes->post('skill/dataSkill', 'Skill::dataSkill');
 $routes->post('skill/tambahSkill', 'Skill::tambahSkill');
 $routes->post('skill/editSkill/(:any)', 'Skill::editSkill/$1');
+
+
+$routes->post('first/dataFirst', 'First::dataFirst');
+
+$routes->post('rolling/dataRolling', 'Rolling::dataRolling');
+
 
 /*
  * --------------------------------------------------------------------

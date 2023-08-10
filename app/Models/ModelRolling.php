@@ -5,12 +5,12 @@ namespace App\Models;
 use CodeIgniter\Model;
 use PhpParser\Node\Expr\Isset_;
 
-class ModelPenempatan extends Model
+class ModelRolling extends Model
 {
     public function all_data()
     {
         return $this->db->table('tbl_penempatan')
-            ->join('tbl_pegawai', 'tbl_pegawai.nip= tbl_penempatan.nip', 'left')
+            // ->join('tbl_pegawai', 'tbl_pegawai.nip= tbl_penempatan.nip', 'left')
             ->get()->getResultArray();
     }
 

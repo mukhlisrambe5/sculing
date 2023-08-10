@@ -3,7 +3,30 @@
 <?= $this->section('content') ?>
 <div>
 
-    <h5 class="ml-3 mt-3">Ini adalah halaman content</h5>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+
+            </tr>
+
+        </thead>
+        <tbody>
+            <p>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    Button with data-target
+                </button>
+            </p>
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    Some placeholder content for the collapse component. This panel is hidden by default but revealed
+                    when the user activates the relevant trigger.
+                </div>
+            </div>
+
+
+        </tbody>
+    </table>
 </div>
 
 
