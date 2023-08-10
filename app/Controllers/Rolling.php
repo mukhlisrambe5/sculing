@@ -30,7 +30,7 @@ class Rolling extends BaseController
     public function dataRolling()
     {
 
-        $model = new ModelPegawai();
+        $model = new ModelRolling();
         $listing = $model->get_datatables();
         $jumlah_semua = $model->jumlah_semua();
         $jumlah_filter = $model->jumlah_filter();
@@ -41,12 +41,12 @@ class Rolling extends BaseController
             $no++;
             $row = array();
 
-            // $tomboldelete = "<a href=\"./pegawai/deletePegawai/$key->id_pegawai  \" class=\"btn btn-md btn-danger \" id=\"tomboldelete\" onclick=\"return confirm('Yakin ingin menghapus data pegawai: $key->nama_pegawai?')\"><i class=\"fas fa-trash\"></i> Delete</a>";
             $tomboledit = "<a class=\"btn btn-md btn-success\" data-toggle=\"modal\" data-target=\"#edit\/$key->id_pegawai\"><i class=\"fas fa-arrow-right\"></i> Rolling</a>";
-
 
             $row[] = $no;
             $row[] = $key->nama_pegawai;
+            $row[] = $key->nipp;
+
 
             $row[] = "<div class=\"text-center\">" . $tomboledit . "</div>";
             $data[] = $row;

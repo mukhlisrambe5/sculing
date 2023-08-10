@@ -10,80 +10,77 @@ class ModelRolling extends Model
     public function all_data()
     {
         return $this->db->table('tbl_penempatan')
-            // ->join('tbl_pegawai', 'tbl_pegawai.nip= tbl_penempatan.nip', 'left')
             ->get()->getResultArray();
     }
 
-    // var $column_order = array(null, 'nama_pegawai', 'nip', 'jabatan', 'status', null);
+    var $column_order = array(null, 'nama_pegawai', 'nipp', null);
 
-    // var $order = array('nama_pegawai' => 'asc');
-
-
-
-    // function get_datatables()
-    // {
-    //     if (isset($_POST['search']['value'])) {
-
-    //         $search = $_POST['search']['value'];
-    //         $kondisi_search = "nama_pegawai LIKE '%$search%' OR nip LIKE '%$search%' OR jabatan LIKE '%$search%' OR status LIKE '%$search%'";
-    //     } else {
-    //         $kondisi_search = "id_pegawai!= ''";
-    //     }
+    var $order = array('nama_pegawai' => 'asc');
 
 
 
-    //     // order
-    //     if (isset($_POST['order'])) {
-    //         $result_order = $this->column_order[$_POST['order']['0']['column']];
-    //         $result_dir = $_POST['order']['0']['dir'];
-    //     } else if ($this->order) {
-    //         $order = $this->order;
-    //         $result_order = key($order);
-    //         $result_dir = $order[key($order)];
-    //     }
+    function get_datatables()
+    {
+        if (isset($_POST['search']['value'])) {
 
-
-    //     if (isset($_POST['length'])) {
-    //         if ($_POST['length'] != -1)
-    //             ;
-    //         $db = db_connect();
-    //         $builder = $db->table('tbl_pegawai');
-    //         $query = $builder->select('*')
-    //             ->where($kondisi_search)
-    //             ->orderBy($result_order, $result_dir)
-    //             ->limit($_POST['length'], $_POST['start'])
-    //             ->get();
-    //         return $query->getResult();
-    //     }
-
-
-    // }
+            $search = $_POST['search']['value'];
+            $kondisi_search = "nama_pegawai LIKE '%$search%' OR nipp LIKE '%$search%'";
+        } else {
+            $kondisi_search = "id_pegawai!= ''";
+        }
 
 
 
-    // function jumlah_semua()
-    // {
-    //     $sQuery = "SELECT COUNT(id_pegawai) as jml FROM tbl_pegawai";
-    //     $db = db_connect();
-    //     $query = $db->query($sQuery)->getRow();
-    //     return $query;
-    // }
+        // order
+        if (isset($_POST['order'])) {
+            $result_order = $this->column_order[$_POST['order']['0']['column']];
+            $result_dir = $_POST['order']['0']['dir'];
+        } else if ($this->order) {
+            $order = $this->order;
+            $result_order = key($order);
+            $result_dir = $order[key($order)];
+        }
 
-    // function jumlah_filter()
-    // {
+        if (isset($_POST['length'])) {
+            if ($_POST['length'] != -1)
+                ;
+            $db = db_connect();
+            $builder = $db->table('tbl_pegawai');
+            $query = $builder->select('tbl_pegawai.*')
+                ->join('tbl_penempatan', 'tbl_pegawai.nipp= tbl_penempatan.nip', 'right')
+                ->like('tbl_pegawai.nipp', $search)
+                ->orLike('tbl_pegawai.nama_pegawai', $search)
+                ->groupBy('tbl_pegawai.nipp')
+                ->orderBy($result_order, $result_dir)
+                ->limit($_POST['length'], $_POST['start'])
+                ->get();
+            return $query->getResult();
+        }
+    }
 
-    //     if (isset($_POST['search']['value'])) {
-    //         $search = $_POST['search']['value'];
-    //         $kondisi_search = "AND (nama_pegawai LIKE '%$search%' OR nip LIKE '%$search%' OR jabatan LIKE '%$search%' OR status LIKE '%$search%')";
-    //     } else {
-    //         $kondisi_search = "";
-    //     }
+    function jumlah_semua()
+    {
+        $sQuery = "SELECT COUNT(id_pegawai) as jml FROM tbl_pegawai";
+        $db = db_connect();
+        $query = $db->query($sQuery)->getRow();
+        return $query;
+    }
 
-    //     $sQuery = "SELECT COUNT(id_pegawai) as jml FROM tbl_pegawai WHERE id_pegawai != '' $kondisi_search";
-    //     $db = db_connect();
-    //     $query = $db->query($sQuery)->getRow();
-    //     return $query;
-    // }
+    function jumlah_filter()
+    {
+
+        if (isset($_POST['search']['value'])) {
+            $search = $_POST['search']['value'];
+            $kondisi_search = "AND (nama_pegawai LIKE '%$search%' OR nipp LIKE '%$search%')";
+        } else {
+            $kondisi_search = "";
+        }
+
+        $sQuery = "SELECT COUNT(id_pegawai) as jml FROM tbl_pegawai WHERE id_pegawai != '' $kondisi_search";
+        $db = db_connect();
+        $query = $db->query($sQuery)->getRow();
+        return $query;
+    }
 
     // function add_data($data)
     // {

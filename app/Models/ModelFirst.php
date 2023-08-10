@@ -27,12 +27,8 @@ class ModelFirst extends Model
         if (isset($_POST['search']['value'])) {
 
             $search = $_POST['search']['value'];
-            // $kondisi_search = "(nama_pegawai = 'qwetedit') AND (nama_pegawai LIKE '%$search%' OR nip LIKE '%$search%')   ";
+
             $kondisi_search = "nama_pegawai LIKE '%$search%' OR nipp LIKE '%$search%' ";
-
-            // $kondisi_search = "nama_pegawai = 'qwetedit' AND nama_pegawai LIKE '%$search%' ";
-
-            // $kondisi_search = "nama_pegawai LIKE '%$search%' OR nip LIKE '%$search%'";
 
         } else {
             $kondisi_search = "id_pegawai!= ''";
@@ -56,7 +52,6 @@ class ModelFirst extends Model
                 ;
             $db = db_connect();
             $builder = $db->table('tbl_pegawai');
-            // $builder = $db->table('tbl_pegawai');
             $query = $builder->select('*')
                 ->join('tbl_penempatan', 'tbl_pegawai.nipp= tbl_penempatan.nip', 'left')
 
@@ -64,31 +59,12 @@ class ModelFirst extends Model
                 ->where('tbl_penempatan.nip', null)
                 ->orWhere('tbl_penempatan.nip', null)
                 ->like('tbl_pegawai.nama_pegawai', $search)
-
-
-
-
-                // ->where('tbl_penempatan.nip', null)
-
-
-                // ->where($kondisi_search)
-                // ->select('*')
-                // ->join('table2', 'table1.element = table2.element', 'left')
-                // ->like('table1.column_name', $searchTerm)
-                // ->get()
-                // ->getResult();
-
                 ->orderBy($result_order, $result_dir)
                 ->limit($_POST['length'], $_POST['start'])
-
                 ->get();
             return $query->getResult();
         }
-
-
     }
-
-
 
     function jumlah_semua()
     {
