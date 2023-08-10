@@ -17,7 +17,7 @@ class ModelFirst extends Model
 
 
 
-    var $column_order = array(null, 'nama_pegawai', 'nip', null);
+    var $column_order = array(null, 'nama_pegawai', 'nipp', null);
     var $order = array('nama_pegawai' => 'asc');
 
 
@@ -28,7 +28,7 @@ class ModelFirst extends Model
 
             $search = $_POST['search']['value'];
             // $kondisi_search = "(nama_pegawai = 'qwetedit') AND (nama_pegawai LIKE '%$search%' OR nip LIKE '%$search%')   ";
-            $kondisi_search = " nama_pegawai LIKE '%$search%' AND nipp LIKE '%$search%' ";
+            $kondisi_search = "nama_pegawai LIKE '%$search%' OR nipp LIKE '%$search%' ";
 
             // $kondisi_search = "nama_pegawai = 'qwetedit' AND nama_pegawai LIKE '%$search%' ";
 
@@ -55,9 +55,29 @@ class ModelFirst extends Model
             if ($_POST['length'] != -1)
                 ;
             $db = db_connect();
-            $builder = $db->table('tbl_pegawai')->join('tbl_penempatan', 'tbl_pegawai.nipp= tbl_penempatan.nip', 'left')->where('tbl_penempatan.nip', null);
+            $builder = $db->table('tbl_pegawai');
+            // $builder = $db->table('tbl_pegawai');
             $query = $builder->select('*')
-                ->where($kondisi_search)
+                ->join('tbl_penempatan', 'tbl_pegawai.nipp= tbl_penempatan.nip', 'left')
+
+                ->like('tbl_pegawai.nipp', $search)
+                ->where('tbl_penempatan.nip', null)
+                ->orWhere('tbl_penempatan.nip', null)
+                ->like('tbl_pegawai.nama_pegawai', $search)
+
+
+
+
+                // ->where('tbl_penempatan.nip', null)
+
+
+                // ->where($kondisi_search)
+                // ->select('*')
+                // ->join('table2', 'table1.element = table2.element', 'left')
+                // ->like('table1.column_name', $searchTerm)
+                // ->get()
+                // ->getResult();
+
                 ->orderBy($result_order, $result_dir)
                 ->limit($_POST['length'], $_POST['start'])
 

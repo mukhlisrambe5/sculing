@@ -41,9 +41,7 @@ class First extends BaseController
             $no++;
             $row = array();
 
-            // $tomboldelete = "<a href=\"./pegawai/deletePegawai/$key->id_pegawai  \" class=\"btn btn-md btn-danger \" id=\"tomboldelete\" onclick=\"return confirm('Yakin ingin menghapus data pegawai: $key->nama_pegawai?')\"><i class=\"fas fa-trash\"></i> Delete</a>";
             $tomboledit = "<a class=\"btn btn-md btn-success\" data-toggle=\"modal\" data-target=\"#edit\/$key->id_pegawai\"><i class=\"fas fa-arrow-right mr-2\"></i>Input Data</a>";
-
 
             $row[] = $no;
             $row[] = $key->nama_pegawai;
