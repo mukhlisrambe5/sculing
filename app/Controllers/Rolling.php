@@ -61,35 +61,11 @@ class Rolling extends BaseController
 
     }
 
-    // public function tambahPegawai()
-    // {
-    //     $data = [
-    //         'nama_pegawai' => $this->request->getPost('nama_pegawai'),
-    //         'nip' => $this->request->getPost('nip'),
-    //         'jabatan' => $this->request->getPost('jabatan'),
-    //         'status' => $this->request->getPost('status'),
-
-    //     ];
-
-    //     $this->ModelPegawai->add_data($data);
-    //     session()->setFlashdata('success', 'Data Pegawai berhasil ditambahkan');
-    //     return redirect()->to(base_url('pegawai'));
-    // }
-
-    // public function deletePegawai($id_pegawai)
-    // {
-    //     $this->ModelPegawai->delete_data($id_pegawai);
-    //     session()->setFlashdata('successDelete', 'Data berhasil dihapus!');
-    //     return redirect()->to(base_url('pegawai'));
-    // }
 
     public function rekamRolling($id_pegawai)
     {
         $data = [
-            'nama_pegawai' => $this->request->getPost('nama_pegawai'),
-            // 'nip' => $this->request->getPost('nip'),
-            // 'jabatan' => $this->request->getPost('jabatan'),
-            // 'status' => $this->request->getPost('status'),
+            'nama_pegawai' => $this->request->getPost('nama_pegawai')
         ];
         $this->ModelPegawai->input_rolling($data, $id_pegawai);
         session()->setFlashdata('successEdit', 'Data berhasil diupdate!');

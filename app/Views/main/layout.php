@@ -122,19 +122,19 @@
             <a href="#" class="nav-link">
               <i class="fa fa-address-card text-success"></i>
               <p class="text ml-2">
-                Detail Pegawai
+                Data Pegawai
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/forms/general.html" class="nav-link">
+                <a href="<?= base_url('data/penempatan') ?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Penempatan</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/forms/advanced.html" class="nav-link">
+                <a href="<?= base_url('data/skill') ?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Keahlian</p>
                 </a>
@@ -364,6 +364,26 @@
       "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"],
       "ajax": {
         "url": "<?= site_url('rolling/dataRolling') ?>",
+        "type": "POST"
+      },
+      "columnDefs": [{
+        "targets": [0, 1],
+        "orderable": false
+      }],
+    }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
+
+    $('#tblPenempatan').DataTable({
+      "order": [],
+      "processing": true,
+      "serverSide": true,
+      "responsive": true,
+      "lengthMenu": [
+        [10, 20, 50, 100],
+        [10, 20, 50, 100]
+      ],
+      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"],
+      "ajax": {
+        "url": "<?= site_url('data/dataPenempatan') ?>",
         "type": "POST"
       },
       "columnDefs": [{

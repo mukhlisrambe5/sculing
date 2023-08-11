@@ -88,7 +88,7 @@
 
         <div class="form-group detail-content public-spacebetween">
           <label for="text" class="label-width col-sm-4 ">NIP</label>
-          <input type="number" class="form-control col-sm-8" id="nip" name="nip" required>
+          <input type="number" class="form-control col-sm-8" id="nipp" name="nipp" required>
         </div>
 
         <div class="form-group detail-content public-spacebetween">
@@ -138,9 +138,9 @@ foreach ($pegawai as $key => $value) { ?>
               minlength=4 value="<?= $value['nama_pegawai'] ?>">
           </div>
           <div class="form-group detail-content public-spacebetween">
-            <label for="nip" class="label-width col-sm-4 mt-2">NIP</label>
-            <input type="text" class="form-control col-sm-8" id="nip" name="nip" required minlength=4
-              value="<?= $value['nip'] ?>">
+            <label for="nipp" class="label-width col-sm-4 mt-2">NIP</label>
+            <input type="text" class="form-control col-sm-8" id="nipp" name="nipp" required minlength=4
+              value="<?= $value['nipp'] ?>">
           </div>
           <div class="form-group detail-content public-spacebetween">
             <label for="jabatan" class="label-width col-sm-4 ">Jabatan</label>
@@ -173,7 +173,7 @@ foreach ($pegawai as $key => $value) { ?>
 
 <script>
   const nama_pegawai = document.getElementById("nama_pegawai");
-  const nip = document.getElementById("nip");
+  const nipp = document.getElementById("nipp");
   const submit = document.getElementById("submit");
 
 
@@ -187,10 +187,10 @@ foreach ($pegawai as $key => $value) { ?>
       nama_pegawai.setCustomValidity('');
     }
 
-    if (nip.validity.valueMissing) {
-      nip.setCustomValidity('NIP tidak boleh kosong');
+    if (nipp.validity.valueMissing) {
+      nipp.setCustomValidity('NIP tidak boleh kosong');
     } else {
-      nip.setCustomValidity('');
+      nipp.setCustomValidity('');
     }
   })
 

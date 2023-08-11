@@ -13,7 +13,7 @@ class ModelPegawai extends Model
             ->get()->getResultArray();
     }
 
-    var $column_order = array(null, 'nama_pegawai', 'nip', 'jabatan', 'status', null);
+    var $column_order = array(null, 'nama_pegawai', 'nipp', 'jabatan', 'status', null);
 
     var $order = array('nama_pegawai' => 'asc');
 
@@ -24,7 +24,7 @@ class ModelPegawai extends Model
         if (isset($_POST['search']['value'])) {
 
             $search = $_POST['search']['value'];
-            $kondisi_search = "nama_pegawai LIKE '%$search%' OR nip LIKE '%$search%' OR jabatan LIKE '%$search%' OR status LIKE '%$search%'";
+            $kondisi_search = "nama_pegawai LIKE '%$search%' OR nipp LIKE '%$search%' OR jabatan LIKE '%$search%' OR status LIKE '%$search%'";
         } else {
             $kondisi_search = "id_pegawai!= ''";
         }
@@ -73,7 +73,7 @@ class ModelPegawai extends Model
 
         if (isset($_POST['search']['value'])) {
             $search = $_POST['search']['value'];
-            $kondisi_search = "AND (nama_pegawai LIKE '%$search%' OR nip LIKE '%$search%' OR jabatan LIKE '%$search%' OR status LIKE '%$search%')";
+            $kondisi_search = "AND (nama_pegawai LIKE '%$search%' OR nipp LIKE '%$search%' OR jabatan LIKE '%$search%' OR status LIKE '%$search%')";
         } else {
             $kondisi_search = "";
         }

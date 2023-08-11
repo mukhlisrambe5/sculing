@@ -47,7 +47,7 @@ class Pegawai extends BaseController
 
             $row[] = $no;
             $row[] = $key->nama_pegawai;
-            $row[] = $key->nip;
+            $row[] = $key->nipp;
             $row[] = $key->jabatan;
             $row[] = $key->status;
             $row[] = "<div class=\"text-center\">" . $tomboledit . " " . $tomboldelete . "</div>";
@@ -67,7 +67,7 @@ class Pegawai extends BaseController
     {
         $data = [
             'nama_pegawai' => $this->request->getPost('nama_pegawai'),
-            'nip' => $this->request->getPost('nip'),
+            'nipp' => $this->request->getPost('nipp'),
             'jabatan' => $this->request->getPost('jabatan'),
             'status' => $this->request->getPost('status'),
 
@@ -89,7 +89,7 @@ class Pegawai extends BaseController
     {
         $data = [
             'nama_pegawai' => $this->request->getPost('nama_pegawai'),
-            'nip' => $this->request->getPost('nip'),
+            'nipp' => $this->request->getPost('nipp'),
             'jabatan' => $this->request->getPost('jabatan'),
             'status' => $this->request->getPost('status'),
         ];

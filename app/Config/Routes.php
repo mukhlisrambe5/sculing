@@ -50,13 +50,13 @@ $routes->get('unit', 'Unit::index', ['filter' => 'filterLogin']);
 $routes->get('unit/deleteUnit/(:any)', 'Unit::deleteUnit/$1', ['filter' => 'filterLogin']);
 
 
-$routes->get('/data', 'Data::index', ['filter' => 'filterLogin']);
-$routes->get('/data/tambahData', 'Data::tambahData', ['filter' => 'filterLogin']);
-$routes->get('Data/dataBase', 'Data::dataBase', ['filter' => 'filterLogin']);
-$routes->get('data/downloadImage/(:any)', 'Data::downloadImage/$1', ['filter' => 'filterLogin']);
-$routes->get('data/downloadFile/(:any)', 'Data::downloadFile/$1', ['filter' => 'filterLogin']);
-$routes->get('data/deleteData/(:any)', 'Data::deleteData/$1', ['filter' => 'filterLogin']);
-$routes->get('data/editData/(:any)', 'Data::editData/$1', ['filter' => 'filterLogin']);
+// $routes->get('/data', 'Data::index', ['filter' => 'filterLogin']);
+// $routes->get('/data/tambahData', 'Data::tambahData', ['filter' => 'filterLogin']);
+// $routes->get('Data/dataBase', 'Data::dataBase', ['filter' => 'filterLogin']);
+// $routes->get('data/downloadImage/(:any)', 'Data::downloadImage/$1', ['filter' => 'filterLogin']);
+// $routes->get('data/downloadFile/(:any)', 'Data::downloadFile/$1', ['filter' => 'filterLogin']);
+// $routes->get('data/deleteData/(:any)', 'Data::deleteData/$1', ['filter' => 'filterLogin']);
+// $routes->get('data/editData/(:any)', 'Data::editData/$1', ['filter' => 'filterLogin']);
 
 $routes->get('pegawai', 'Pegawai::index', ['filter' => 'filterLogin']);
 $routes->get('pegawai/deletePegawai/(:any)', 'Pegawai::deletePegawai/$1', ['filter' => 'filterLogin']);
@@ -65,9 +65,10 @@ $routes->get('skill/deleteSkill/(:any)', 'Skill::deleteSkill/$1', ['filter' => '
 
 $routes->get('first', 'First::index', ['filter' => 'filterLogin']);
 
-
 $routes->get('rolling', 'Rolling::index', ['filter' => 'filterLogin']);
 
+$routes->get('data', 'Data::index', ['filter' => 'filterLogin']);
+$routes->get('data/penempatan', 'Data::penempatan', ['filter' => 'filterLogin']);
 
 $routes->post('auth/cekLogin', 'Auth::cekLogin');
 $routes->post('Admin/dataUsers', 'Admin::dataUsers');
@@ -94,6 +95,8 @@ $routes->post('skill/editSkill/(:any)', 'Skill::editSkill/$1');
 $routes->post('first/dataFirst', 'First::dataFirst');
 
 $routes->post('rolling/dataRolling', 'Rolling::dataRolling');
+
+$routes->post('data/dataPenempatan', 'Data::dataPenempatan');
 
 
 /*
