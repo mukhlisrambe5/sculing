@@ -44,8 +44,10 @@
                                     <th style="width:20px">No</th>
                                     <th>Nama Pegawai</th>
                                     <th>NIP</th>
-                                    <th>Unit Saat ini </th>
+                                    <th>Unit Sekarang</th>
                                     <th>TMT</th>
+                                    <th>Masa Kerja Unit Sekarang </th>
+
                                     <th class="text-center" width="170px">Action</th>
                                 </tr>
                             </thead>

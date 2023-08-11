@@ -8,7 +8,7 @@ use PhpParser\Node\Expr\Isset_;
 class ModelData extends Model
 {
 
-    var $column_order = array(null, 'nama_pegawai', 'nip', 'unit_now', 'tmt', null);
+    var $column_order = array(null, 'nip', 'unit_now', 'tmt', null);
     var $order = array('nip' => 'asc');
 
 
@@ -19,7 +19,7 @@ class ModelData extends Model
         if (isset($_POST['search']['value'])) {
 
             $search = $_POST['search']['value'];
-            $kondisi_search = "nama_pegawai LIKE '%$search%' OR nip LIKE '%$search%' OR unit_now LIKE '%$search%' OR tmt LIKE '%$search%'";
+            $kondisi_search = "nip LIKE '%$search%' OR unit_now LIKE '%$search%' OR tmt LIKE '%$search%'";
         } else {
             $kondisi_search = "id_penempatan != ''";
         }
@@ -42,11 +42,11 @@ class ModelData extends Model
                 ;
             $db = db_connect();
             $builder = $db->table('tbl_penempatan');
-            $query = $builder->select('*')
-                // $query = $builder->select('id_penempatan, MAX(tmt)')
-                //     ->groupBy('id_penempatan')
-                ->join('tbl_pegawai', 'tbl_pegawai.nipp= tbl_penempatan.nip', 'left')
-                ->join('tbl_unit', 'tbl_unit.id_unit= tbl_penempatan.unit_now', 'left')
+            // $query = $builder->select('*')
+            $query = $builder->select('*, MAX(tmt)')
+                ->groupBy('nip')
+                // ->join('tbl_pegawai', 'tbl_pegawai.nipp= tbl_penempatan.nip', 'left')
+                // ->join('tbl_unit', 'tbl_unit.id_unit= tbl_penempatan.unit_now', 'left')
                 ->where($kondisi_search)
                 ->orderBy($result_order, $result_dir)
                 ->limit($_POST['length'], $_POST['start'])
@@ -72,7 +72,7 @@ class ModelData extends Model
 
         if (isset($_POST['search']['value'])) {
             $search = $_POST['search']['value'];
-            $kondisi_search = "AND (nama_pegawai LIKE '%$search%' OR nip LIKE '%$search%' OR unit_now LIKE '%$search%' OR tmt LIKE '%$search%')";
+            $kondisi_search = "AND (nip LIKE '%$search%' OR unit_now LIKE '%$search%' OR tmt LIKE '%$search%')";
         } else {
             $kondisi_search = "";
         }
