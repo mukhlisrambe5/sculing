@@ -67,13 +67,8 @@ class ModelFirst extends Model
 
     function jumlah_semua()
     {
-        // $sQuery = "SELECT COUNT(id_pegawai) as jml FROM tbl_pegawai  ";
-        $sQuery = "SELECT COUNT(id_pegawai) as jml FROM tbl_pegawai  LEFT JOIN tbl_penempatan ON tbl_pegawai.nipp= tbl_penempatan.nip WHERE tbl_penempatan.nip IS NULL";
-
-        // $sQuery = "SELECT COUNT(id_penempatan) as jml FROM tbl_penempatan";
-
-        // $sQuery = "SELECT COUNT(id_pegawai) as jml FROM tbl_pegawai LEFT JOIN tbl_penempatan ON tbl_pegawai.nipp= tbl_penempatan.nip AND tbl_penempatan.nip IS NULL";
-
+        // $sQuery = "SELECT COUNT(id_pegawai) as jml FROM tbl_pegawai";
+        $sQuery = "SELECT COUNT(id_pegawai) as jml FROM tbl_pegawai JOIN tbl_penempatan WHERE tbl_pegawai.nipp= tbl_penempatan.nip";
 
         $db = db_connect();
         $query = $db->query($sQuery)->getRow();
@@ -90,13 +85,7 @@ class ModelFirst extends Model
             $kondisi_search = "";
         }
 
-        $sQuery = "SELECT COUNT(id_pegawai) as jml FROM tbl_pegawai  LEFT JOIN tbl_penempatan ON tbl_pegawai.nipp= tbl_penempatan.nip WHERE tbl_penempatan.nip IS NULL AND id_pegawai != '' $kondisi_search";
-
-        // $sQuery = "SELECT COUNT(id_pegawai) as jml FROM tbl_pegawai WHERE id_pegawai != '' $kondisi_search";
-
-        // $sQuery = "SELECT COUNT(id_pegawai) as jml FROM tbl_pegawai WHERE id_pegawai != '' AND nipp= 123453 $kondisi_search";
-
-
+        $sQuery = "SELECT COUNT(id_pegawai) as jml FROM tbl_pegawai WHERE id_pegawai != '' $kondisi_search";
         $db = db_connect();
         $query = $db->query($sQuery)->getRow();
         return $query;

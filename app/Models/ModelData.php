@@ -8,7 +8,7 @@ use PhpParser\Node\Expr\Isset_;
 class ModelData extends Model
 {
 
-    var $column_order = array(null, 'nama_pegawai', 'nip', 'unit_now', 'tmt', null);
+    var $column_order = array(null, 'nama_pegawai', 'nip', 'nama_unit', 'tmt', null);
     var $order = array('nama_pegawai' => 'asc');
 
 
@@ -51,6 +51,7 @@ class ModelData extends Model
                 ->limit($_POST['length'], $_POST['start'])
                 ->get();
             return $query->getResult();
+
         }
     }
 
