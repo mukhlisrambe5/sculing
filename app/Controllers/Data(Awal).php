@@ -46,13 +46,11 @@ class Data extends BaseController
             $tomboledit = "<a class=\"btn btn-md btn-success\" data-toggle=\"modal\" data-target=\"#edit\/$key->id_penempatan\"><i class=\"fas fa-arrow-right\"></i> Rolling</a>";
 
             $row[] = $no;
+            $row[] = $key->nama_pegawai;
             $row[] = $key->nip;
-            $row[] = $key->unit_now;
-            $row[] = $key->nip;
-            $row[] = $key->nip;
-            $row[] = $key->nip;
-            // $row[] = Time::parse($key->tmt)->toLocalizedString('dd-MMM-yyyy');
-            // $row[] = Time::parse($key->tmt)->difference(Time::parse(date('Y-m-d')))->getYears() . " Tahun " . Time::parse($key->tmt)->difference(Time::parse(date('Y-m-d')))->getMonths() . " BUlan ";
+            $row[] = $key->nama_unit;
+            $row[] = Time::parse($key->tmt)->toLocalizedString('dd-MMM-yyyy');
+            $row[] = Time::parse($key->tmt)->difference(Time::parse(date('Y-m-d')))->getYears() . " Tahun " . Time::parse($key->tmt)->difference(Time::parse(date('Y-m-d')))->getMonths() . " BUlan ";
 
             $row[] = "<div class=\"text-center\">" . $tomboledit . "</div>";
             $data[] = $row;

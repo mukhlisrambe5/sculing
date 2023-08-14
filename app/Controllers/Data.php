@@ -47,10 +47,10 @@ class Data extends BaseController
 
             $row[] = $no;
             $row[] = $key->nama_pegawai;
-            $row[] = $key->nip;
+            $row[] = $key->nipp;
             $row[] = $key->nama_unit;
-            $row[] = Time::parse($key->tmt)->toLocalizedString('dd-MMM-yyyy');
-            $row[] = Time::parse($key->tmt)->difference(Time::parse(date('Y-m-d')))->getYears() . " Tahun " . Time::parse($key->tmt)->difference(Time::parse(date('Y-m-d')))->getMonths() . " BUlan ";
+            $row[] = Time::parse($key->max_tmt)->toLocalizedString('dd-MMM-yyyy');
+            $row[] = Time::parse($key->max_tmt)->difference(Time::parse(date('Y-m-d')))->getYears() . " Tahun " . Time::parse($key->max_tmt)->difference(Time::parse(date('Y-m-d')))->getMonths() . " BUlan ";
 
             $row[] = "<div class=\"text-center\">" . $tomboledit . "</div>";
             $data[] = $row;
