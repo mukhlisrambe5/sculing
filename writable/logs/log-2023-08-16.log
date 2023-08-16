@@ -434,3 +434,439 @@ INFO - 2023-08-16 02:01:53 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-08-16 02:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-08-16 02:02:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-08-16 02:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 02:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 02:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 02:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 02:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 02:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 02:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 02:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 02:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 02:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 02:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 02:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 02:43:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 02:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 02:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 02:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 02:44:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 02:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 02:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 02:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 02:51:00 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Data.php(75): CodeIgniter\Model->__call('get_datatables_skill', [])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataSkill()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 02:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 02:55:28 --> Undefined property: stdClass::$id_skill_pegawai
+in APPPATH\Controllers\Data.php on line 89.
+ 1 APPPATH\Controllers\Data.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$id_skill_pegawai', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Data.php', 89, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataSkill()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 03:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 03:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 03:02:28 --> Undefined variable: nama_pegawai
+in APPPATH\Controllers\Data.php on line 92.
+ 1 APPPATH\Controllers\Data.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nama_pegawai', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Data.php', 92, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataSkill()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 03:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 03:02:53 --> Undefined variable: nama_pegawai
+in APPPATH\Controllers\Data.php on line 92.
+ 1 APPPATH\Controllers\Data.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nama_pegawai', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Data.php', 92, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataSkill()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 03:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 03:03:41 --> Undefined variable: nama_pegawai
+in APPPATH\Controllers\Data.php on line 92.
+ 1 APPPATH\Controllers\Data.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nama_pegawai', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Data.php', 92, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataSkill()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 03:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 03:04:00 --> Undefined variable: nip
+in APPPATH\Controllers\Data.php on line 93.
+ 1 APPPATH\Controllers\Data.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nip', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Data.php', 93, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataSkill()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 03:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 03:04:54 --> Undefined variable: keahlian
+in APPPATH\Controllers\Data.php on line 94.
+ 1 APPPATH\Controllers\Data.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: keahlian', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Data.php', 94, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataSkill()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 03:05:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-16 03:05:14 --> mysqli_sql_exception: Unknown column 'nama_pegawai' in 'where clause' in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\sculing\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\sculing\app\Models\ModelDataSkill.php(51): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\sculing\app\Controllers\Data.php(79): App\Models\ModelDataSkill->get_datatables()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Data->dataSkill()
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#8 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-16 03:05:14 --> Unknown column 'nama_pegawai' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_skill_pegawai`
+WHERE `nama_pegawai` LIKE \'%%\' OR  `nip` LIKE \'%%\' OR `keahlian` LIKE \'%%\'
+ORDER BY `nama_pegawai` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_skill_pegawai`
+WHERE `nama_pegawai` LIKE \'%%\' OR  `nip` LIKE \'%%\' OR `keahlian` LIKE \'%%\'
+ORDER BY `nama_pegawai` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_skill_pegawai`
+WHERE `nama_pegawai` LIKE \'%%\' OR  `nip` LIKE \'%%\' OR `keahlian` LIKE \'%%\'
+ORDER BY `nama_pegawai` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_skill_pegawai`
+WHERE `nama_pegawai` LIKE \'%%\' OR  `nip` LIKE \'%%\' OR `keahlian` LIKE \'%%\'
+ORDER BY `nama_pegawai` ASC
+ LIMIT 10', [], false)
+ 5 APPPATH\Models\ModelDataSkill.php(51): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Data.php(79): App\Models\ModelDataSkill->get_datatables()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataSkill()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 03:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-16 03:05:33 --> mysqli_sql_exception: Unknown column 'nama_pegawai' in 'where clause' in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\sculing\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\sculing\app\Models\ModelDataSkill.php(51): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\sculing\app\Controllers\Data.php(79): App\Models\ModelDataSkill->get_datatables()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Data->dataSkill()
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#8 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-16 03:05:33 --> Unknown column 'nama_pegawai' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_skill_pegawai`
+WHERE `nama_pegawai` LIKE \'%%\' OR  `nip` LIKE \'%%\' OR `keahlian` LIKE \'%%\'
+ORDER BY `nama_pegawai` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_skill_pegawai`
+WHERE `nama_pegawai` LIKE \'%%\' OR  `nip` LIKE \'%%\' OR `keahlian` LIKE \'%%\'
+ORDER BY `nama_pegawai` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_skill_pegawai`
+WHERE `nama_pegawai` LIKE \'%%\' OR  `nip` LIKE \'%%\' OR `keahlian` LIKE \'%%\'
+ORDER BY `nama_pegawai` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_skill_pegawai`
+WHERE `nama_pegawai` LIKE \'%%\' OR  `nip` LIKE \'%%\' OR `keahlian` LIKE \'%%\'
+ORDER BY `nama_pegawai` ASC
+ LIMIT 10', [], false)
+ 5 APPPATH\Models\ModelDataSkill.php(51): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Data.php(79): App\Models\ModelDataSkill->get_datatables()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataSkill()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 03:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 03:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 03:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 03:07:59 --> Undefined variable: nama_pegawai
+in APPPATH\Controllers\Data.php on line 92.
+ 1 APPPATH\Controllers\Data.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nama_pegawai', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Data.php', 92, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataSkill()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 03:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 03:08:53 --> Undefined variable: nama_pegawai
+in APPPATH\Controllers\Data.php on line 92.
+ 1 APPPATH\Controllers\Data.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nama_pegawai', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Data.php', 92, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataSkill()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 03:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 03:09:14 --> Undefined variable: nama_pegawai
+in APPPATH\Controllers\Data.php on line 92.
+ 1 APPPATH\Controllers\Data.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nama_pegawai', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Data.php', 92, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataSkill()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 03:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 03:09:30 --> Undefined variable: nip
+in APPPATH\Controllers\Data.php on line 92.
+ 1 APPPATH\Controllers\Data.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nip', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Data.php', 92, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataSkill()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 03:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 03:09:55 --> Undefined variable: nip
+in APPPATH\Controllers\Data.php on line 92.
+ 1 APPPATH\Controllers\Data.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nip', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Data.php', 92, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataSkill()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 03:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 03:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 03:10:25 --> Undefined variable: keahlian
+in APPPATH\Controllers\Data.php on line 94.
+ 1 APPPATH\Controllers\Data.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: keahlian', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Data.php', 94, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataSkill()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 03:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 03:11:11 --> Undefined variable: ke
+in APPPATH\Controllers\Data.php on line 94.
+ 1 APPPATH\Controllers\Data.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: ke', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Data.php', 94, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataSkill()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 03:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 03:11:56 --> Undefined variable: ke
+in APPPATH\Controllers\Data.php on line 94.
+ 1 APPPATH\Controllers\Data.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: ke', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Data.php', 94, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataSkill()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-16 03:12:03 --> Undefined variable: ke
+in APPPATH\Controllers\Data.php on line 94.
+ 1 APPPATH\Controllers\Data.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: ke', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Data.php', 94, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataSkill()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 03:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 03:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 03:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 03:12:30 --> Undefined variable: keahlian
+in APPPATH\Controllers\Data.php on line 94.
+ 1 APPPATH\Controllers\Data.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: keahlian', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Data.php', 94, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataSkill()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 03:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-16 03:14:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND id_skill_pegawai != ''  AND (nip LIKE '%%' OR keahlian LIKE '%%')' at line 1 in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\wamp64\www\sculing\app\Models\ModelDataSkill.php(80): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\wamp64\www\sculing\app\Controllers\Data.php(81): App\Models\ModelDataSkill->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Data->dataSkill()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-16 03:14:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND id_skill_pegawai != ''  AND (nip LIKE '%%' OR keahlian LIKE '%%')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id_skill_pegawai) as jml FROM tbl_skill_pegawai AND id_skill_pegawai != \'\'  AND (nip LIKE \'%%\' OR keahlian LIKE \'%%\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id_skill_pegawai) as jml FROM tbl_skill_pegawai AND id_skill_pegawai != \'\'  AND (nip LIKE \'%%\' OR keahlian LIKE \'%%\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id_skill_pegawai) as jml FROM tbl_skill_pegawai AND id_skill_pegawai != \'\'  AND (nip LIKE \'%%\' OR keahlian LIKE \'%%\')')
+ 4 APPPATH\Models\ModelDataSkill.php(80): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id_skill_pegawai) as jml FROM tbl_skill_pegawai AND id_skill_pegawai != \'\'  AND (nip LIKE \'%%\' OR keahlian LIKE \'%%\')')
+ 5 APPPATH\Controllers\Data.php(81): App\Models\ModelDataSkill->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataSkill()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 03:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 03:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-16 03:14:14 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND id_skill_pegawai != ''  AND (nip LIKE '%%' OR keahlian LIKE '%%')' at line 1 in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\wamp64\www\sculing\app\Models\ModelDataSkill.php(80): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\wamp64\www\sculing\app\Controllers\Data.php(81): App\Models\ModelDataSkill->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Data->dataSkill()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-16 03:14:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND id_skill_pegawai != ''  AND (nip LIKE '%%' OR keahlian LIKE '%%')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id_skill_pegawai) as jml FROM tbl_skill_pegawai AND id_skill_pegawai != \'\'  AND (nip LIKE \'%%\' OR keahlian LIKE \'%%\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id_skill_pegawai) as jml FROM tbl_skill_pegawai AND id_skill_pegawai != \'\'  AND (nip LIKE \'%%\' OR keahlian LIKE \'%%\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id_skill_pegawai) as jml FROM tbl_skill_pegawai AND id_skill_pegawai != \'\'  AND (nip LIKE \'%%\' OR keahlian LIKE \'%%\')')
+ 4 APPPATH\Models\ModelDataSkill.php(80): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id_skill_pegawai) as jml FROM tbl_skill_pegawai AND id_skill_pegawai != \'\'  AND (nip LIKE \'%%\' OR keahlian LIKE \'%%\')')
+ 5 APPPATH\Controllers\Data.php(81): App\Models\ModelDataSkill->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataSkill()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 03:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 03:14:35 --> Undefined variable: keahlian
+in APPPATH\Controllers\Data.php on line 94.
+ 1 APPPATH\Controllers\Data.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: keahlian', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Data.php', 94, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataSkill()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 03:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 03:15:37 --> Undefined variable: nip
+in APPPATH\Controllers\Data.php on line 94.
+ 1 APPPATH\Controllers\Data.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nip', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Data.php', 94, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataSkill()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 03:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 03:17:03 --> Undefined variable: nip
+in APPPATH\Controllers\Data.php on line 94.
+ 1 APPPATH\Controllers\Data.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nip', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Data.php', 94, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataSkill()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 03:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 03:18:10 --> Undefined variable: nip
+in APPPATH\Controllers\Data.php on line 94.
+ 1 APPPATH\Controllers\Data.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nip', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Data.php', 94, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataSkill()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 03:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 03:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 03:18:21 --> Undefined variable: nip
+in APPPATH\Controllers\Data.php on line 94.
+ 1 APPPATH\Controllers\Data.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nip', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Data.php', 94, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataSkill()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 03:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 03:18:27 --> Undefined variable: nip
+in APPPATH\Controllers\Data.php on line 94.
+ 1 APPPATH\Controllers\Data.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nip', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Data.php', 94, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataSkill()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-16 03:18:33 --> Undefined variable: nip
+in APPPATH\Controllers\Data.php on line 94.
+ 1 APPPATH\Controllers\Data.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nip', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Data.php', 94, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataSkill()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 03:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 03:19:33 --> Undefined property: stdClass::$id_skill_pegawai
+in APPPATH\Controllers\Data.php on line 89.
+ 1 APPPATH\Controllers\Data.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$id_skill_pegawai', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Data.php', 89, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataSkill()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 03:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 03:20:17 --> Undefined variable: nip
+in APPPATH\Controllers\Data.php on line 94.
+ 1 APPPATH\Controllers\Data.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nip', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Data.php', 94, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataSkill()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 03:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 03:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 03:20:48 --> Undefined variable: nipp
+in APPPATH\Controllers\Data.php on line 94.
+ 1 APPPATH\Controllers\Data.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nipp', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Data.php', 94, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataSkill()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 03:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 03:21:00 --> Undefined variable: nama_pegawai
+in APPPATH\Controllers\Data.php on line 91.
+ 1 APPPATH\Controllers\Data.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nama_pegawai', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Data.php', 91, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataSkill()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 03:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 03:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 03:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 03:23:34 --> Class 'App\Models\ModelDataSkill' not found
+in APPPATH\Controllers\Data.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 03:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 03:24:00 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Controllers\Data.php on line 79.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\sculing\\app\\Controllers\\Data.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Data')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Data')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Data')
+ 5 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Data', true)
+ 6 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 03:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 03:24:15 --> Class 'App\Models\ModelDataSkill' not found
+in APPPATH\Controllers\Data.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 03:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 03:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 03:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 03:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 03:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 03:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 03:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 03:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 03:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 03:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 03:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 03:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 03:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 03:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 03:34:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 03:34:32 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Data.php(80): CodeIgniter\Model->__call('get_datatables', [])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataSkill()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 03:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 03:36:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

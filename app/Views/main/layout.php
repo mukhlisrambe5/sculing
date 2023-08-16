@@ -392,6 +392,26 @@
         "orderable": false
       }],
     }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
+
+    $('#tblSkillPegawai').DataTable({
+      "order": [],
+      "processing": true,
+      "serverSide": true,
+      "responsive": true,
+      "lengthMenu": [
+        [10, 20, 50, 100],
+        [10, 20, 50, 100]
+      ],
+      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"],
+      "ajax": {
+        "url": "<?= site_url('data/dataSkill') ?>",
+        "type": "POST"
+      },
+      "columnDefs": [{
+        "targets": [0, 3],
+        "orderable": false
+      }],
+    }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
   </script>
 
   <!-- script untuk menghilngkan flashdata otomatis -->

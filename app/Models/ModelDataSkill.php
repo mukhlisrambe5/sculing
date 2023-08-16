@@ -5,21 +5,18 @@ namespace App\Models;
 use CodeIgniter\Model;
 use PhpParser\Node\Expr\Isset_;
 
-class ModelData extends Model
+class ModelDataSkill extends Model
 {
 
-    var $column_order = array(null, 'nama_pegawai', 'nip', 'unit_now', 'tmt', null);
-    var $order = array('nip' => 'asc');
-
-
-
+    var $column_order = array(null, 'nama_pegawai', 'nip', 'nama_unit', 'tmt', null);
+    var $order = array('nama_pegawai' => 'asc');
 
     function get_datatables()
     {
         if (isset($_POST['search']['value'])) {
 
             $search = $_POST['search']['value'];
-            $kondisi_search = "nama_pegawai LIKE '%$search%' OR nip LIKE '%$search%' OR unit_now LIKE '%$search%' OR tmt LIKE '%$search%'";
+            $kondisi_search = "nama_pegawai LIKE '%$search%' OR  nip LIKE '%$search%' OR unit_now LIKE '%$search%' OR tmt LIKE '%$search%'";
         } else {
             $kondisi_search = "id_penempatan != ''";
         }
@@ -42,26 +39,25 @@ class ModelData extends Model
                 ;
             $db = db_connect();
             $builder = $db->table('tbl_penempatan');
-            $query = $builder->select('*')
-                // $query = $builder->select('id_penempatan, MAX(tmt)')
-                //     ->groupBy('id_penempatan')
-                ->join('tbl_pegawai', 'tbl_pegawai.nipp= tbl_penempatan.nip', 'left')
+            $query = $builder->select('*, MAX(tmt) as max_tmt')
+                ->groupBy('nip')
+                ->join('tbl_pegawai', 'tbl_pegawai.nipp= tbl_penempatan.nip', 'inner')
                 ->join('tbl_unit', 'tbl_unit.id_unit= tbl_penempatan.unit_now', 'left')
                 ->where($kondisi_search)
                 ->orderBy($result_order, $result_dir)
                 ->limit($_POST['length'], $_POST['start'])
                 ->get();
             return $query->getResult();
+
         }
-
-
     }
 
 
 
     function jumlah_semua()
     {
-        $sQuery = "SELECT COUNT(id_penempatan) as jml FROM tbl_penempatan";
+        $sQuery = "SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan";
+
         $db = db_connect();
         $query = $db->query($sQuery)->getRow();
         return $query;
@@ -77,7 +73,7 @@ class ModelData extends Model
             $kondisi_search = "";
         }
 
-        $sQuery = "SELECT COUNT(id_penempatan) as jml FROM tbl_penempatan WHERE id_penempatan != '' $kondisi_search";
+        $sQuery = "SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != ''  $kondisi_search";
         $db = db_connect();
         $query = $db->query($sQuery)->getRow();
         return $query;
@@ -108,12 +104,6 @@ class ModelData extends Model
     //     ->where('id_penempatan', $id)
     //     ->get()->getRowArray();
     // }
-
-
-
-
-
-
 
 
 

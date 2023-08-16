@@ -69,6 +69,7 @@ $routes->get('rolling', 'Rolling::index', ['filter' => 'filterLogin']);
 
 $routes->get('data', 'Data::index', ['filter' => 'filterLogin']);
 $routes->get('data/penempatan', 'Data::penempatan', ['filter' => 'filterLogin']);
+$routes->get('data/skill', 'Data::skill', ['filter' => 'filterLogin']);
 
 $routes->post('auth/cekLogin', 'Auth::cekLogin');
 $routes->post('Admin/dataUsers', 'Admin::dataUsers');
@@ -97,6 +98,7 @@ $routes->post('first/dataFirst', 'First::dataFirst');
 $routes->post('rolling/dataRolling', 'Rolling::dataRolling');
 
 $routes->post('data/dataPenempatan', 'Data::dataPenempatan');
+$routes->post('data/dataSkill', 'Data::dataSkill');
 
 
 /*
