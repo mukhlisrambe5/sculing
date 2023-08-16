@@ -59,7 +59,8 @@ class ModelData extends Model
 
     function jumlah_semua()
     {
-        $sQuery = "SELECT COUNT(id_penempatan) as jml FROM tbl_penempatan";
+        $sQuery = "SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan";
+
         $db = db_connect();
         $query = $db->query($sQuery)->getRow();
         return $query;
@@ -70,12 +71,12 @@ class ModelData extends Model
 
         if (isset($_POST['search']['value'])) {
             $search = $_POST['search']['value'];
-            $kondisi_search = "AND (nip LIKE '%$search%' OR unit_now LIKE '%$search%' OR tmt LIKE '%$search%')";
+            $kondisi_search = "AND (nama_pegawai LIKE '%$search%' OR nip LIKE '%$search%' OR unit_now LIKE '%$search%' OR tmt LIKE '%$search%')";
         } else {
             $kondisi_search = "";
         }
 
-        $sQuery = "SELECT COUNT(id_penempatan) as jml FROM tbl_penempatan WHERE id_penempatan != '' $kondisi_search";
+        $sQuery = "SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != ''  $kondisi_search";
         $db = db_connect();
         $query = $db->query($sQuery)->getRow();
         return $query;

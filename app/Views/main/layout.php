@@ -143,7 +143,8 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a href="<?= base_url('data') ?>" class="nav-link">
+            <!-- <a href="<?= base_url('data') ?>" class="nav-link"> -->
+            <a href="#" class="nav-link" data-toggle="tooltip" data-placement="bottom" title="Dalam Pengembangan">
               <i class="fa fa-trophy text-success"></i>
               <p class="text ml-2">BOSCU</p>
             </a>
@@ -283,7 +284,7 @@
           "type": "POST"
         },
         "columnDefs": [{
-          "targets": [0, 1],
+          "targets": [0, 2],
           "orderable": false
         }],
       }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
@@ -324,7 +325,7 @@
           "type": "POST"
         },
         "columnDefs": [{
-          "targets": [0, 1],
+          "targets": [0, 2],
           "orderable": false
         }],
       }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
@@ -347,7 +348,7 @@
         "type": "POST"
       },
       "columnDefs": [{
-        "targets": [0, 1],
+        "targets": [0, 3],
         "orderable": false
       }],
     }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
@@ -367,7 +368,7 @@
         "type": "POST"
       },
       "columnDefs": [{
-        "targets": [0, 1],
+        "targets": [0, 3],
         "orderable": false
       }],
     }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
@@ -387,7 +388,7 @@
         "type": "POST"
       },
       "columnDefs": [{
-        "targets": [0, 1],
+        "targets": [0, 6],
         "orderable": false
       }],
     }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
