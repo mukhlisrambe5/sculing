@@ -6469,3 +6469,1280 @@ WARNING - 2023-08-14 06:57:58 --> [DEPRECATED] Creation of dynamic property App\
  2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
  3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:00:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:00:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelPegawai is deprecated in APPPATH\Controllers\First.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:00:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelFirst is deprecated in APPPATH\Controllers\First.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:00:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelPegawai is deprecated in APPPATH\Controllers\First.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:00:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelFirst is deprecated in APPPATH\Controllers\First.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:00:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelPegawai is deprecated in APPPATH\Controllers\First.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:00:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelFirst is deprecated in APPPATH\Controllers\First.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:00:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelPegawai is deprecated in APPPATH\Controllers\First.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:00:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelFirst is deprecated in APPPATH\Controllers\First.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:00:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelPegawai is deprecated in APPPATH\Controllers\First.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:00:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelFirst is deprecated in APPPATH\Controllers\First.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:00:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelPegawai is deprecated in APPPATH\Controllers\First.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:00:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelFirst is deprecated in APPPATH\Controllers\First.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:00:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelPegawai is deprecated in APPPATH\Controllers\First.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:00:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelFirst is deprecated in APPPATH\Controllers\First.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:00:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelPegawai is deprecated in APPPATH\Controllers\First.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:00:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelFirst is deprecated in APPPATH\Controllers\First.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:00:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:00:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:00:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:00:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:03:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:03:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:03:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:03:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:03:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:03:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:03:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:03:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:04:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:04:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:04:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:04:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-14 07:04:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOIN tbl_penempatan ON tbl_pegawai.nipp= tbl_penempatan.nip GROUP BY nipp AND id' at line 1 in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\wamp64\www\sculing\app\Models\ModelRolling.php(81): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\wamp64\www\sculing\app\Controllers\Rolling.php(36): App\Models\ModelRolling->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-14 07:04:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOIN tbl_penempatan ON tbl_pegawai.nipp= tbl_penempatan.nip GROUP BY nipp AND id' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id_pegawai) as jml FROM tbl_pegawai WHERE RIGHT JOIN tbl_penempatan ON tbl_pegawai.nipp= tbl_penempatan.nip GROUP BY nipp AND id_pegawai != \'\' AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id_pegawai) as jml FROM tbl_pegawai WHERE RIGHT JOIN tbl_penempatan ON tbl_pegawai.nipp= tbl_penempatan.nip GROUP BY nipp AND id_pegawai != \'\' AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id_pegawai) as jml FROM tbl_pegawai WHERE RIGHT JOIN tbl_penempatan ON tbl_pegawai.nipp= tbl_penempatan.nip GROUP BY nipp AND id_pegawai != \'\' AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')')
+ 4 APPPATH\Models\ModelRolling.php(81): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id_pegawai) as jml FROM tbl_pegawai WHERE RIGHT JOIN tbl_penempatan ON tbl_pegawai.nipp= tbl_penempatan.nip GROUP BY nipp AND id_pegawai != \'\' AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')')
+ 5 APPPATH\Controllers\Rolling.php(36): App\Models\ModelRolling->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:04:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:04:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:04:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:04:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-14 07:04:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOIN tbl_penempatan ON tbl_pegawai.nipp= tbl_penempatan.nip  AND id_pegawai != '' at line 1 in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\wamp64\www\sculing\app\Models\ModelRolling.php(81): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\wamp64\www\sculing\app\Controllers\Rolling.php(36): App\Models\ModelRolling->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-14 07:04:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOIN tbl_penempatan ON tbl_pegawai.nipp= tbl_penempatan.nip  AND id_pegawai != '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id_pegawai) as jml FROM tbl_pegawai WHERE RIGHT JOIN tbl_penempatan ON tbl_pegawai.nipp= tbl_penempatan.nip  AND id_pegawai != \'\' AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\') GROUP BY nipp', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id_pegawai) as jml FROM tbl_pegawai WHERE RIGHT JOIN tbl_penempatan ON tbl_pegawai.nipp= tbl_penempatan.nip  AND id_pegawai != \'\' AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\') GROUP BY nipp')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id_pegawai) as jml FROM tbl_pegawai WHERE RIGHT JOIN tbl_penempatan ON tbl_pegawai.nipp= tbl_penempatan.nip  AND id_pegawai != \'\' AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\') GROUP BY nipp')
+ 4 APPPATH\Models\ModelRolling.php(81): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id_pegawai) as jml FROM tbl_pegawai WHERE RIGHT JOIN tbl_penempatan ON tbl_pegawai.nipp= tbl_penempatan.nip  AND id_pegawai != \'\' AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\') GROUP BY nipp')
+ 5 APPPATH\Controllers\Rolling.php(36): App\Models\ModelRolling->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:04:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:04:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:04:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:04:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-14 07:04:54 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOIN tbl_penempatan ON tbl_pegawai.nipp= tbl_penempatan.nip  AND id_pegawai  GRO' at line 1 in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\wamp64\www\sculing\app\Models\ModelRolling.php(81): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\wamp64\www\sculing\app\Controllers\Rolling.php(36): App\Models\ModelRolling->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-14 07:04:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOIN tbl_penempatan ON tbl_pegawai.nipp= tbl_penempatan.nip  AND id_pegawai  GRO' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id_pegawai) as jml FROM tbl_pegawai WHERE RIGHT JOIN tbl_penempatan ON tbl_pegawai.nipp= tbl_penempatan.nip  AND id_pegawai  GROUP BY nipp', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id_pegawai) as jml FROM tbl_pegawai WHERE RIGHT JOIN tbl_penempatan ON tbl_pegawai.nipp= tbl_penempatan.nip  AND id_pegawai  GROUP BY nipp')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id_pegawai) as jml FROM tbl_pegawai WHERE RIGHT JOIN tbl_penempatan ON tbl_pegawai.nipp= tbl_penempatan.nip  AND id_pegawai  GROUP BY nipp')
+ 4 APPPATH\Models\ModelRolling.php(81): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id_pegawai) as jml FROM tbl_pegawai WHERE RIGHT JOIN tbl_penempatan ON tbl_pegawai.nipp= tbl_penempatan.nip  AND id_pegawai  GROUP BY nipp')
+ 5 APPPATH\Controllers\Rolling.php(36): App\Models\ModelRolling->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:05:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:05:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:05:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:05:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:05:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:05:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:05:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:05:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:05:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:05:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:05:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:05:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:05:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:05:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:05:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:05:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:05:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:05:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:05:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:05:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:05:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:05:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:05:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:05:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:05:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:05:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:05:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:05:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:06:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:06:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:06:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:06:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelPegawai is deprecated in APPPATH\Controllers\First.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelFirst is deprecated in APPPATH\Controllers\First.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelPegawai is deprecated in APPPATH\Controllers\First.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelFirst is deprecated in APPPATH\Controllers\First.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:06:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:06:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:07:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:07:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:07:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:07:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:07:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:07:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:07:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:07:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:07:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:07:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:07:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:07:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:07:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:07:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:08:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelPegawai is deprecated in APPPATH\Controllers\First.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:08:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelFirst is deprecated in APPPATH\Controllers\First.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:08:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelPegawai is deprecated in APPPATH\Controllers\First.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:08:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelFirst is deprecated in APPPATH\Controllers\First.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:08:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelPegawai is deprecated in APPPATH\Controllers\First.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:08:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelFirst is deprecated in APPPATH\Controllers\First.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:08:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelPegawai is deprecated in APPPATH\Controllers\First.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:08:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelFirst is deprecated in APPPATH\Controllers\First.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:08:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelPegawai is deprecated in APPPATH\Controllers\First.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:08:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelFirst is deprecated in APPPATH\Controllers\First.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:08:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelPegawai is deprecated in APPPATH\Controllers\First.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:08:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelFirst is deprecated in APPPATH\Controllers\First.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:08:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:08:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:08:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:08:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:09:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:09:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:09:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:09:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:09:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelPegawai is deprecated in APPPATH\Controllers\First.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:09:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelFirst is deprecated in APPPATH\Controllers\First.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:09:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelPegawai is deprecated in APPPATH\Controllers\First.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:09:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelFirst is deprecated in APPPATH\Controllers\First.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:10:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelPegawai is deprecated in APPPATH\Controllers\First.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:10:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelFirst is deprecated in APPPATH\Controllers\First.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:10:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelPegawai is deprecated in APPPATH\Controllers\First.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:10:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelFirst is deprecated in APPPATH\Controllers\First.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:10:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:10:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:10:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:10:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:10:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:10:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:10:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:10:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:10:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:10:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:10:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:10:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:10:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Auth.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 07:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:10:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Auth.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:10:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Auth.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 07:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 07:10:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:10:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:10:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:10:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:10:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:11:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:11:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:11:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:11:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:11:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:11:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:11:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:11:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:11:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:11:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelPegawai is deprecated in APPPATH\Controllers\First.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:11:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelFirst is deprecated in APPPATH\Controllers\First.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:11:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelPegawai is deprecated in APPPATH\Controllers\First.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:11:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelFirst is deprecated in APPPATH\Controllers\First.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:11:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelPegawai is deprecated in APPPATH\Controllers\First.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:11:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelFirst is deprecated in APPPATH\Controllers\First.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:11:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelPegawai is deprecated in APPPATH\Controllers\First.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:11:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelFirst is deprecated in APPPATH\Controllers\First.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:11:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelPegawai is deprecated in APPPATH\Controllers\First.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:11:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelFirst is deprecated in APPPATH\Controllers\First.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:11:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelPegawai is deprecated in APPPATH\Controllers\First.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:11:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelFirst is deprecated in APPPATH\Controllers\First.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:11:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:11:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:12:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:12:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:12:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelPegawai is deprecated in APPPATH\Controllers\First.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:12:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelFirst is deprecated in APPPATH\Controllers\First.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:12:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelPegawai is deprecated in APPPATH\Controllers\First.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:12:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelFirst is deprecated in APPPATH\Controllers\First.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:12:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:12:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:12:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:12:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:12:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:12:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:12:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:12:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:12:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:12:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:12:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:12:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:12:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-14 07:12:29 --> Undefined variable $sQuery
+in APPPATH\Models\ModelRolling.php on line 65.
+ 1 APPPATH\Models\ModelRolling.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sQuery', 'C:\\wamp64\\www\\sculing\\app\\Models\\ModelRolling.php', 65)
+ 2 APPPATH\Controllers\Rolling.php(35): App\Models\ModelRolling->jumlah_semua()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:12:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:12:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:12:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:12:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:13:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:13:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:13:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:13:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:13:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-14 07:13:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (nama_pegawai LIKE '%%' OR nipp LIKE '%%')' at line 1 in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\wamp64\www\sculing\app\Models\ModelRolling.php(82): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\wamp64\www\sculing\app\Controllers\Rolling.php(36): App\Models\ModelRolling->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-14 07:13:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (nama_pegawai LIKE '%%' OR nipp LIKE '%%')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id_pegawai) as jml FROM tbl_pegawai RIGHT JOIN tbl_penempatan ON tbl_pegawai.nipp= tbl_penempatan.nip GROUP BY nipp AND AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id_pegawai) as jml FROM tbl_pegawai RIGHT JOIN tbl_penempatan ON tbl_pegawai.nipp= tbl_penempatan.nip GROUP BY nipp AND AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id_pegawai) as jml FROM tbl_pegawai RIGHT JOIN tbl_penempatan ON tbl_pegawai.nipp= tbl_penempatan.nip GROUP BY nipp AND AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')')
+ 4 APPPATH\Models\ModelRolling.php(82): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id_pegawai) as jml FROM tbl_pegawai RIGHT JOIN tbl_penempatan ON tbl_pegawai.nipp= tbl_penempatan.nip GROUP BY nipp AND AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')')
+ 5 APPPATH\Controllers\Rolling.php(36): App\Models\ModelRolling->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:13:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:13:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:13:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:13:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 07:13:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 07:13:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:13:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:13:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 07:13:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

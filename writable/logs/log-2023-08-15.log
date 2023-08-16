@@ -1,0 +1,226 @@
+INFO - 2023-08-15 01:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-15 01:32:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Auth.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-15 01:32:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Auth.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-15 01:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 01:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 01:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-15 01:32:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-15 01:32:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-15 01:32:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelPegawai is deprecated in APPPATH\Controllers\Rolling.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-15 01:32:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Rolling::$ModelRolling is deprecated in APPPATH\Controllers\Rolling.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rolling->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-15 01:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-15 01:32:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelPegawai is deprecated in APPPATH\Controllers\First.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-15 01:32:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelFirst is deprecated in APPPATH\Controllers\First.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-15 01:32:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelPegawai is deprecated in APPPATH\Controllers\First.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-15 01:32:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelFirst is deprecated in APPPATH\Controllers\First.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-15 01:32:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelPegawai is deprecated in APPPATH\Controllers\First.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-15 01:32:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\First::$ModelFirst is deprecated in APPPATH\Controllers\First.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-15 02:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:01:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:05:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:05:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:05:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 09:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 09:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 09:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 09:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 09:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 09:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 09:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 09:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 09:42:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 09:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 09:43:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 09:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 09:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 09:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 09:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 09:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 09:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 09:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 09:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 09:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 09:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 09:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 09:51:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 09:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-15 09:51:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY 1' at line 2 in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\wamp64\www\sculing\app\Models\ModelRolling.php(66): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\wamp64\www\sculing\app\Controllers\Rolling.php(35): App\Models\ModelRolling->jumlah_semua()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-15 09:51:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY 1' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id_pegawai) as jml FROM tbl_pegawai JOIN tbl_penempatan ON tbl_pegawai.nipp= tbl_penempatan.nip         
+        GROUP BY tbl_pegawai.nipp LIMIT BY 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id_pegawai) as jml FROM tbl_pegawai JOIN tbl_penempatan ON tbl_pegawai.nipp= tbl_penempatan.nip         
+        GROUP BY tbl_pegawai.nipp LIMIT BY 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id_pegawai) as jml FROM tbl_pegawai JOIN tbl_penempatan ON tbl_pegawai.nipp= tbl_penempatan.nip         
+        GROUP BY tbl_pegawai.nipp LIMIT BY 1')
+ 4 APPPATH\Models\ModelRolling.php(66): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id_pegawai) as jml FROM tbl_pegawai JOIN tbl_penempatan ON tbl_pegawai.nipp= tbl_penempatan.nip         
+        GROUP BY tbl_pegawai.nipp LIMIT BY 1')
+ 5 APPPATH\Controllers\Rolling.php(35): App\Models\ModelRolling->jumlah_semua()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-15 09:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 09:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 09:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 09:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 09:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 09:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-15 09:55:14 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '((id_pegawai) as jml FROM tbl_pegawai)' at line 1 in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT DI...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT DI...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT DI...')
+#3 C:\wamp64\www\sculing\app\Models\ModelRolling.php(67): CodeIgniter\Database\BaseConnection->query('SELECT COUNT DI...')
+#4 C:\wamp64\www\sculing\app\Controllers\Rolling.php(35): App\Models\ModelRolling->jumlah_semua()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-15 09:55:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '((id_pegawai) as jml FROM tbl_pegawai)' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT DISTINC((id_pegawai) as jml FROM tbl_pegawai)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT DISTINC((id_pegawai) as jml FROM tbl_pegawai)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT DISTINC((id_pegawai) as jml FROM tbl_pegawai)')
+ 4 APPPATH\Models\ModelRolling.php(67): CodeIgniter\Database\BaseConnection->query('SELECT COUNT DISTINC((id_pegawai) as jml FROM tbl_pegawai)')
+ 5 APPPATH\Controllers\Rolling.php(35): App\Models\ModelRolling->jumlah_semua()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-15 09:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 09:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 09:57:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 10:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-15 10:00:13 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id_penempatan) as jml FROM tbl_penempatan' at line 1 in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DI...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DI...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DI...')
+#3 C:\wamp64\www\sculing\app\Models\ModelRolling.php(67): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DI...')
+#4 C:\wamp64\www\sculing\app\Controllers\Rolling.php(35): App\Models\ModelRolling->jumlah_semua()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-15 10:00:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id_penempatan) as jml FROM tbl_penempatan' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DISTINC id_penempatan) as jml FROM tbl_penempatan', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DISTINC id_penempatan) as jml FROM tbl_penempatan')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DISTINC id_penempatan) as jml FROM tbl_penempatan')
+ 4 APPPATH\Models\ModelRolling.php(67): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DISTINC id_penempatan) as jml FROM tbl_penempatan')
+ 5 APPPATH\Controllers\Rolling.php(35): App\Models\ModelRolling->jumlah_semua()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-15 10:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-15 10:00:18 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id_penempatan) as jml FROM tbl_penempatan' at line 1 in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DI...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DI...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DI...')
+#3 C:\wamp64\www\sculing\app\Models\ModelRolling.php(67): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DI...')
+#4 C:\wamp64\www\sculing\app\Controllers\Rolling.php(35): App\Models\ModelRolling->jumlah_semua()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-15 10:00:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id_penempatan) as jml FROM tbl_penempatan' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DISTINC id_penempatan) as jml FROM tbl_penempatan', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DISTINC id_penempatan) as jml FROM tbl_penempatan')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DISTINC id_penempatan) as jml FROM tbl_penempatan')
+ 4 APPPATH\Models\ModelRolling.php(67): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DISTINC id_penempatan) as jml FROM tbl_penempatan')
+ 5 APPPATH\Controllers\Rolling.php(35): App\Models\ModelRolling->jumlah_semua()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-15 10:00:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 10:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

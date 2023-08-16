@@ -1,0 +1,317 @@
+INFO - 2023-08-16 00:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 00:53:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 00:53:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 00:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 01:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 01:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 01:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 01:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-16 01:16:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND id_pegawai != ''  AND (nama_pegawai LIKE '%%' OR nipp LIKE '%%')' at line 1 in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DI...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DI...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DI...')
+#3 C:\wamp64\www\sculing\app\Models\ModelRolling.php(86): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DI...')
+#4 C:\wamp64\www\sculing\app\Controllers\Rolling.php(36): App\Models\ModelRolling->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-16 01:16:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND id_pegawai != ''  AND (nama_pegawai LIKE '%%' OR nipp LIKE '%%')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND id_pegawai != \'\'  AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND id_pegawai != \'\'  AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND id_pegawai != \'\'  AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')')
+ 4 APPPATH\Models\ModelRolling.php(86): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND id_pegawai != \'\'  AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')')
+ 5 APPPATH\Controllers\Rolling.php(36): App\Models\ModelRolling->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 01:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-16 01:16:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND id_penempatan != ''  AND (nama_pegawai LIKE '%%' OR nipp LIKE '%%')' at line 1 in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DI...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DI...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DI...')
+#3 C:\wamp64\www\sculing\app\Models\ModelRolling.php(86): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DI...')
+#4 C:\wamp64\www\sculing\app\Controllers\Rolling.php(36): App\Models\ModelRolling->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-16 01:16:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND id_penempatan != ''  AND (nama_pegawai LIKE '%%' OR nipp LIKE '%%')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')')
+ 4 APPPATH\Models\ModelRolling.php(86): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')')
+ 5 APPPATH\Controllers\Rolling.php(36): App\Models\ModelRolling->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 01:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-16 01:16:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND  AND (nama_pegawai LIKE '%%' OR nipp LIKE '%%')' at line 1 in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DI...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DI...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DI...')
+#3 C:\wamp64\www\sculing\app\Models\ModelRolling.php(86): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DI...')
+#4 C:\wamp64\www\sculing\app\Controllers\Rolling.php(36): App\Models\ModelRolling->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-16 01:16:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND  AND (nama_pegawai LIKE '%%' OR nipp LIKE '%%')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND  AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND  AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND  AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')')
+ 4 APPPATH\Models\ModelRolling.php(86): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND  AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')')
+ 5 APPPATH\Controllers\Rolling.php(36): App\Models\ModelRolling->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 01:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 01:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-16 01:17:31 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND id_penempatan != ''' at line 1 in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DI...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DI...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DI...')
+#3 C:\wamp64\www\sculing\app\Models\ModelRolling.php(86): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DI...')
+#4 C:\wamp64\www\sculing\app\Controllers\Rolling.php(36): App\Models\ModelRolling->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-16 01:17:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND id_penempatan != ''' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND id_penempatan != \'\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND id_penempatan != \'\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND id_penempatan != \'\'')
+ 4 APPPATH\Models\ModelRolling.php(86): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND id_penempatan != \'\'')
+ 5 APPPATH\Controllers\Rolling.php(36): App\Models\ModelRolling->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 01:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 01:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 01:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 01:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-16 01:17:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND id_penempatan != ''' at line 1 in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DI...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DI...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DI...')
+#3 C:\wamp64\www\sculing\app\Models\ModelRolling.php(86): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DI...')
+#4 C:\wamp64\www\sculing\app\Controllers\Rolling.php(36): App\Models\ModelRolling->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-16 01:17:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND id_penempatan != ''' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND id_penempatan != \'\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND id_penempatan != \'\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND id_penempatan != \'\'')
+ 4 APPPATH\Models\ModelRolling.php(86): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND id_penempatan != \'\'')
+ 5 APPPATH\Controllers\Rolling.php(36): App\Models\ModelRolling->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 01:18:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 01:18:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 01:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-16 01:18:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND id_penempatan != ''' at line 1 in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DI...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DI...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DI...')
+#3 C:\wamp64\www\sculing\app\Models\ModelRolling.php(86): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DI...')
+#4 C:\wamp64\www\sculing\app\Controllers\Rolling.php(36): App\Models\ModelRolling->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-16 01:18:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND id_penempatan != ''' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND id_penempatan != \'\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND id_penempatan != \'\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND id_penempatan != \'\'')
+ 4 APPPATH\Models\ModelRolling.php(86): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND id_penempatan != \'\'')
+ 5 APPPATH\Controllers\Rolling.php(36): App\Models\ModelRolling->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-16 01:18:27 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND id_penempatan != ''' at line 1 in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DI...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DI...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DI...')
+#3 C:\wamp64\www\sculing\app\Models\ModelRolling.php(86): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DI...')
+#4 C:\wamp64\www\sculing\app\Controllers\Rolling.php(36): App\Models\ModelRolling->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-16 01:18:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND id_penempatan != ''' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND id_penempatan != \'\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND id_penempatan != \'\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND id_penempatan != \'\'')
+ 4 APPPATH\Models\ModelRolling.php(86): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND id_penempatan != \'\'')
+ 5 APPPATH\Controllers\Rolling.php(36): App\Models\ModelRolling->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 01:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-16 01:18:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (nama_pegawai LIKE '%%' OR nipp LIKE '%%')' at line 1 in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DI...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DI...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DI...')
+#3 C:\wamp64\www\sculing\app\Models\ModelRolling.php(86): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DI...')
+#4 C:\wamp64\www\sculing\app\Controllers\Rolling.php(36): App\Models\ModelRolling->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-16 01:18:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (nama_pegawai LIKE '%%' OR nipp LIKE '%%')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')')
+ 4 APPPATH\Models\ModelRolling.php(86): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')')
+ 5 APPPATH\Controllers\Rolling.php(36): App\Models\ModelRolling->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-16 01:19:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (nama_pegawai LIKE '%%' OR nipp LIKE '%%')' at line 1 in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DI...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DI...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DI...')
+#3 C:\wamp64\www\sculing\app\Models\ModelRolling.php(86): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DI...')
+#4 C:\wamp64\www\sculing\app\Controllers\Rolling.php(36): App\Models\ModelRolling->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-16 01:19:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (nama_pegawai LIKE '%%' OR nipp LIKE '%%')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')')
+ 4 APPPATH\Models\ModelRolling.php(86): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')')
+ 5 APPPATH\Controllers\Rolling.php(36): App\Models\ModelRolling->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 01:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-16 01:19:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (nama_pegawai LIKE '%%' OR nipp LIKE '%%')' at line 1 in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DI...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DI...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DI...')
+#3 C:\wamp64\www\sculing\app\Models\ModelRolling.php(86): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DI...')
+#4 C:\wamp64\www\sculing\app\Controllers\Rolling.php(36): App\Models\ModelRolling->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-16 01:19:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (nama_pegawai LIKE '%%' OR nipp LIKE '%%')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')')
+ 4 APPPATH\Models\ModelRolling.php(86): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')')
+ 5 APPPATH\Controllers\Rolling.php(36): App\Models\ModelRolling->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 01:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 01:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-16 01:20:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND nip != '' AND (nama_pegawai LIKE '%%' OR nipp LIKE '%%')' at line 1 in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DI...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DI...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DI...')
+#3 C:\wamp64\www\sculing\app\Models\ModelRolling.php(86): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DI...')
+#4 C:\wamp64\www\sculing\app\Controllers\Rolling.php(36): App\Models\ModelRolling->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-16 01:20:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND nip != '' AND (nama_pegawai LIKE '%%' OR nipp LIKE '%%')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND nip != \'\' AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND nip != \'\' AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND nip != \'\' AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')')
+ 4 APPPATH\Models\ModelRolling.php(86): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan AND nip != \'\' AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')')
+ 5 APPPATH\Controllers\Rolling.php(36): App\Models\ModelRolling->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 01:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 01:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 01:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 01:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 01:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-16 01:25:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND id_penempatan != ''  AND (nama_pegawai LIKE '%%' OR nipp LIKE '%%')' at line 1 in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DI...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DI...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DI...')
+#3 C:\wamp64\www\sculing\app\Models\ModelRolling.php(89): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DI...')
+#4 C:\wamp64\www\sculing\app\Controllers\Rolling.php(36): App\Models\ModelRolling->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-16 01:25:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND id_penempatan != ''  AND (nama_pegawai LIKE '%%' OR nipp LIKE '%%')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DISTINCT id_penempatan) as jml FROM tbl_penempatan   AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DISTINCT id_penempatan) as jml FROM tbl_penempatan   AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DISTINCT id_penempatan) as jml FROM tbl_penempatan   AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')')
+ 4 APPPATH\Models\ModelRolling.php(89): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DISTINCT id_penempatan) as jml FROM tbl_penempatan   AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nipp LIKE \'%%\')')
+ 5 APPPATH\Controllers\Rolling.php(36): App\Models\ModelRolling->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Rolling->dataRolling()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-16 01:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 01:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 01:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 01:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 01:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 01:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 01:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 01:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 01:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 01:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 01:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 01:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 01:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

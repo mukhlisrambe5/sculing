@@ -47,7 +47,7 @@ class ModelRolling extends Model
             $db = db_connect();
             $builder = $db->table('tbl_pegawai');
             $query = $builder->select('tbl_pegawai.*')
-                ->join('tbl_penempatan', 'tbl_pegawai.nipp= tbl_penempatan.nip', 'right')
+                ->join('tbl_penempatan', 'tbl_pegawai.nipp= tbl_penempatan.nip', 'inner')
                 ->like('tbl_pegawai.nipp', $search)
                 ->orLike('tbl_pegawai.nama_pegawai', $search)
                 ->groupBy('tbl_pegawai.nipp')
@@ -60,7 +60,8 @@ class ModelRolling extends Model
 
     function jumlah_semua()
     {
-        $sQuery = "SELECT COUNT(id_pegawai) as jml FROM tbl_pegawai";
+        $sQuery = "SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan";
+
         $db = db_connect();
         $query = $db->query($sQuery)->getRow();
         return $query;
@@ -76,7 +77,8 @@ class ModelRolling extends Model
             $kondisi_search = "";
         }
 
-        $sQuery = "SELECT COUNT(id_pegawai) as jml FROM tbl_pegawai WHERE id_pegawai != '' $kondisi_search";
+        $sQuery = "SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != ''  $kondisi_search";
+
         $db = db_connect();
         $query = $db->query($sQuery)->getRow();
         return $query;
