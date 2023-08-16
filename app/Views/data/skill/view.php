@@ -36,17 +36,21 @@
                         } ?>
                     </div>
 
-                    <div class="card-body">
-                        <table id="tblSkillPegawai" class="table table-bordered table-striped" width="100%">
+                    <div class="card-body table-responsive">
+                        <!-- <table id="tblSkillPegawai" class="table table-bordered table-striped" width="100%"> -->
+                        <table id="tblSkillPegawai" class="table " width="100%">
 
-                            <thead>
+                            <thead class="thead-light">
                                 <tr>
                                     <th style="width:20px">No</th>
+                                    <th class="text-center" width="150px">Action</th>
                                     <th>Nama Pegawai</th>
                                     <th>NIP</th>
                                     <th>Keahlian</th>
+                                    <th>Bukti</th>
+                                    <th>Detail</th>
+                                    <th class="text-center" width="150px">Action</th>
 
-                                    <th class="text-center" width="170px">Action</th>
                                 </tr>
                             </thead>
                             <tbody>

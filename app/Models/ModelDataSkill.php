@@ -8,17 +8,21 @@ use PhpParser\Node\Expr\Isset_;
 class ModelDataSkill extends Model
 {
 
-    var $column_order = array(null, 'nama_pegawai', 'nip', 'nama_unit', 'tmt', null);
+    // var $column_order = array(null, 'nama_pegawai', 'nip', 'nama_unit', 'tmt', null);
+    var $column_order = array(null, 'nama_pegawai', 'nip_skill', 'keahlian', null, null, null);
+
     var $order = array('nama_pegawai' => 'asc');
+
+
 
     function get_datatables()
     {
         if (isset($_POST['search']['value'])) {
 
             $search = $_POST['search']['value'];
-            $kondisi_search = "nama_pegawai LIKE '%$search%' OR  nip LIKE '%$search%' OR unit_now LIKE '%$search%' OR tmt LIKE '%$search%'";
+            $kondisi_search = "nama_pegawai LIKE '%$search%' OR  nip_skill LIKE '%$search%' OR keahlian LIKE '%$search%'";
         } else {
-            $kondisi_search = "id_penempatan != ''";
+            $kondisi_search = "id_skill_pegawai != ''";
         }
 
 
@@ -38,11 +42,10 @@ class ModelDataSkill extends Model
             if ($_POST['length'] != -1)
                 ;
             $db = db_connect();
-            $builder = $db->table('tbl_penempatan');
-            $query = $builder->select('*, MAX(tmt) as max_tmt')
-                ->groupBy('nip')
-                ->join('tbl_pegawai', 'tbl_pegawai.nipp= tbl_penempatan.nip', 'inner')
-                ->join('tbl_unit', 'tbl_unit.id_unit= tbl_penempatan.unit_now', 'left')
+            $builder = $db->table('tbl_skill_pegawai');
+            $query = $builder->select('*')
+                ->join('tbl_pegawai', 'tbl_pegawai.nipp= tbl_skill_pegawai.nip_skill', 'left')
+                ->join('tbl_skill', 'tbl_skill.id_skill= tbl_skill_pegawai.keahlian', 'left')
                 ->where($kondisi_search)
                 ->orderBy($result_order, $result_dir)
                 ->limit($_POST['length'], $_POST['start'])

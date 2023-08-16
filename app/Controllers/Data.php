@@ -87,16 +87,19 @@ class Data extends BaseController
             $no++;
             $row = array();
 
-            $tomboledit = "<a class=\"btn btn-md btn-success\" data-toggle=\"modal\" data-target=\"#edit\/$key->id_penempatan\"><i class=\"fas fa-arrow-right\"></i> Rolling</a>";
+            $tomboladd = "<a class=\"btn btn-md btn-primary\" data-toggle=\"modal\" data-target=\"#add\/$key->nipp\"><i class=\"fas fa-plus mr-2\"></i>Tambah Skill</a>";
+            $tomboledit = "<a class=\"btn btn-md btn-warning\" data-toggle=\"modal\" data-target=\"#edit\/$key->nipp\"><i class=\"fas fa-pencil-alt mr-2\"></i>Edit </a>";
 
             $row[] = $no;
+            $row[] = "<div class=\"text-center\">" . $tomboladd . "</div>";
             $row[] = $key->nama_pegawai;
             $row[] = $key->nipp;
-            $row[] = $key->nama_unit;
-            $row[] = Time::parse($key->max_tmt)->toLocalizedString('dd-MMM-yyyy');
-            $row[] = Time::parse($key->max_tmt)->difference(Time::parse(date('Y-m-d')))->getYears() . " Tahun " . Time::parse($key->max_tmt)->difference(Time::parse(date('Y-m-d')))->getMonths() . " BUlan ";
-
+            // $row[] = "<div class=\"text-center\">" . $tomboledit . "</div>";
+            $row[] = $key->nama_skill;
+            $row[] = $key->file_keahlian;
+            $row[] = $key->detail;
             $row[] = "<div class=\"text-center\">" . $tomboledit . "</div>";
+
             $data[] = $row;
         }
         $output = array(

@@ -224,7 +224,9 @@
   <!-- Chart Google -->
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
-
+  <!-- merge column -->
+  <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/gh/ashl1/datatables-rowsgroup@fbd569b8768155c7a9a62568e66a64115887d7d0/dataTables.rowsGroup.js"></script>
 
   <script type="text/javascript">
     $(document).ready(function () {
@@ -393,8 +395,33 @@
       }],
     }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
 
-    $('#tblSkillPegawai').DataTable({
+    // $('#tblSkillPegawai').DataTable({
+    //   "order": [],
+    //   'rowsGroup': [1, 2, 3],
+    //   "processing": true,
+    //   "serverSide": true,
+    //   "responsive": true,
+    //   "lengthMenu": [
+    //     [10, 20, 50, 100],
+    //     [10, 20, 50, 100]
+    //   ],
+    //   "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"],
+    //   "ajax": {
+    //     "url": "<?= site_url('data/dataSkill') ?>",
+    //     "type": "POST"
+    //   },
+    //   "columnDefs": [{
+    //     "targets": [0, 4, 5, 6],
+    //     "orderable": false
+    //   },
+    //   {
+    //     "targets": [0],
+    //     "visible": false
+    //   }],
+    // }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)')
+    var table = $('#tblSkillPegawai').DataTable({
       "order": [],
+      'rowsGroup': [1, 2, 3],
       "processing": true,
       "serverSide": true,
       "responsive": true,
@@ -408,8 +435,12 @@
         "type": "POST"
       },
       "columnDefs": [{
-        "targets": [0, 3],
+        "targets": [0, 4, 5, 6],
         "orderable": false
+      },
+      {
+        "targets": [0],
+        "visible": false
       }],
     }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
   </script>
