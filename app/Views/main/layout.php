@@ -144,7 +144,7 @@
           </li>
           <li class="nav-item">
             <!-- <a href="<?= base_url('data') ?>" class="nav-link"> -->
-            <a href="#" class="nav-link" data-toggle="tooltip" data-placement="bottom" title="Dalam Pengembangan">
+            <a href="<?= base_url('boscu') ?>" class="nav-link" data-toggle="tooltip" data-placement="bottom" title="Dalam Pengembangan">
               <i class="fa fa-trophy text-success"></i>
               <p class="text ml-2">BOSCU</p>
             </a>
@@ -441,6 +441,26 @@
       {
         "targets": [0],
         "visible": false
+      }],
+    }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
+
+    var table = $('#tblBoscu').DataTable({
+      "order": [],
+      "processing": true,
+      "serverSide": true,
+      "responsive": true,
+      "lengthMenu": [
+        [10, 20, 50, 100],
+        [10, 20, 50, 100]
+      ],
+      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"],
+      "ajax": {
+        "url": "<?= site_url('boscu/dataBoscu') ?>",
+        "type": "POST"
+      },
+      "columnDefs": [{
+        "targets": [0, 5, 6],
+        "orderable": false
       }],
     }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
   </script>

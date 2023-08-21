@@ -1,0 +1,488 @@
+INFO - 2023-08-21 03:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 03:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 03:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 03:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 03:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 03:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 03:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 03:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 03:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 03:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 03:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 03:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 03:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 03:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 03:29:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 03:29:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 03:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 03:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 03:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 03:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 03:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 03:30:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 03:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 03:30:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 03:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 03:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 03:35:41 --> Invalid file: "boscu/view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('boscu/view.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('boscu/view', [], true)
+ 3 APPPATH\Controllers\Boscu.php(21): view('boscu/view')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Boscu->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Boscu))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 03:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 03:37:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 04:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 04:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 04:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 04:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 04:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 04:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 04:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 04:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 04:10:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 04:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 04:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 04:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 04:12:13 --> Undefined variable: tahun
+in APPPATH\Controllers\Boscu.php on line 43.
+ 1 APPPATH\Controllers\Boscu.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: tahun', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Boscu.php', 43, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Boscu->dataBoscu()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Boscu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 04:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 04:13:05 --> Undefined property: App\Controllers\Boscu::$tahun
+in APPPATH\Controllers\Boscu.php on line 43.
+ 1 APPPATH\Controllers\Boscu.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Boscu::$tahun', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Boscu.php', 43, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Boscu->dataBoscu()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Boscu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 04:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 04:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 04:13:22 --> Undefined property: App\Controllers\Boscu::$tahun
+in APPPATH\Controllers\Boscu.php on line 43.
+ 1 APPPATH\Controllers\Boscu.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Boscu::$tahun', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Boscu.php', 43, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Boscu->dataBoscu()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Boscu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 04:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 04:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 04:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-21 04:16:41 --> mysqli_sql_exception: Unknown column 'tnl_boscu.terpilih' in 'on clause' in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\sculing\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\sculing\app\Models\ModelBoscu.php(51): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\sculing\app\Controllers\Boscu.php(30): App\Models\ModelBoscu->get_datatables()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Boscu->dataBoscu()
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Boscu))
+#8 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-21 04:16:41 --> Unknown column 'tnl_boscu.terpilih' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_boscu`
+JOIN `tbl_pegawai` ON `tbl_pegawai`.`id_pegawai`= `tnl_boscu`.`terpilih`
+WHERE `kuartal` LIKE \'%%\' OR `tahun` LIKE \'%%\' OR `kandidat` LIKE \'%%\' OR `terpilih` LIKE \'%%\'
+ORDER BY `id_boscu` DESC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_boscu`
+JOIN `tbl_pegawai` ON `tbl_pegawai`.`id_pegawai`= `tnl_boscu`.`terpilih`
+WHERE `kuartal` LIKE \'%%\' OR `tahun` LIKE \'%%\' OR `kandidat` LIKE \'%%\' OR `terpilih` LIKE \'%%\'
+ORDER BY `id_boscu` DESC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_boscu`
+JOIN `tbl_pegawai` ON `tbl_pegawai`.`id_pegawai`= `tnl_boscu`.`terpilih`
+WHERE `kuartal` LIKE \'%%\' OR `tahun` LIKE \'%%\' OR `kandidat` LIKE \'%%\' OR `terpilih` LIKE \'%%\'
+ORDER BY `id_boscu` DESC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_boscu`
+JOIN `tbl_pegawai` ON `tbl_pegawai`.`id_pegawai`= `tnl_boscu`.`terpilih`
+WHERE `kuartal` LIKE \'%%\' OR `tahun` LIKE \'%%\' OR `kandidat` LIKE \'%%\' OR `terpilih` LIKE \'%%\'
+ORDER BY `id_boscu` DESC
+ LIMIT 10', [], false)
+ 5 APPPATH\Models\ModelBoscu.php(51): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Boscu.php(30): App\Models\ModelBoscu->get_datatables()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Boscu->dataBoscu()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Boscu))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 04:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-21 04:16:47 --> mysqli_sql_exception: Unknown column 'tnl_boscu.terpilih' in 'on clause' in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\sculing\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\sculing\app\Models\ModelBoscu.php(51): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\sculing\app\Controllers\Boscu.php(30): App\Models\ModelBoscu->get_datatables()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Boscu->dataBoscu()
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Boscu))
+#8 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-21 04:16:47 --> Unknown column 'tnl_boscu.terpilih' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_boscu`
+JOIN `tbl_pegawai` ON `tbl_pegawai`.`id_pegawai`= `tnl_boscu`.`terpilih`
+WHERE `kuartal` LIKE \'%%\' OR `tahun` LIKE \'%%\' OR `kandidat` LIKE \'%%\' OR `terpilih` LIKE \'%%\'
+ORDER BY `id_boscu` DESC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_boscu`
+JOIN `tbl_pegawai` ON `tbl_pegawai`.`id_pegawai`= `tnl_boscu`.`terpilih`
+WHERE `kuartal` LIKE \'%%\' OR `tahun` LIKE \'%%\' OR `kandidat` LIKE \'%%\' OR `terpilih` LIKE \'%%\'
+ORDER BY `id_boscu` DESC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_boscu`
+JOIN `tbl_pegawai` ON `tbl_pegawai`.`id_pegawai`= `tnl_boscu`.`terpilih`
+WHERE `kuartal` LIKE \'%%\' OR `tahun` LIKE \'%%\' OR `kandidat` LIKE \'%%\' OR `terpilih` LIKE \'%%\'
+ORDER BY `id_boscu` DESC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_boscu`
+JOIN `tbl_pegawai` ON `tbl_pegawai`.`id_pegawai`= `tnl_boscu`.`terpilih`
+WHERE `kuartal` LIKE \'%%\' OR `tahun` LIKE \'%%\' OR `kandidat` LIKE \'%%\' OR `terpilih` LIKE \'%%\'
+ORDER BY `id_boscu` DESC
+ LIMIT 10', [], false)
+ 5 APPPATH\Models\ModelBoscu.php(51): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Boscu.php(30): App\Models\ModelBoscu->get_datatables()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Boscu->dataBoscu()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Boscu))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 04:17:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 04:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 04:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 04:19:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 04:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 04:20:04 --> Undefined property: stdClass::$ada
+in APPPATH\Controllers\Boscu.php on line 46.
+ 1 APPPATH\Controllers\Boscu.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$ada', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Boscu.php', 46, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Boscu->dataBoscu()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Boscu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 04:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 04:20:10 --> Undefined property: stdClass::$ada
+in APPPATH\Controllers\Boscu.php on line 46.
+ 1 APPPATH\Controllers\Boscu.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$ada', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Boscu.php', 46, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Boscu->dataBoscu()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Boscu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 04:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 04:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 04:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 04:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 04:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 04:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 04:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 04:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 04:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 04:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 04:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 04:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 05:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 05:56:33 --> Call to undefined function App\Controllers\get_name()
+in APPPATH\Controllers\Boscu.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Boscu->dataBoscu()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Boscu))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 05:56:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 05:56:40 --> Call to undefined function App\Controllers\get_name()
+in APPPATH\Controllers\Boscu.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Boscu->dataBoscu()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Boscu))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 05:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 05:57:05 --> Function name must be a string
+in APPPATH\Controllers\Boscu.php on line 64.
+ 1 APPPATH\Controllers\Boscu.php(45): App\Controllers\Boscu->get_name('123458')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Boscu->dataBoscu()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Boscu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 05:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 05:57:47 --> Function name must be a string
+in APPPATH\Controllers\Boscu.php on line 64.
+ 1 APPPATH\Controllers\Boscu.php(45): App\Controllers\Boscu->get_name(123451)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Boscu->dataBoscu()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Boscu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 05:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 05:58:44 --> Function name must be a string
+in APPPATH\Controllers\Boscu.php on line 64.
+ 1 APPPATH\Controllers\Boscu.php(45): App\Controllers\Boscu->getName(123451)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Boscu->dataBoscu()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Boscu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 05:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 05:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 05:59:35 --> Function name must be a string
+in APPPATH\Controllers\Boscu.php on line 64.
+ 1 APPPATH\Controllers\Boscu.php(45): App\Controllers\Boscu->getName(123451)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Boscu->dataBoscu()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Boscu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 06:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 06:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 06:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 06:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 06:01:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 06:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 06:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 06:03:20 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Boscu.php on line 64.
+ 1 APPPATH\Controllers\Boscu.php(45): App\Controllers\Boscu->getName(123451)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Boscu->dataBoscu()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Boscu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 06:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 06:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 06:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 06:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 06:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 06:06:57 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Boscu.php on line 64.
+ 1 APPPATH\Controllers\Boscu.php(45): App\Controllers\Boscu->getName(123451)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Boscu->dataBoscu()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Boscu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 06:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 06:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 06:48:47 --> Trying to get property 'nama_pegawai' of non-object
+in APPPATH\Controllers\Boscu.php on line 64.
+ 1 APPPATH\Controllers\Boscu.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_pegawai\' of non-object', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Boscu.php', 64, [...])
+ 2 APPPATH\Controllers\Boscu.php(45): App\Controllers\Boscu->getName('II')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Boscu->dataBoscu()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Boscu))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 06:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 06:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 07:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 07:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 07:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 07:10:10 --> Call to undefined function App\Controllers\push()
+in APPPATH\Controllers\Boscu.php on line 70.
+ 1 APPPATH\Controllers\Boscu.php(45): App\Controllers\Boscu->getName([...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Boscu->dataBoscu()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Boscu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 07:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 07:12:03 --> Call to undefined function App\Controllers\push()
+in APPPATH\Controllers\Boscu.php on line 70.
+ 1 APPPATH\Controllers\Boscu.php(45): App\Controllers\Boscu->getName([...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Boscu->dataBoscu()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Boscu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 07:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 07:12:25 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Boscu.php on line 72.
+ 1 APPPATH\Controllers\Boscu.php(72): join(' ', [...])
+ 2 APPPATH\Controllers\Boscu.php(45): App\Controllers\Boscu->getName([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Boscu->dataBoscu()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Boscu))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 07:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 07:17:13 --> A non-numeric value encountered
+in APPPATH\Controllers\Boscu.php on line 69.
+ 1 APPPATH\Controllers\Boscu.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Boscu.php', 69, [...])
+ 2 APPPATH\Controllers\Boscu.php(45): App\Controllers\Boscu->getName([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Boscu->dataBoscu()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Boscu))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 07:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 07:17:45 --> A non-numeric value encountered
+in APPPATH\Controllers\Boscu.php on line 69.
+ 1 APPPATH\Controllers\Boscu.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Boscu.php', 69, [...])
+ 2 APPPATH\Controllers\Boscu.php(45): App\Controllers\Boscu->getName([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Boscu->dataBoscu()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Boscu))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 07:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 07:18:38 --> A non-numeric value encountered
+in APPPATH\Controllers\Boscu.php on line 69.
+ 1 APPPATH\Controllers\Boscu.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Boscu.php', 69, [...])
+ 2 APPPATH\Controllers\Boscu.php(45): App\Controllers\Boscu->getName([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Boscu->dataBoscu()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Boscu))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 07:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 07:18:49 --> A non-numeric value encountered
+in APPPATH\Controllers\Boscu.php on line 69.
+ 1 APPPATH\Controllers\Boscu.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Boscu.php', 69, [...])
+ 2 APPPATH\Controllers\Boscu.php(45): App\Controllers\Boscu->getName([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Boscu->dataBoscu()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Boscu))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 07:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 07:19:07 --> A non-numeric value encountered
+in APPPATH\Controllers\Boscu.php on line 69.
+ 1 APPPATH\Controllers\Boscu.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Boscu.php', 69, [...])
+ 2 APPPATH\Controllers\Boscu.php(45): App\Controllers\Boscu->getName([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Boscu->dataBoscu()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Boscu))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 07:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 07:20:16 --> A non-numeric value encountered
+in APPPATH\Controllers\Boscu.php on line 69.
+ 1 APPPATH\Controllers\Boscu.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Boscu.php', 69, [...])
+ 2 APPPATH\Controllers\Boscu.php(45): App\Controllers\Boscu->getName([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Boscu->dataBoscu()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Boscu))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 07:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 07:20:54 --> A non-numeric value encountered
+in APPPATH\Controllers\Boscu.php on line 69.
+ 1 APPPATH\Controllers\Boscu.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Boscu.php', 69, [...])
+ 2 APPPATH\Controllers\Boscu.php(45): App\Controllers\Boscu->getName([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Boscu->dataBoscu()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Boscu))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 07:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 07:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 07:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 07:22:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 07:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 07:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 07:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 07:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 07:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 07:24:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 07:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 07:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 07:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 07:25:35 --> A non-numeric value encountered
+in APPPATH\Controllers\Boscu.php on line 69.
+ 1 APPPATH\Controllers\Boscu.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Boscu.php', 69, [...])
+ 2 APPPATH\Controllers\Boscu.php(45): App\Controllers\Boscu->getName([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Boscu->dataBoscu()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Boscu))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 07:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 07:25:52 --> A non-numeric value encountered
+in APPPATH\Controllers\Boscu.php on line 69.
+ 1 APPPATH\Controllers\Boscu.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Boscu.php', 69, [...])
+ 2 APPPATH\Controllers\Boscu.php(45): App\Controllers\Boscu->getName([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Boscu->dataBoscu()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Boscu))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 07:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 07:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 07:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 07:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 07:28:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 07:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 07:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 07:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 07:29:30 --> A non-numeric value encountered
+in APPPATH\Controllers\Boscu.php on line 70.
+ 1 APPPATH\Controllers\Boscu.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Boscu.php', 70, [...])
+ 2 APPPATH\Controllers\Boscu.php(45): App\Controllers\Boscu->getName([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Boscu->dataBoscu()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Boscu))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 07:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 07:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 07:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 07:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 07:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 07:31:50 --> A non-numeric value encountered
+in APPPATH\Controllers\Boscu.php on line 73.
+ 1 APPPATH\Controllers\Boscu.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Boscu.php', 73, [...])
+ 2 APPPATH\Controllers\Boscu.php(45): App\Controllers\Boscu->getName([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Boscu->dataBoscu()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Boscu))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 07:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 07:32:08 --> A non-numeric value encountered
+in APPPATH\Controllers\Boscu.php on line 73.
+ 1 APPPATH\Controllers\Boscu.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Boscu.php', 73, [...])
+ 2 APPPATH\Controllers\Boscu.php(45): App\Controllers\Boscu->getName([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Boscu->dataBoscu()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Boscu))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 07:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 07:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 07:36:54 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Boscu.php on line 73.
+ 1 APPPATH\Controllers\Boscu.php(45): App\Controllers\Boscu->getName([...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Boscu->dataBoscu()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Boscu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 07:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 07:37:09 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Boscu.php on line 73.
+ 1 APPPATH\Controllers\Boscu.php(45): App\Controllers\Boscu->getName([...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Boscu->dataBoscu()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Boscu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 07:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 07:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 07:38:12 --> syntax error, unexpected '='
+in APPPATH\Controllers\Boscu.php on line 73.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\sculing\\app\\Controllers\\Boscu.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Boscu')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Boscu')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Boscu')
+ 5 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Boscu', true)
+ 6 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 07:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 07:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 07:38:58 --> syntax error, unexpected '.'
+in APPPATH\Controllers\Boscu.php on line 69.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\sculing\\app\\Controllers\\Boscu.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Boscu')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Boscu')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Boscu')
+ 5 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Boscu', true)
+ 6 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 07:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 07:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 07:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 07:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 07:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
