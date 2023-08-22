@@ -44,6 +44,7 @@
                                     <th style="width:20px">No</th>
                                     <th>Nama Pegawai</th>
                                     <th>NIP</th>
+                                    <th>Jabatan</th>
 
                                     <th class="text-center" width="170px">Action</th>
                                 </tr>
@@ -64,6 +65,117 @@
     </div>
 
 </section>
+<!-- modal input data penempatan pertama -->
+<?php
+foreach ($first as $key => $value) { ?>
+<div class="modal fade" id="edit/<?= $value['id_pegawai'] ?>" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Input penempatan <?= $value['nama_pegawai'] ?>
+                </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <?= form_open_multipart('rolling/rekamRolling/' . $value['id_pegawai']) ?>
+            <div class="modal-body">
+                <input type="hidden" name="id_pegawai" value="<?= $value['id_pegawai'] ?>">
+                <div class="form-group detail-content public-spacebetween">
+                    <label for="nama_pegawai" class="label-width col-sm-4 mt-2">Nama Pegawai</label>
+                    <input type="text" class="form-control col-sm-8" id="nama_pegawai_edit" name="nama_pegawai" readonly
+                        minlength=4 value="<?= $value['nama_pegawai'] ?>">
+                </div>
+                <div class="form-group detail-content public-spacebetween">
+                    <label for="nipp" class="label-width col-sm-4 mt-2">NIP</label>
+                    <input type="text" class="form-control col-sm-8" id="nipp" name="nipp" readonly minlength=4
+                        value="<?= $value['nipp'] ?>">
+                </div>
+                <div class="form-group detail-content public-spacebetween">
+                    <label for="jabatan" class="label-width col-sm-4 ">Jabatan</label>
+
+                    <select name="jabatan" id="jabatan" class="form-control col-sm-8" readonly>
+                        <option value="Pelaksana" <?= $value['jabatan'] == 'Pelaksana' ? 'selected' : '' ?>>Pelaksana
+                        </option>
+                        <option value="Fungsional" <?= $value['jabatan'] == 'Fungsional' ? 'selected' : '' ?>>Fungsional
+                        </option>
+                    </select>
+                </div>
+                <div class="form-group detail-content public-spacebetween">
+                    <label for="unit" class="label-width col-sm-4 ">Unit</label>
+
+                    <select name="unit" id="unit" class="form-control col-sm-8" required>
+                        <option value="">--Pilih Unit--</option>
+                        <?php foreach ($unit as $key => $value) { ?>
+                        <option value="<?=$value['id_unit']?>"><?=$value['nama_unit']?></option>
+                        <?php } ?>
+                    </select>
+                </div>
+                <div class="form-group detail-content public-spacebetween">
+                    <label for="tmt" class="label-width col-sm-4 mt-2">TMT</label>
+                    <input type="date" class="form-control col-sm-8" id="tmt" name="tmt" required>
+                </div>
+                <div class="form-group detail-content public-spacebetween">
+                    <label for="file" class="col-sm-4 col-form-label">Kep</label>
+                    <div class="col-sm-8">
+                        <input type="file" name="file" id="file" required>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="submit" id="submit" class="btn btn-primary">Update</button>
+            </div>
+            <?= form_close() ?>
+        </div>
+    </div>
+</div>
+
+<?php } ?>
+
+
+<script>
+const unit = document.getElementById("unit");
+const tmt = document.getElementById("tmt");
+const kep = document.getElementById("file");
+
+const submit = document.getElementById("submit");
+
+
+
+submit.addEventListener('click', () => {
+    if (unit.validity.valueMissing) {
+        unit.setCustomValidity('Silahkan pilih unit');
+    } else {
+        unit.setCustomValidity('');
+    }
+
+    if (tmt.validity.valueMissing) {
+        tmt.setCustomValidity('Silahkan isi tanggal mulai berlaku');
+    } else {
+        tmt.setCustomValidity('');
+    }
+
+    kep.addEventListener("change", function() {
+        var allowedMimeTypes = ["application/pdf"];
+        var fileInput = this;
+        var file = fileInput.files[0];
+
+        if (!file) {
+            fileInput.setCustomValidity("Silahkan upload file Kep");
+        } else {
+            var fileMimeType = file.type;
+
+            if (allowedMimeTypes.indexOf(fileMimeType) === -1) {
+                fileInput.setCustomValidity("Invalid jenis file. Silahkan upload file PDF");
+            } else {
+                fileInput.setCustomValidity("");
+            }
+        }
+    });
+})
+</script>
 
 
 <?= $this->endSection() ?>

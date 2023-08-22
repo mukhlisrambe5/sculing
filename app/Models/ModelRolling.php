@@ -84,10 +84,10 @@ class ModelRolling extends Model
         return $query;
     }
 
-    // function add_data($data)
-    // {
-    //     $this->db->table('tbl_pegawai')->insert($data);
-    // }
+    function add_data($data)
+    {
+        $this->db->table('tbl_penempatan')->insert($data);
+    }
 
     // function edit_data($data, $id_pegawai)
     // {

@@ -64,12 +64,21 @@ class Rolling extends BaseController
 
     public function rekamRolling($id_pegawai)
     {
+        $kep = $this->request->getFile('file');
+        $kepName = $kep->getRandomName();
+
+      
         $data = [
-            'nama_pegawai' => $this->request->getPost('nama_pegawai')
+            'nip' => $this->request->getPost('nipp'),
+            'unit_now' => $this->request->getPost('unit'),
+            'tmt' => $this->request->getPost('tmt'),
+            'kep' => $kepName
         ];
-        $this->ModelPegawai->input_rolling($data, $id_pegawai);
-        session()->setFlashdata('successEdit', 'Data berhasil diupdate!');
-        return redirect()->to(base_url('rolling'));
+        $kep->move('uploaded/fileKep',  $kepName);
+
+        $this->ModelRolling->add_data($data);
+        session()->setFlashdata('successEdit', 'Data pegawai berhasil ditambahkan!');
+        return redirect()->to(base_url('first'));
     }
 
 
