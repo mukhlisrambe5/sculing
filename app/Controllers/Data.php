@@ -4,7 +4,8 @@ namespace App\Controllers;
 
 use App\Models\ModelData;
 use App\Models\ModelDataSkill;
-// use App\Models\ModelDataSkill;
+use App\Models\ModelPegawai;
+use App\Models\ModelUnit;
 
 use CodeIgniter\I18n\Time;
 
@@ -14,6 +15,8 @@ class Data extends BaseController
     {
         $this->ModelData = new ModelData();
         $this->ModelDataSkill = new ModelDataSkill();
+        $this->ModelPegawai = new ModelPegawai();
+        $this->ModelUnit = new ModelUnit();
 
         helper('form');
         helper('time');
@@ -31,7 +34,14 @@ class Data extends BaseController
 
     public function penempatan()
     {
-        return view('data/penempatan/view');
+        $data = [
+            // 'pegawai' => $this->ModelPegawai->all_data(),
+            'pegawai' => $this->ModelPegawai->all_data_penempatan(),
+
+            'unit' => $this->ModelUnit->all_data(),        
+
+        ];
+        return view('data/penempatan/view', $data);
     }
 
     public function dataPenempatan()
@@ -48,11 +58,12 @@ class Data extends BaseController
             $no++;
             $row = array();
 
-            $tomboledit = "<a class=\"btn btn-md btn-success\" data-toggle=\"modal\" data-target=\"#edit\/$key->id_penempatan\"><i class=\"fas fa-arrow-right\"></i> Rolling</a>";
+            $tomboledit = "<a class=\"btn btn-md btn-success\" data-toggle=\"modal\" data-target=\"#edit\/$key->id_pegawai\"><i class=\"fas fa-arrow-right\"></i> Rolling</a>";
 
             $row[] = $no;
             $row[] = $key->nama_pegawai;
             $row[] = $key->nipp;
+            $row[] = $key->jabatan;
             $row[] = $key->nama_unit;
             $row[] = Time::parse($key->max_tmt)->toLocalizedString('dd-MMM-yyyy');
             $row[] = Time::parse($key->max_tmt)->difference(Time::parse(date('Y-m-d')))->getYears() . " Tahun " . Time::parse($key->max_tmt)->difference(Time::parse(date('Y-m-d')))->getMonths() . " BUlan ";

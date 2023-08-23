@@ -13,6 +13,14 @@ class ModelPegawai extends Model
             ->get()->getResultArray();
     }
 
+    public function all_data_penempatan()
+    {
+        return $this->db->table('tbl_pegawai')
+        ->join('tbl_penempatan', 'tbl_pegawai.nipp= tbl_penempatan.nip', 'inner')
+        ->join('tbl_unit', 'tbl_unit.id_unit = tbl_penempatan.unit_now', 'left')
+        ->get()->getResultArray();
+    }
+
     var $column_order = array(null, 'nama_pegawai', 'nipp', 'jabatan', 'status', null);
 
     var $order = array('nama_pegawai' => 'asc');

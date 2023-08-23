@@ -1,0 +1,433 @@
+INFO - 2023-08-23 00:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 00:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 00:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 00:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 00:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 00:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 00:36:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 00:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 00:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 00:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 00:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 00:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 00:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 00:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 00:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 00:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 00:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 00:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 01:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 01:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 01:16:54 --> Undefined variable: first
+in APPPATH\Views\data\penempatan\view.php on line 72.
+ 1 APPPATH\Views\data\penempatan\view.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: first', 'C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php', 72, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('data/penempatan/view', [], true)
+ 5 APPPATH\Controllers\Data.php(34): view('data/penempatan/view')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->penempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-23 01:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 01:19:21 --> Undefined property: App\Controllers\Data::$ModelPegawai
+in APPPATH\Controllers\Data.php on line 35.
+ 1 APPPATH\Controllers\Data.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Data::$ModelPegawai', 'C:\\wamp64\\www\\sculing\\app\\Controllers\\Data.php', 35, [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->penempatan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-23 01:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 01:19:52 --> Undefined variable: first
+in APPPATH\Views\data\penempatan\view.php on line 72.
+ 1 APPPATH\Views\data\penempatan\view.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: first', 'C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php', 72, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('data/penempatan/view', [], true)
+ 5 APPPATH\Controllers\Data.php(38): view('data/penempatan/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->penempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-23 01:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 01:20:04 --> Undefined variable: unit
+in APPPATH\Views\data\penempatan\view.php on line 112.
+ 1 APPPATH\Views\data\penempatan\view.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: unit', 'C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php', 112, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('data/penempatan/view', [], true)
+ 5 APPPATH\Controllers\Data.php(38): view('data/penempatan/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->penempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-23 01:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 01:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 01:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 01:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 01:25:57 --> Undefined index: nama_unit
+in APPPATH\Views\data\penempatan\view.php on line 110.
+ 1 APPPATH\Views\data\penempatan\view.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_unit', 'C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php', 110, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('data/penempatan/view', [], true)
+ 5 APPPATH\Controllers\Data.php(42): view('data/penempatan/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->penempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-23 01:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 01:26:57 --> Undefined index: id_unit
+in APPPATH\Views\data\penempatan\view.php on line 110.
+ 1 APPPATH\Views\data\penempatan\view.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_unit', 'C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php', 110, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('data/penempatan/view', [], true)
+ 5 APPPATH\Controllers\Data.php(42): view('data/penempatan/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->penempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-23 01:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 01:27:56 --> Undefined index: id_unit
+in APPPATH\Views\data\penempatan\view.php on line 110.
+ 1 APPPATH\Views\data\penempatan\view.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_unit', 'C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php', 110, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('data/penempatan/view', [], true)
+ 5 APPPATH\Controllers\Data.php(42): view('data/penempatan/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->penempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-23 01:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 01:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 01:28:17 --> Undefined index: id_unit
+in APPPATH\Views\data\penempatan\view.php on line 110.
+ 1 APPPATH\Views\data\penempatan\view.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_unit', 'C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php', 110, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('data/penempatan/view', [], true)
+ 5 APPPATH\Controllers\Data.php(42): view('data/penempatan/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->penempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-23 01:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 01:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 01:28:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 01:28:30 --> Undefined index: id_unit
+in APPPATH\Views\data\penempatan\view.php on line 110.
+ 1 APPPATH\Views\data\penempatan\view.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_unit', 'C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php', 110, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('data/penempatan/view', [], true)
+ 5 APPPATH\Controllers\Data.php(42): view('data/penempatan/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->penempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-23 01:28:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 01:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 01:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 01:36:20 --> Undefined index: nama_unit
+in APPPATH\Views\data\penempatan\view.php on line 110.
+ 1 APPPATH\Views\data\penempatan\view.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_unit', 'C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php', 110, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('data/penempatan/view', [], true)
+ 5 APPPATH\Controllers\Data.php(42): view('data/penempatan/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->penempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-23 01:37:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 01:37:17 --> Undefined index: id_unit
+in APPPATH\Views\data\penempatan\view.php on line 110.
+ 1 APPPATH\Views\data\penempatan\view.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_unit', 'C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php', 110, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('data/penempatan/view', [], true)
+ 5 APPPATH\Controllers\Data.php(42): view('data/penempatan/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->penempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-23 01:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 01:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 01:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 01:38:42 --> Undefined index: id_unit
+in APPPATH\Views\data\penempatan\view.php on line 110.
+ 1 APPPATH\Views\data\penempatan\view.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_unit', 'C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php', 110, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('data/penempatan/view', [], true)
+ 5 APPPATH\Controllers\Data.php(42): view('data/penempatan/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->penempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-23 01:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 01:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 01:38:45 --> Undefined index: id_unit
+in APPPATH\Views\data\penempatan\view.php on line 110.
+ 1 APPPATH\Views\data\penempatan\view.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_unit', 'C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php', 110, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('data/penempatan/view', [], true)
+ 5 APPPATH\Controllers\Data.php(42): view('data/penempatan/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->penempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-23 01:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 01:39:27 --> Undefined index: unit_now
+in APPPATH\Views\data\penempatan\view.php on line 110.
+ 1 APPPATH\Views\data\penempatan\view.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: unit_now', 'C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php', 110, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('data/penempatan/view', [], true)
+ 5 APPPATH\Controllers\Data.php(42): view('data/penempatan/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->penempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-23 01:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 01:39:29 --> Undefined index: unit_now
+in APPPATH\Views\data\penempatan\view.php on line 110.
+ 1 APPPATH\Views\data\penempatan\view.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: unit_now', 'C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php', 110, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('data/penempatan/view', [], true)
+ 5 APPPATH\Controllers\Data.php(42): view('data/penempatan/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->penempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-23 01:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 01:39:29 --> Undefined index: unit_now
+in APPPATH\Views\data\penempatan\view.php on line 110.
+ 1 APPPATH\Views\data\penempatan\view.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: unit_now', 'C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php', 110, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('data/penempatan/view', [], true)
+ 5 APPPATH\Controllers\Data.php(42): view('data/penempatan/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->penempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-23 01:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 01:39:59 --> Undefined index: unit_now
+in APPPATH\Views\data\penempatan\view.php on line 110.
+ 1 APPPATH\Views\data\penempatan\view.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: unit_now', 'C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php', 110, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('data/penempatan/view', [], true)
+ 5 APPPATH\Controllers\Data.php(42): view('data/penempatan/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->penempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-23 01:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 01:40:00 --> Undefined index: unit_now
+in APPPATH\Views\data\penempatan\view.php on line 110.
+ 1 APPPATH\Views\data\penempatan\view.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: unit_now', 'C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php', 110, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('data/penempatan/view', [], true)
+ 5 APPPATH\Controllers\Data.php(42): view('data/penempatan/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->penempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-23 01:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 01:40:00 --> Undefined index: unit_now
+in APPPATH\Views\data\penempatan\view.php on line 110.
+ 1 APPPATH\Views\data\penempatan\view.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: unit_now', 'C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php', 110, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('data/penempatan/view', [], true)
+ 5 APPPATH\Controllers\Data.php(42): view('data/penempatan/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->penempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-23 01:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 01:40:42 --> Undefined index: nip
+in APPPATH\Views\data\penempatan\view.php on line 110.
+ 1 APPPATH\Views\data\penempatan\view.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nip', 'C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php', 110, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('data/penempatan/view', [], true)
+ 5 APPPATH\Controllers\Data.php(42): view('data/penempatan/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->penempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-23 01:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 01:40:50 --> Undefined index: nipp
+in APPPATH\Views\data\penempatan\view.php on line 110.
+ 1 APPPATH\Views\data\penempatan\view.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nipp', 'C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php', 110, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('data/penempatan/view', [], true)
+ 5 APPPATH\Controllers\Data.php(42): view('data/penempatan/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->penempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-23 01:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 01:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 01:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 01:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 01:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 01:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 01:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 01:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 01:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 01:53:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 01:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 01:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 01:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 01:54:22 --> Undefined index: nama_unit
+in APPPATH\Views\data\penempatan\view.php on line 110.
+ 1 APPPATH\Views\data\penempatan\view.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_unit', 'C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php', 110, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('data/penempatan/view', [], true)
+ 5 APPPATH\Controllers\Data.php(43): view('data/penempatan/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->penempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-23 01:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 01:54:44 --> Undefined index: nama_unit
+in APPPATH\Views\data\penempatan\view.php on line 110.
+ 1 APPPATH\Views\data\penempatan\view.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_unit', 'C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php', 110, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('data/penempatan/view', [], true)
+ 5 APPPATH\Controllers\Data.php(43): view('data/penempatan/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->penempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-23 01:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 01:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 01:54:49 --> Undefined index: nama_unit
+in APPPATH\Views\data\penempatan\view.php on line 110.
+ 1 APPPATH\Views\data\penempatan\view.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_unit', 'C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php', 110, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('data/penempatan/view', [], true)
+ 5 APPPATH\Controllers\Data.php(43): view('data/penempatan/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->penempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-23 01:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 01:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 01:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 01:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 01:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 02:06:59 --> Undefined index: nama_unit
+in APPPATH\Views\data\penempatan\view.php on line 110.
+ 1 APPPATH\Views\data\penempatan\view.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_unit', 'C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php', 110, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\data\\penempatan\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('data/penempatan/view', [], true)
+ 5 APPPATH\Controllers\Data.php(44): view('data/penempatan/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->penempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-23 02:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:15:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 02:29:47 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\Rolling.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Rolling->rekamRolling('5')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-23 02:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 02:30:21 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\Rolling.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Rolling->rekamRolling('5')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-23 02:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:30:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 02:30:40 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\Rolling.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Rolling->rekamRolling('14')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-23 02:30:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:31:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 02:35:56 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\Rolling.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Rolling->rekamRolling('14')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-23 02:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 02:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 02:37:45 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\Rolling.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Rolling->rekamRolling('5')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
