@@ -9,7 +9,7 @@
 
                 <div class="card">
                     <div class="card-header">
-                        <h3 class="card-title text-bold mt-2">Tabel Data Penempatan</h3>
+                        <h3 class="card-title text-bold mt-2">Tabel Pegawai</h3>
                     </div>
                     <div>
                         <?php if (session()->getFlashdata('success')) {
@@ -37,17 +37,13 @@
                     </div>
 
                     <div class="card-body">
-                        <table id="tblPenempatan" class="table table-bordered table-striped" width="100%">
+                        <table id="tblFirst" class="table table-bordered table-striped" width="100%">
 
                             <thead>
                                 <tr>
                                     <th style="width:20px">No</th>
                                     <th>Nama Pegawai</th>
                                     <th>NIP</th>
-                                    <th>Jabatan</th>
-                                    <th>Unit Saat Ini</th>
-                                    <th>TMT</th>
-                                    <th>Masa Kerja Unit Sekarang </th>
 
                                     <th class="text-center" width="170px">Action</th>
                                 </tr>
@@ -68,9 +64,11 @@
     </div>
 
 </section>
+
+</section>
 <!-- modal input rolling -->
 <?php
-foreach ($pegawai as $key => $value) { ?>
+foreach ($first as $key => $value) { ?>
 <div class="modal fade" id="edit/<?= $value['id_pegawai'] ?>" tabindex="-1" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
     <div class="modal-dialog">
@@ -82,9 +80,8 @@ foreach ($pegawai as $key => $value) { ?>
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <?= form_open_multipart('rolling/rekamRolling') ?>
+            <?= form_open_multipart('rolling/rekamRolling')?>
             <div class="modal-body">
-                <input type="hidden" name="id_pegawai" value="<?= $value['id_pegawai'] ?>">
                 <div class="form-group detail-content public-spacebetween">
                     <label for="nama_pegawai" class="label-width col-sm-4 mt-2">Nama Pegawai</label>
                     <input type="text" class="form-control col-sm-8" id="nama_pegawai_edit" name="nama_pegawai" readonly
@@ -105,12 +102,9 @@ foreach ($pegawai as $key => $value) { ?>
                         </option>
                     </select>
                 </div>
+               
                 <div class="form-group detail-content public-spacebetween">
-                    <label for="unit_now" class="label-width col-sm-4 mt-2">Unit Saat ini</label>
-                    <input type="text" class="form-control col-sm-8" id="unit_now" name="unit_now" value="<?=$value['nama_unit']?>" readonly >
-                </div>
-                <div class="form-group detail-content public-spacebetween">
-                    <label for="unit" class="label-width col-sm-4 ">Rolling ke </label>
+                    <label for="unit" class="label-width col-sm-4 ">Unit</label>
 
                     <select name="unit" id="unit" class="form-control col-sm-8" required>
                         <option value="">--Pilih Unit--</option>
@@ -183,6 +177,4 @@ submit.addEventListener('click', () => {
     });
 })
 </script>
-
-
 <?= $this->endSection() ?>

@@ -44,7 +44,6 @@
                                     <th style="width:20px">No</th>
                                     <th>Nama Pegawai</th>
                                     <th>NIP</th>
-                                    <th>Jabatan</th>
 
                                     <th class="text-center" width="170px">Action</th>
                                 </tr>
@@ -65,7 +64,9 @@
     </div>
 
 </section>
-<!-- modal input data penempatan pertama -->
+
+</section>
+<!-- modal input rolling -->
 <?php
 foreach ($first as $key => $value) { ?>
 <div class="modal fade" id="edit/<?= $value['id_pegawai'] ?>" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -79,9 +80,8 @@ foreach ($first as $key => $value) { ?>
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <?= form_open_multipart('rolling/rekamRolling/' . $value['id_pegawai']) ?>
+            <?= form_open_multipart('rolling/rekamRolling')?>
             <div class="modal-body">
-                <input type="hidden" name="id_pegawai" value="<?= $value['id_pegawai'] ?>">
                 <div class="form-group detail-content public-spacebetween">
                     <label for="nama_pegawai" class="label-width col-sm-4 mt-2">Nama Pegawai</label>
                     <input type="text" class="form-control col-sm-8" id="nama_pegawai_edit" name="nama_pegawai" readonly
@@ -91,16 +91,6 @@ foreach ($first as $key => $value) { ?>
                     <label for="nipp" class="label-width col-sm-4 mt-2">NIP</label>
                     <input type="text" class="form-control col-sm-8" id="nipp" name="nipp" readonly minlength=4
                         value="<?= $value['nipp'] ?>">
-                </div>
-                <div class="form-group detail-content public-spacebetween">
-                    <label for="jabatan" class="label-width col-sm-4 ">Jabatan</label>
-
-                    <select name="jabatan" id="jabatan" class="form-control col-sm-8" readonly>
-                        <option value="Pelaksana" <?= $value['jabatan'] == 'Pelaksana' ? 'selected' : '' ?>>Pelaksana
-                        </option>
-                        <option value="Fungsional" <?= $value['jabatan'] == 'Fungsional' ? 'selected' : '' ?>>Fungsional
-                        </option>
-                    </select>
                 </div>
                 <div class="form-group detail-content public-spacebetween">
                     <label for="unit" class="label-width col-sm-4 ">Unit</label>
@@ -122,6 +112,7 @@ foreach ($first as $key => $value) { ?>
                         <input type="file" name="file" id="file" required>
                     </div>
                 </div>
+               
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -166,7 +157,6 @@ submit.addEventListener('click', () => {
             fileInput.setCustomValidity("Silahkan upload file Kep");
         } else {
             var fileMimeType = file.type;
-
             if (allowedMimeTypes.indexOf(fileMimeType) === -1) {
                 fileInput.setCustomValidity("Invalid jenis file. Silahkan upload file PDF");
             } else {
@@ -176,6 +166,4 @@ submit.addEventListener('click', () => {
     });
 })
 </script>
-
-
 <?= $this->endSection() ?>

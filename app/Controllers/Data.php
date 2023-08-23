@@ -37,7 +37,6 @@ class Data extends BaseController
         $data = [
             // 'pegawai' => $this->ModelPegawai->all_data(),
             'pegawai' => $this->ModelPegawai->all_data_penempatan(),
-
             'unit' => $this->ModelUnit->all_data(),        
 
         ];
@@ -65,8 +64,9 @@ class Data extends BaseController
             $row[] = $key->nipp;
             $row[] = $key->jabatan;
             $row[] = $key->nama_unit;
+
             $row[] = Time::parse($key->max_tmt)->toLocalizedString('dd-MMM-yyyy');
-            $row[] = Time::parse($key->max_tmt)->difference(Time::parse(date('Y-m-d')))->getYears() . " Tahun " . Time::parse($key->max_tmt)->difference(Time::parse(date('Y-m-d')))->getMonths() . " BUlan ";
+            $row[] = Time::parse($key->max_tmt)->difference(Time::parse(date('Y-m-d')))->getYears() . " Tahun " . (Time::parse($key->max_tmt)->difference(Time::parse(date('Y-m-d')))->getMonths() % 12). " Bulan ";
 
             $row[] = "<div class=\"text-center\">" . $tomboledit . "</div>";
             $data[] = $row;

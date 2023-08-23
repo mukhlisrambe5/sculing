@@ -99,7 +99,8 @@ $routes->post('skill/editSkill/(:any)', 'Skill::editSkill/$1');
 $routes->post('first/dataFirst', 'First::dataFirst');
 
 $routes->post('rolling/dataRolling', 'Rolling::dataRolling');
-$routes->post('rolling/rekamRolling/(:any)', 'Rolling::rekamRolling/$1');
+$routes->post('rolling/rekamRolling', 'Rolling::rekamRolling');
+// $routes->post('rolling/rekamRolling/(:any)', 'Rolling::rekamRolling/$1');
 
 
 $routes->post('data/dataPenempatan', 'Data::dataPenempatan');

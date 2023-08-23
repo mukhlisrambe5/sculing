@@ -44,7 +44,7 @@ class ModelData extends Model
             $builder = $db->table('tbl_penempatan');
             $query = $builder->select('*, MAX(tmt) as max_tmt')
                 ->groupBy('nip')
-                ->join('tbl_pegawai', 'tbl_pegawai.nipp= tbl_penempatan.nip', 'inner')
+                ->join('tbl_pegawai', 'tbl_pegawai.nipp= tbl_penempatan.nip', 'left')
                 ->join('tbl_unit', 'tbl_unit.id_unit= tbl_penempatan.unit_now', 'left')
                 ->where($kondisi_search)
                 ->orderBy($result_order, $result_dir)

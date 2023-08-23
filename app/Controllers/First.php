@@ -23,7 +23,8 @@ class First extends BaseController
     {
         $data = [
             'first' => $this->ModelFirst->all_data(),
-            'unit' => $this->ModelUnit->all_data(),        
+            'unit' => $this->ModelUnit->all_data(),
+
         ];
         return view('first/view', $data);
     }
@@ -49,7 +50,6 @@ class First extends BaseController
             $row[] = $no;
             $row[] = $key->nama_pegawai;
             $row[] = $key->nipp;
-            $row[] = $key->jabatan;
 
             $row[] = "<div class=\"text-center\">" . $tomboledit . "</div>";
             $data[] = $row;
@@ -63,4 +63,42 @@ class First extends BaseController
         echo json_encode($output);
 
     }
+
+    // public function tambahPegawai()
+    // {
+    //     $data = [
+    //         'nama_pegawai' => $this->request->getPost('nama_pegawai'),
+    //         'nip' => $this->request->getPost('nip'),
+    //         'jabatan' => $this->request->getPost('jabatan'),
+    //         'status' => $this->request->getPost('status'),
+
+    //     ];
+
+    //     $this->ModelPegawai->add_data($data);
+    //     session()->setFlashdata('success', 'Data Pegawai berhasil ditambahkan');
+    //     return redirect()->to(base_url('pegawai'));
+    // }
+
+    // public function deletePegawai($id_pegawai)
+    // {
+    //     $this->ModelPegawai->delete_data($id_pegawai);
+    //     session()->setFlashdata('successDelete', 'Data berhasil dihapus!');
+    //     return redirect()->to(base_url('pegawai'));
+    // }
+
+    public function rekamFirst($id_pegawai)
+    {
+        $data = [
+            'nama_pegawai' => $this->request->getPost('nama_pegawai'),
+            // 'nip' => $this->request->getPost('nip'),
+            // 'jabatan' => $this->request->getPost('jabatan'),
+            // 'status' => $this->request->getPost('status'),
+        ];
+        $this->ModelPegawai->input_First($data, $id_pegawai);
+        session()->setFlashdata('successEdit', 'Data berhasil diupdate!');
+        return redirect()->to(base_url('First'));
+    }
+
+
+
 }
