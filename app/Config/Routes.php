@@ -97,8 +97,7 @@ $routes->post('skill/tambahSkill', 'Skill::tambahSkill');
 $routes->post('skill/editSkill/(:any)', 'Skill::editSkill/$1');
 
 $routes->post('skill/rekamSkillPegawai', 'Skill::rekamSkillPegawai');
-
-
+$routes->post('skill/editSkillPegawai/(:any)', 'Skill::editSkillPegawai/$1');
 
 $routes->post('first/dataFirst', 'First::dataFirst');
 

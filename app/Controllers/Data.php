@@ -106,7 +106,7 @@ class Data extends BaseController
             $row = array();
 
             $tomboladd = "<a class=\"btn btn-md btn-primary\" data-toggle=\"modal\" data-target=\"#add\/$key->nipp\"><i class=\"fas fa-plus mr-2\"></i> Skill</a>";
-            $tomboledit = "<a class=\"btn btn-md btn-warning\" data-toggle=\"modal\" data-target=\"#edit\/$key->nipp\"><i class=\"fas fa-pencil-alt mr-2\"></i>Edit </a>";
+            $tomboledit = "<a class=\"btn btn-md btn-warning\" data-toggle=\"modal\" data-target=\"#edit\/$key->id_skill_pegawai\"><i class=\"fas fa-pencil-alt mr-2\"></i>Edit </a>";
 
             $row[] = $no;
             $row[] = "<div class=\"text-center\">" . $tomboladd . "</div>";

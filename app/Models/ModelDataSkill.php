@@ -16,6 +16,8 @@ class ModelDataSkill extends Model
     function all_data(){
         return $this->db->table('tbl_skill_pegawai')
         ->join('tbl_pegawai', 'tbl_pegawai.nipp= tbl_skill_pegawai.nip_skill', 'left')
+        ->join('tbl_skill', 'tbl_skill.id_skill= tbl_skill_pegawai.keahlian', 'left')
+
         // ->where('tbl_penempatan.nip', null)
         ->get()->getResultArray();
     }

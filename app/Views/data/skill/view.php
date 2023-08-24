@@ -114,6 +114,57 @@ foreach ($skill_pegawai as $key => $value) { ?>
 
 <?php } ?>
 
+<!-- modal edit skill pegawai-->
+<?php
+foreach ($skill_pegawai as $key => $value) { ?>
+<div class="modal fade" id="edit/<?= $value['id_skill_pegawai'] ?>" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Edit Keahlian <b><?= $value['nama_pegawai'] ?></b>
+                </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <?= form_open_multipart('skill/editSkillPegawai/' .$value['id_skill_pegawai']) ?>
+            <div class="modal-body">
+                <input type="hidden" name="nip_skill" value="<?= $value['nip_skill'] ?>">
+                <div class="form-group detail-content public-spacebetween">
+                    <label for="keahlian" class="label-width col-sm-4 ">Keahlian</label>
+
+                    <select name="keahlian" id="keahlian" class="form-control col-sm-8" required >
+                        <option value="<?=$value['id_skill_pegawai']?>"><?=$value['nama_skill']?></option>
+                        <?php foreach($skill as $key=>$val) { ?>
+                            <option value="<?=$val['id_skill']?>"><?=$val['nama_skill']?></option>
+
+                        <?php }?>
+                    </select>
+                </div>
+                <div class="form-group detail-content public-spacebetween">
+                    <label for="file_keahlian" class="col-sm-4 col-form-label">Bukti Keahlian <small class="text-danger">(*Biarkan jika
+                            tidak ingin diganti)</small> </label>
+                    <div class="col-sm-8">
+                        <input type="file" name="file_keahlian" id="file_keahlian" required>
+                    </div>
+                </div>
+                <div class="form-group detail-content public-spacebetween">
+                    <label for="detail" class="label-width col-sm-4 mt-2">Detail</label>
+                   <textarea class="col-sm-8" name="detail" id="detail" cols="40" rows="10" placeholder="Optional"><?=$value['detail']?></textarea>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="submit" id="submit" class="btn btn-primary">Save</button>
+            </div>
+            <?= form_close() ?>
+        </div>
+    </div>
+</div>
+
+<?php } ?>
+
 <script>
 const keahlian = document.getElementById("keahlian");
 const file = document.getElementById("file_keahlian");
@@ -134,18 +185,14 @@ submit.addEventListener('click', () => {
         var allowedMimeTypes = ["application/pdf"];
         var fileInput = this;
         var file = fileInput.files[0];
+        var fileMimeType = file.type;
 
-        if (!file) {
-            fileInput.setCustomValidity("Silahkan upload file pdf");
+        if (allowedMimeTypes.indexOf(fileMimeType) === -1) {
+            fileInput.setCustomValidity("Invalid jenis file. Silahkan upload file PDF");
         } else {
-            var fileMimeType = file.type;
-
-            if (allowedMimeTypes.indexOf(fileMimeType) === -1) {
-                fileInput.setCustomValidity("Invalid jenis file. Silahkan upload file PDF");
-            } else {
-                fileInput.setCustomValidity("");
-            }
+            fileInput.setCustomValidity("");
         }
+        
     });
 })
 </script>

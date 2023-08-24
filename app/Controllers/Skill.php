@@ -103,16 +103,33 @@ class Skill extends BaseController
     }
 
 
-    // $kep = $this->request->getFile('file');
-    // $kepName= $kep->getRandomName();
-    // $data = [
-    //     'nip' => $this->request->getPost('nipp'),
-    //     'unit_now' => $this->request->getPost('unit'),
-    //     'tmt' => $this->request->getPost('tmt'),
-    //     'kep' => $kepName,
-    // ];
-    // $kep->move('uploaded/fileKep',  $kepName);
-    // $this->ModelRolling->add_data($data);
-    // session()->setFlashdata('successEdit', 'Data berhasil direkam!');
-    // return redirect()->to(base_url('data/penempatan'));
+    
+    public function editSkillPegawai($id_skill_pegawai)
+    {
+        $file = $this->request->getFile('file_keahlian');
+        if($file->getError() ==4){
+            $data = [
+                'nip_skill' => $this->request->getPost('nip_skill'),
+                'keahlian' => $this->request->getPost('keahlian'),                
+                'detail' => $this->request->getPost('detail'),
+
+            ];
+        }else{
+            $rekaman = $this->ModelSkill->detail_data($id_skill_pegawai);
+            if ($rekaman['file_keahlian'] != "") {
+                unlink('uploaded/fileSkill/' . $rekaman['file_keahlian']);
+            }
+            $fileName = $file->getRandomName();
+            $data = [
+                'nip_skill' => $this->request->getPost('nip_skill'),
+                'keahlian' => $this->request->getPost('keahlian'),                
+                'detail' => $this->request->getPost('detail'),
+                'file_keahlian' => $fileName,
+            ];
+            $file->move('uploaded/fileSkill',  $fileName);
+        }
+        $this->ModelSkill->edit_data_pegawai($data, $id_skill_pegawai);
+        session()->setFlashdata('success', 'Data skill berhasil diupdate');
+        return redirect()->to(base_url('data/skill'));
+    }
 }
