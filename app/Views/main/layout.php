@@ -395,6 +395,33 @@
       }],
     }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
 
+    $('#tblDetailPenempatan').DataTable({
+      "order": [],
+      'rowsGroup': [1, 2, 3],
+      "processing": true,
+      "serverSide": true,
+      "responsive": true,
+      "lengthMenu": [
+        [10, 20, 50, 100],
+        [10, 20, 50, 100]
+      ],
+      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"],
+      "ajax": {
+        "url": "<?= site_url('data/dataDetailPenempatan') ?>",
+        "type": "POST"
+      },
+      "columnDefs": [{
+        "targets": [0, 6],
+        "orderable": false
+      },
+      {
+        "targets": [0],
+        "visible": false
+      }
+    ],
+      
+    }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
+
     // $('#tblSkillPegawai').DataTable({
     //   "order": [],
     //   'rowsGroup': [1, 2, 3],

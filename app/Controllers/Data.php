@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use App\Models\ModelData;
 use App\Models\ModelDataSkill;
+use App\Models\ModelDataDetail;
 use App\Models\ModelPegawai;
 use App\Models\ModelUnit;
 
@@ -17,6 +18,7 @@ class Data extends BaseController
         $this->ModelDataSkill = new ModelDataSkill();
         $this->ModelPegawai = new ModelPegawai();
         $this->ModelUnit = new ModelUnit();
+        $this->ModelDataDetail = new ModelDataDetail();
 
         helper('form');
         helper('time');
@@ -35,7 +37,6 @@ class Data extends BaseController
     public function penempatan()
     {
         $data = [
-            // 'pegawai' => $this->ModelPegawai->all_data(),
             'pegawai' => $this->ModelPegawai->all_data_penempatan(),
             'unit' => $this->ModelUnit->all_data(),        
 
@@ -120,5 +121,53 @@ class Data extends BaseController
             "data" => $data,
         );
         echo json_encode($output);
+    }
+
+    public function detailPenempatan()
+    {
+        $data = [
+            'pegawai' => $this->ModelPegawai->all_data_penempatan(),
+            'unit' => $this->ModelUnit->all_data(),        
+
+        ];
+        return view('data/penempatan/viewDetail', $data);
+    }
+
+    public function dataDetailPenempatan()
+    {
+
+        $model = new ModelDataDetail();
+        $listing = $model->get_datatables();
+        $jumlah_semua = $model->jumlah_semua();
+        $jumlah_filter = $model->jumlah_filter();
+
+        $data = array();
+        $no = $_POST['start'];
+        foreach ($listing as $key) {
+            $no++;
+            $row = array();
+
+            $tomboledit = "<a class=\"btn btn-md btn-warning\" data-toggle=\"modal\" data-target=\"#edit\/$key->id_penempatan\"><i class=\"fas fa-pencil-alt mr-2\"></i> Edit</a>";
+
+
+            $row[] = $no;
+            $row[] = $key->nama_pegawai;
+            $row[] = $key->nipp;
+            $row[] = $key->jabatan;
+            $row[] = $key->nama_unit;
+            $row[] = Time::parse($key->tmt)->toLocalizedString('dd-MMM-yyyy');
+            $row[] = $key->kep;
+
+            $row[] = "<div class=\"text-center\">" . $tomboledit . "</div> ";
+            $data[] = $row;
+        }
+        $output = array(
+            "draw" => $_POST['draw'],
+            "recordsTotal" => $jumlah_semua->jml,
+            "recordsFiltered" => $jumlah_filter->jml,
+            "data" => $data,
+        );
+        echo json_encode($output);
+
     }
 }

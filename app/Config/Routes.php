@@ -70,6 +70,7 @@ $routes->get('rolling', 'Rolling::index', ['filter' => 'filterLogin']);
 $routes->get('data', 'Data::index', ['filter' => 'filterLogin']);
 $routes->get('data/penempatan', 'Data::penempatan', ['filter' => 'filterLogin']);
 $routes->get('data/skill', 'Data::skill', ['filter' => 'filterLogin']);
+$routes->get('data/detailPenempatan', 'Data::detailPenempatan', ['filter' => 'filterLogin']);
 
 $routes->get('boscu', 'Boscu::index', ['filter' => 'filterLogin']);
 
@@ -100,11 +101,12 @@ $routes->post('first/dataFirst', 'First::dataFirst');
 
 $routes->post('rolling/dataRolling', 'Rolling::dataRolling');
 $routes->post('rolling/rekamRolling', 'Rolling::rekamRolling');
-// $routes->post('rolling/rekamRolling/(:any)', 'Rolling::rekamRolling/$1');
+$routes->post('rolling/updateRolling/(:any)', 'Rolling::updateRolling/$1');
 
 
 $routes->post('data/dataPenempatan', 'Data::dataPenempatan');
 $routes->post('data/dataSkill', 'Data::dataSkill');
+$routes->post('data/dataDetailPenempatan', 'Data::dataDetailPenempatan');
 
 $routes->post('boscu/dataBoscu', 'Boscu::dataBoscu');
 

@@ -16,7 +16,9 @@ class ModelPegawai extends Model
     public function all_data_penempatan()
     {
         return $this->db->table('tbl_pegawai')
-        ->join('tbl_penempatan', 'tbl_pegawai.nipp= tbl_penempatan.nip', 'inner')
+        // return $this->db->table('tbl_penempatan')
+        // ->join('tbl_pegawai', 'tbl_pegawai.nipp= tbl_penempatan.nip', 'left')
+        ->join('tbl_penempatan', 'tbl_pegawai.nipp= tbl_penempatan.nip', 'left')
         ->join('tbl_unit', 'tbl_unit.id_unit = tbl_penempatan.unit_now', 'left')
         ->get()->getResultArray();
     }

@@ -50,6 +50,7 @@ class First extends BaseController
             $row[] = $no;
             $row[] = $key->nama_pegawai;
             $row[] = $key->nipp;
+            $row[] = $key->jabatan;
 
             $row[] = "<div class=\"text-center\">" . $tomboledit . "</div>";
             $data[] = $row;

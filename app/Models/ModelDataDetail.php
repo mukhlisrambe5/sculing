@@ -5,7 +5,7 @@ namespace App\Models;
 use CodeIgniter\Model;
 use PhpParser\Node\Expr\Isset_;
 
-class ModelData extends Model
+class ModelDataDetail extends Model
 {
 
     var $column_order = array(null, 'nama_pegawai', 'nip', 'nama_unit', 'tmt', null);
@@ -42,8 +42,8 @@ class ModelData extends Model
                 ;
             $db = db_connect();
             $builder = $db->table('tbl_penempatan');
-            $query = $builder->select('*, MAX(tmt) as max_tmt')
-                ->groupBy('nip')
+            $query = $builder->select('*')
+                // ->groupBy('nip')
                 ->join('tbl_pegawai', 'tbl_pegawai.nipp= tbl_penempatan.nip', 'left')
                 ->join('tbl_unit', 'tbl_unit.id_unit= tbl_penempatan.unit_now', 'left')
                 ->where($kondisi_search)
@@ -57,7 +57,7 @@ class ModelData extends Model
 
     function jumlah_semua()
     {
-        $sQuery = "SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan";
+        $sQuery = "SELECT COUNT(nip) as jml FROM tbl_penempatan";
 
         $db = db_connect();
         $query = $db->query($sQuery)->getRow();
@@ -75,7 +75,7 @@ class ModelData extends Model
             $kondisi_search = "";
         }
 
-        $sQuery = "SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != ''  $kondisi_search";
+        $sQuery = "SELECT COUNT(nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != ''  $kondisi_search";
         $db = db_connect();
         $query = $db->query($sQuery)->getRow();
         return $query;

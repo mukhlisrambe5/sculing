@@ -89,15 +89,26 @@ class ModelRolling extends Model
         $this->db->table('tbl_penempatan')->insert($data);
     }
 
-    // function edit_data($data, $id_pegawai)
+    function edit_data($data, $id_penempatan)
+    {
+        return $this->db->table('tbl_penempatan')->update($data, array('id_penempatan' => $id_penempatan));
+    }
+
+    // function edit_data($data, $id_unit)
     // {
-    //     return $this->db->table('tbl_pegawai')->update($data, array('id_pegawai' => $id_pegawai));
+    //     return $this->db->table('tbl_unit')->update($data, array('id_unit' => $id_unit));
     // }
+
     // function delete_data($id_pegawai)
     // {
     //     return $this->db->table('tbl_pegawai')->delete(array('id_pegawai' => $id_pegawai));
     // }
-
+    public function detail_data($id_penempatan)
+    {
+    return $this->db->table('tbl_penempatan')
+    ->where('id_penempatan', $id_penempatan)
+    ->get()->getRowArray();
+    }
 
 
 

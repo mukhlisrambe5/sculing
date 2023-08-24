@@ -9,7 +9,7 @@
 
                 <div class="card">
                     <div class="card-header">
-                        <h3 class="card-title text-bold mt-2">Tabel Data Penempatan</h3>
+                        <h3 class="card-title text-bold mt-2">Tabel Detail Penempatan</h3>
                     </div>
                     <div>
                         <?php if (session()->getFlashdata('success')) {
@@ -37,7 +37,7 @@
                     </div>
 
                     <div class="card-body">
-                        <table id="tblPenempatan" class="table table-bordered table-striped" width="100%">
+                        <table id="tblDetailPenempatan" class="table " width="100%">
 
                             <thead>
                                 <tr>
@@ -45,9 +45,9 @@
                                     <th>Nama Pegawai</th>
                                     <th>NIP</th>
                                     <th>Jabatan</th>
-                                    <th>Unit Saat Ini</th>
+                                    <th>Unit</th>
                                     <th>TMT</th>
-                                    <th>Masa Kerja Unit Sekarang </th>
+                                    <th>Kep</th>
 
                                     <th class="text-center" width="170px">Action</th>
                                 </tr>
@@ -71,34 +71,29 @@
 <!-- modal input rolling -->
 <?php
 foreach ($pegawai as $key => $value) { ?>
-<div class="modal fade" id="edit/<?= $value['id_pegawai'] ?>" tabindex="-1" aria-labelledby="exampleModalLabel"
+<div class="modal fade" id="edit/<?= $value['id_penempatan'] ?>" tabindex="-1" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
-    <div class="modal-dialog">
+    <div class="modal-dialog  modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Input penempatan <?= $value['nama_pegawai'] ?>
+                <h5 class="modal-title" id="exampleModalLabel">Edit Data Penempatan <b><?= $value['nama_pegawai'] ?></b>
                 </h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <?= form_open_multipart('rolling/rekamRolling') ?>
+            <?= form_open_multipart('rolling/updateRolling/' .$value['id_penempatan']) ?>
             <div class="modal-body">
-                <input type="hidden" name="id_pegawai" value="<?= $value['id_pegawai'] ?>">
+
                 <div class="form-group detail-content public-spacebetween">
-                    <label for="nama_pegawai" class="label-width col-sm-4 mt-2">Nama Pegawai</label>
-                    <input type="text" class="form-control col-sm-8" id="nama_pegawai_edit" name="nama_pegawai" readonly
-                        minlength=4 value="<?= $value['nama_pegawai'] ?>">
-                </div>
-                <div class="form-group detail-content public-spacebetween">
-                    <label for="nipp" class="label-width col-sm-4 mt-2">NIP</label>
-                    <input type="text" class="form-control col-sm-8" id="nipp" name="nipp" readonly minlength=4
+                    <label for="nipp" class="label-width col-sm-3 mt-2">NIP</label>
+                    <input type="text" class="form-control col-sm-9" id="nipp" name="nipp" readonly minlength=4
                         value="<?= $value['nipp'] ?>">
                 </div>
                 <div class="form-group detail-content public-spacebetween">
-                    <label for="jabatan" class="label-width col-sm-4 ">Jabatan</label>
+                    <label for="jabatan" class="label-width col-sm-3 ">Jabatan</label>
 
-                    <select name="jabatan" id="jabatan" class="form-control col-sm-8" readonly>
+                    <select name="jabatan" id="jabatan" class="form-control col-sm-9" readonly>
                         <option value="Pelaksana" <?= $value['jabatan'] == 'Pelaksana' ? 'selected' : '' ?>>Pelaksana
                         </option>
                         <option value="Fungsional" <?= $value['jabatan'] == 'Fungsional' ? 'selected' : '' ?>>Fungsional
@@ -106,33 +101,34 @@ foreach ($pegawai as $key => $value) { ?>
                     </select>
                 </div>
                 <div class="form-group detail-content public-spacebetween">
-                    <label for="unit_now" class="label-width col-sm-4 mt-2">Unit Saat ini</label>
-                    <input type="text" class="form-control col-sm-8" id="unit_now" name="unit_now" value="<?=$value['nama_unit']?>" readonly >
-                </div>
-                <div class="form-group detail-content public-spacebetween">
-                    <label for="unit" class="label-width col-sm-4 ">Rolling ke </label>
-
-                    <select name="unit" id="unit" class="form-control col-sm-8" required>
-                        <option value="">--Pilih Unit--</option>
-                        <?php foreach ($unit as $key => $value) { ?>
+                    <label for="unit" class="label-width col-sm-3 ">Unit </label>
+                    <select name="unit" id="unit" class="form-control col-sm-9" required>
                         <option value="<?=$value['id_unit']?>"><?=$value['nama_unit']?></option>
+                        <?php foreach ($unit as $key => $val) { ?>
+                        <option value="<?=$val['id_unit']?>"><?=$val['nama_unit']?></option>
                         <?php } ?>
                     </select>
                 </div>
+
                 <div class="form-group detail-content public-spacebetween">
-                    <label for="tmt" class="label-width col-sm-4 mt-2">TMT</label>
-                    <input type="date" class="form-control col-sm-8" id="tmt" name="tmt" required>
+                    <label for="tmt" class="label-width col-sm-3 mt-2">TMT</label>
+                    <input type="date" class="form-control col-sm-9" id="tmt" name="tmt" value="<?= $value['tmt'] ?>"
+                        required>
                 </div>
                 <div class="form-group detail-content public-spacebetween">
-                    <label for="file" class="col-sm-4 col-form-label">Kep</label>
-                    <div class="col-sm-8">
-                        <input type="file" name="file" id="file" required>
+                    <label for="file" class="col-sm-3 col-form-label">Kep <small class="text-danger">(*Biarkan jika
+                            tidak ingin diganti)</small> 
+                    </label>
+                   
+                    <div class="col-sm-9">
+                        <input type="file" name="file" id="file">
                     </div>
+
                 </div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="submit" id="submit" class="btn btn-primary">Save</button>
+                <button type="submit" id="submit" class="btn btn-primary">Update</button>
             </div>
             <?= form_close() ?>
         </div>
@@ -140,49 +136,5 @@ foreach ($pegawai as $key => $value) { ?>
 </div>
 
 <?php } ?>
-
-
-<script>
-const unit = document.getElementById("unit");
-const tmt = document.getElementById("tmt");
-const kep = document.getElementById("file");
-
-const submit = document.getElementById("submit");
-
-
-
-submit.addEventListener('click', () => {
-    if (unit.validity.valueMissing) {
-        unit.setCustomValidity('Silahkan pilih unit');
-    } else {
-        unit.setCustomValidity('');
-    }
-
-    if (tmt.validity.valueMissing) {
-        tmt.setCustomValidity('Silahkan isi tanggal mulai berlaku');
-    } else {
-        tmt.setCustomValidity('');
-    }
-
-    kep.addEventListener("change", function() {
-        var allowedMimeTypes = ["application/pdf"];
-        var fileInput = this;
-        var file = fileInput.files[0];
-
-        if (!file) {
-            fileInput.setCustomValidity("Silahkan upload file Kep");
-        } else {
-            var fileMimeType = file.type;
-
-            if (allowedMimeTypes.indexOf(fileMimeType) === -1) {
-                fileInput.setCustomValidity("Invalid jenis file. Silahkan upload file PDF");
-            } else {
-                fileInput.setCustomValidity("");
-            }
-        }
-    });
-})
-</script>
-
 
 <?= $this->endSection() ?>

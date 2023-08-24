@@ -44,6 +44,7 @@
                                     <th style="width:20px">No</th>
                                     <th>Nama Pegawai</th>
                                     <th>NIP</th>
+                                    <th>Jabatan</th>
 
                                     <th class="text-center" width="170px">Action</th>
                                 </tr>
@@ -116,7 +117,7 @@ foreach ($first as $key => $value) { ?>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="submit" id="submit" class="btn btn-primary">Update</button>
+                <button type="submit" id="submit" class="btn btn-primary">Save</button>
             </div>
             <?= form_close() ?>
         </div>

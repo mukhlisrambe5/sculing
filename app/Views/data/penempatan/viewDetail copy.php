@@ -9,7 +9,7 @@
 
                 <div class="card">
                     <div class="card-header">
-                        <h3 class="card-title text-bold mt-2">Tabel Data Penempatan</h3>
+                        <h3 class="card-title text-bold mt-2">Tabel Detail Penempatan</h3>
                     </div>
                     <div>
                         <?php if (session()->getFlashdata('success')) {
@@ -37,7 +37,7 @@
                     </div>
 
                     <div class="card-body">
-                        <table id="tblPenempatan" class="table table-bordered table-striped" width="100%">
+                        <table id="tblDetailPenempatan" class="table " width="100%">
 
                             <thead>
                                 <tr>
@@ -45,9 +45,9 @@
                                     <th>Nama Pegawai</th>
                                     <th>NIP</th>
                                     <th>Jabatan</th>
-                                    <th>Unit Saat Ini</th>
+                                    <th>Unit</th>
                                     <th>TMT</th>
-                                    <th>Masa Kerja Unit Sekarang </th>
+                                    <th>Kep</th>
 
                                     <th class="text-center" width="170px">Action</th>
                                 </tr>
@@ -71,25 +71,20 @@
 <!-- modal input rolling -->
 <?php
 foreach ($pegawai as $key => $value) { ?>
-<div class="modal fade" id="edit/<?= $value['id_pegawai'] ?>" tabindex="-1" aria-labelledby="exampleModalLabel"
+<div class="modal fade" id="edit/<?= $value['id_penempatan'] ?>" tabindex="-1" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Input penempatan <?= $value['nama_pegawai'] ?>
+                <h5 class="modal-title" id="exampleModalLabel">Edit Data penempatan <b><?= $value['nama_pegawai'] ?></b>
                 </h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <?= form_open_multipart('rolling/rekamRolling') ?>
+            <?= form_open_multipart('rolling/updateRolling') ?>
             <div class="modal-body">
-                <input type="hidden" name="id_pegawai" value="<?= $value['id_pegawai'] ?>">
-                <div class="form-group detail-content public-spacebetween">
-                    <label for="nama_pegawai" class="label-width col-sm-4 mt-2">Nama Pegawai</label>
-                    <input type="text" class="form-control col-sm-8" id="nama_pegawai_edit" name="nama_pegawai" readonly
-                        minlength=4 value="<?= $value['nama_pegawai'] ?>">
-                </div>
+               
                 <div class="form-group detail-content public-spacebetween">
                     <label for="nipp" class="label-width col-sm-4 mt-2">NIP</label>
                     <input type="text" class="form-control col-sm-8" id="nipp" name="nipp" readonly minlength=4
@@ -106,14 +101,10 @@ foreach ($pegawai as $key => $value) { ?>
                     </select>
                 </div>
                 <div class="form-group detail-content public-spacebetween">
-                    <label for="unit_now" class="label-width col-sm-4 mt-2">Unit Saat ini</label>
-                    <input type="text" class="form-control col-sm-8" id="unit_now" name="unit_now" value="<?=$value['nama_unit']?>" readonly >
-                </div>
-                <div class="form-group detail-content public-spacebetween">
-                    <label for="unit" class="label-width col-sm-4 ">Rolling ke </label>
+                    <label for="unit" class="label-width col-sm-4 ">Unit </label>
 
                     <select name="unit" id="unit" class="form-control col-sm-8" required>
-                        <option value="">--Pilih Unit--</option>
+                        <option value="<?=$value['id_unit']?>"><?=$value['nama_unit']?></option>
                         <?php foreach ($unit as $key => $value) { ?>
                         <option value="<?=$value['id_unit']?>"><?=$value['nama_unit']?></option>
                         <?php } ?>
@@ -121,7 +112,7 @@ foreach ($pegawai as $key => $value) { ?>
                 </div>
                 <div class="form-group detail-content public-spacebetween">
                     <label for="tmt" class="label-width col-sm-4 mt-2">TMT</label>
-                    <input type="date" class="form-control col-sm-8" id="tmt" name="tmt" required>
+                    <input type="text" class="form-control col-sm-8" id="tmt" name="tmt" value="<?=$value['tmt']?>" required>
                 </div>
                 <div class="form-group detail-content public-spacebetween">
                     <label for="file" class="col-sm-4 col-form-label">Kep</label>
@@ -132,7 +123,7 @@ foreach ($pegawai as $key => $value) { ?>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="submit" id="submit" class="btn btn-primary">Save</button>
+                <button type="submit" id="submit" class="btn btn-primary">Update</button>
             </div>
             <?= form_close() ?>
         </div>
