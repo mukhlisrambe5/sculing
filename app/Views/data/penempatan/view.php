@@ -149,22 +149,7 @@ const kep = document.getElementById("file");
 
 const submit = document.getElementById("submit");
 
-
-
-submit.addEventListener('click', () => {
-    if (unit.validity.valueMissing) {
-        unit.setCustomValidity('Silahkan pilih unit');
-    } else {
-        unit.setCustomValidity('');
-    }
-
-    if (tmt.validity.valueMissing) {
-        tmt.setCustomValidity('Silahkan isi tanggal mulai berlaku');
-    } else {
-        tmt.setCustomValidity('');
-    }
-
-    kep.addEventListener("change", function() {
+kep.addEventListener("change", function() {
         var allowedMimeTypes = ["application/pdf"];
         var fileInput = this;
         var file = fileInput.files[0];
@@ -181,6 +166,26 @@ submit.addEventListener('click', () => {
             }
         }
     });
+
+submit.addEventListener('click', () => {
+    if (unit.validity.valueMissing) {
+        unit.setCustomValidity('Silahkan pilih unit');
+    } else {
+        unit.setCustomValidity('');
+    }
+
+    if (tmt.validity.valueMissing) {
+        tmt.setCustomValidity('Silahkan isi tanggal mulai berlaku');
+    } else {
+        tmt.setCustomValidity('');
+    }
+    if (kep.validity.valueMissing) {
+        kep.setCustomValidity('Silahkan upload file');
+        } else {
+        unit.setCustomValidity('');
+    }
+
+    
 })
 </script>
 

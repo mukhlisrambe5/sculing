@@ -137,4 +137,34 @@ foreach ($pegawai as $key => $value) { ?>
 
 <?php } ?>
 
+<script>
+const kep = document.getElementById("file");
+const submit = document.getElementById("submit");
+
+kep.addEventListener("change", function() {
+        var allowedMimeTypes = ['application/pdf'];
+        var fileInput = this;
+        var file = fileInput.files[0];
+
+        if (!file) {
+            fileInput.setCustomValidity("Silahkan upload file Kep");
+        } else {
+            var fileMimeType = file.type;
+
+            if (allowedMimeTypes.indexOf(fileMimeType) === -1) {
+                fileInput.setCustomValidity("Invalid jenis file. Silahkan upload file PDF");
+            } else {
+                fileInput.setCustomValidity("");
+            }
+        }
+    });
+
+submit.addEventListener('click', () => {
+    if (kep.validity.valueMissing) {
+        kep.setCustomValidity('Silahkan upload file');
+        } else {
+        unit.setCustomValidity('');
+    }
+})
+</script>
 <?= $this->endSection() ?>
