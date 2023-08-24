@@ -7,6 +7,7 @@ use App\Models\ModelDataSkill;
 use App\Models\ModelDataDetail;
 use App\Models\ModelPegawai;
 use App\Models\ModelUnit;
+use App\Models\ModelSkill;
 
 use CodeIgniter\I18n\Time;
 
@@ -19,6 +20,7 @@ class Data extends BaseController
         $this->ModelPegawai = new ModelPegawai();
         $this->ModelUnit = new ModelUnit();
         $this->ModelDataDetail = new ModelDataDetail();
+        $this->ModelSkill = new ModelSkill();
 
         helper('form');
         helper('time');
@@ -83,7 +85,11 @@ class Data extends BaseController
     }
     public function skill()
     {
-        return view('data/skill/view');
+        $data = [
+            'skill_pegawai' => $this->ModelDataSkill->all_data(),
+            'skill'=>$this->ModelSkill->all_data()
+        ];
+        return view('data/skill/view', $data);
     }
 
     public function dataSkill()
@@ -99,14 +105,13 @@ class Data extends BaseController
             $no++;
             $row = array();
 
-            $tomboladd = "<a class=\"btn btn-md btn-primary\" data-toggle=\"modal\" data-target=\"#add\/$key->nipp\"><i class=\"fas fa-plus mr-2\"></i>Tambah Skill</a>";
+            $tomboladd = "<a class=\"btn btn-md btn-primary\" data-toggle=\"modal\" data-target=\"#add\/$key->nipp\"><i class=\"fas fa-plus mr-2\"></i> Skill</a>";
             $tomboledit = "<a class=\"btn btn-md btn-warning\" data-toggle=\"modal\" data-target=\"#edit\/$key->nipp\"><i class=\"fas fa-pencil-alt mr-2\"></i>Edit </a>";
 
             $row[] = $no;
             $row[] = "<div class=\"text-center\">" . $tomboladd . "</div>";
             $row[] = $key->nama_pegawai;
             $row[] = $key->nipp;
-            // $row[] = "<div class=\"text-center\">" . $tomboledit . "</div>";
             $row[] = $key->nama_skill;
             $row[] = $key->file_keahlian;
             $row[] = $key->detail;
@@ -121,6 +126,10 @@ class Data extends BaseController
             "data" => $data,
         );
         echo json_encode($output);
+    }
+
+    public function addSkill(){
+
     }
 
     public function detailPenempatan()

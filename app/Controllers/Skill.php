@@ -85,6 +85,34 @@ class Skill extends BaseController
         return redirect()->to(base_url('skill'));
     }
 
+    public function rekamSkillPegawai()
+    {
+        $file = $this->request->getFile('file_keahlian');
+        $fileName = $file->getRandomName();
+
+        $data = [
+            'nip_skill' => $this->request->getPost('nip_skill'),
+            'keahlian' => $this->request->getPost('keahlian'),
+            'file_keahlian' => $fileName,
+            'detail' => $this->request->getPost('detail'),
+        ];
+        $file->move('uploaded/fileSkill',  $fileName);
+        $this->ModelSkill->add_data_pegawai($data);
+        session()->setFlashdata('success', 'Data skill berhasil ditambahkan');
+        return redirect()->to(base_url('data/skill'));
+    }
 
 
+    // $kep = $this->request->getFile('file');
+    // $kepName= $kep->getRandomName();
+    // $data = [
+    //     'nip' => $this->request->getPost('nipp'),
+    //     'unit_now' => $this->request->getPost('unit'),
+    //     'tmt' => $this->request->getPost('tmt'),
+    //     'kep' => $kepName,
+    // ];
+    // $kep->move('uploaded/fileKep',  $kepName);
+    // $this->ModelRolling->add_data($data);
+    // session()->setFlashdata('successEdit', 'Data berhasil direkam!');
+    // return redirect()->to(base_url('data/penempatan'));
 }

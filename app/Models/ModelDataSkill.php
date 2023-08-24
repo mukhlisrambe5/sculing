@@ -13,7 +13,12 @@ class ModelDataSkill extends Model
 
     var $order = array('nama_pegawai' => 'asc');
 
-
+    function all_data(){
+        return $this->db->table('tbl_skill_pegawai')
+        ->join('tbl_pegawai', 'tbl_pegawai.nipp= tbl_skill_pegawai.nip_skill', 'left')
+        // ->where('tbl_penempatan.nip', null)
+        ->get()->getResultArray();
+    }
 
     function get_datatables()
     {
@@ -59,7 +64,7 @@ class ModelDataSkill extends Model
 
     function jumlah_semua()
     {
-        $sQuery = "SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan";
+        $sQuery = "SELECT COUNT(id_skill_pegawai) as jml FROM tbl_skill_pegawai";
 
         $db = db_connect();
         $query = $db->query($sQuery)->getRow();
@@ -71,15 +76,17 @@ class ModelDataSkill extends Model
 
         if (isset($_POST['search']['value'])) {
             $search = $_POST['search']['value'];
-            $kondisi_search = "AND (nama_pegawai LIKE '%$search%' OR nip LIKE '%$search%' OR unit_now LIKE '%$search%' OR tmt LIKE '%$search%')";
+            $kondisi_search = "AND (nama_pegawai LIKE '%$search%' OR  nip_skill LIKE '%$search%' OR keahlian LIKE '%$search%')";
         } else {
             $kondisi_search = "";
         }
 
-        $sQuery = "SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != ''  $kondisi_search";
+        $sQuery = "SELECT COUNT(id_skill_pegawai) as jml FROM tbl_skill_pegawai RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_skill_pegawai.nip_skill AND id_skill_pegawai != ''  $kondisi_search";
         $db = db_connect();
         $query = $db->query($sQuery)->getRow();
         return $query;
+
+        
     }
 
     // function add_data($data)

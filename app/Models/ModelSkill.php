@@ -98,6 +98,12 @@ class ModelSkill extends Model
         return $this->db->table('tbl_skill')->delete(array('id_skill' => $id_skill));
     }
 
+    function add_data_pegawai($data)
+    {
+        $this->db->table('tbl_skill_pegawai')->insert($data);
+    }
+
+
 
 
 
