@@ -135,10 +135,9 @@ foreach ($skill_pegawai as $key => $value) { ?>
                     <label for="keahlian" class="label-width col-sm-4 ">Keahlian</label>
 
                     <select name="keahlian" id="keahlian" class="form-control col-sm-8" required >
-                        <option value="<?=$value['id_skill_pegawai']?>"><?=$value['nama_skill']?></option>
+                        <option value="<?=$value['keahlian']?>"><?=$value['nama_skill']?></option>
                         <?php foreach($skill as $key=>$val) { ?>
                             <option value="<?=$val['id_skill']?>"><?=$val['nama_skill']?></option>
-
                         <?php }?>
                     </select>
                 </div>
@@ -146,7 +145,7 @@ foreach ($skill_pegawai as $key => $value) { ?>
                     <label for="file_keahlian" class="col-sm-4 col-form-label">Bukti Keahlian <small class="text-danger">(*Biarkan jika
                             tidak ingin diganti)</small> </label>
                     <div class="col-sm-8">
-                        <input type="file" name="file_keahlian" id="file_keahlian" required>
+                        <input type="file" name="file_keahlian" id="file_keahlian">
                     </div>
                 </div>
                 <div class="form-group detail-content public-spacebetween">
@@ -167,22 +166,13 @@ foreach ($skill_pegawai as $key => $value) { ?>
 
 <script>
 const keahlian = document.getElementById("keahlian");
-const file = document.getElementById("file_keahlian");
+const fileKeahlian = document.getElementById("file_keahlian");
 const detail = document.getElementById("detail");
 
 const submit = document.getElementById("submit");
 
-
-
-submit.addEventListener('click', () => {
-    if (keahlian.validity.valueMissing) {
-        keahlian.setCustomValidity('Pilih keahlian');
-    } else {
-        keahlian.setCustomValidity('');
-    }
-
-    file.addEventListener("change", function() {
-        var allowedMimeTypes = ["application/pdf"];
+fileKeahlian.addEventListener("change", function() {
+        var allowedMimeTypes = ['application/pdf'];
         var fileInput = this;
         var file = fileInput.files[0];
         var fileMimeType = file.type;
@@ -194,6 +184,21 @@ submit.addEventListener('click', () => {
         }
         
     });
+
+submit.addEventListener('click', () => {
+    if (keahlian.validity.valueMissing) {
+        keahlian.setCustomValidity('Pilih keahlian');
+    } else {
+        keahlian.setCustomValidity('');
+    }
+
+    if (fileKeahlian.validity.valueMissing) {
+        fifileKeahlianle.setCustomValidity('Pilih keahlian');
+    } else {
+        fileKeahlian.setCustomValidity('');
+    }
+
+    
 })
 </script>
 

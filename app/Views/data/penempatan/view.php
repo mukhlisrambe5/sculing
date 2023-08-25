@@ -126,7 +126,7 @@ foreach ($pegawai as $key => $value) { ?>
                 <div class="form-group detail-content public-spacebetween">
                     <label for="file" class="col-sm-4 col-form-label">Kep</label>
                     <div class="col-sm-8">
-                        <input type="file" name="file" id="file" required>
+                        <input type="file" name="file" id="file" accept="application/pdf"  required>
                     </div>
                 </div>
             </div>
@@ -182,7 +182,7 @@ submit.addEventListener('click', () => {
     if (kep.validity.valueMissing) {
         kep.setCustomValidity('Silahkan upload file');
         } else {
-        unit.setCustomValidity('');
+        kep.setCustomValidity('');
     }
 
     

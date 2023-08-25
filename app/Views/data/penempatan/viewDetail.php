@@ -121,7 +121,7 @@ foreach ($pegawai as $key => $value) { ?>
                     </label>
                    
                     <div class="col-sm-9">
-                        <input type="file" name="file" id="file">
+                        <input type="file" name="file" id="file" >
                     </div>
 
                 </div>
@@ -150,7 +150,6 @@ kep.addEventListener("change", function() {
             fileInput.setCustomValidity("Silahkan upload file Kep");
         } else {
             var fileMimeType = file.type;
-
             if (allowedMimeTypes.indexOf(fileMimeType) === -1) {
                 fileInput.setCustomValidity("Invalid jenis file. Silahkan upload file PDF");
             } else {
@@ -163,7 +162,7 @@ submit.addEventListener('click', () => {
     if (kep.validity.valueMissing) {
         kep.setCustomValidity('Silahkan upload file');
         } else {
-        unit.setCustomValidity('');
+        kep.setCustomValidity('');
     }
 })
 </script>

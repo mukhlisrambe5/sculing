@@ -124,7 +124,7 @@ foreach ($first as $key => $value) { ?>
     </div>
 </div>
 
-
+<?php } ?>
 
 
 <script>
@@ -171,5 +171,4 @@ submit.addEventListener('click', () => {
 //   fileInput.setCustomValidity('');
 // });
 </script>
-<?php } ?>
 <?= $this->endSection() ?>

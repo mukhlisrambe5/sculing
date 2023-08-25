@@ -69,7 +69,8 @@
 </section>
 <!-- modal input rolling -->
 <?php
-foreach ($first as $key => $value) { ?>
+foreach ($first as $key => $value) { $index =0; ?>
+
 <div class="modal fade" id="edit/<?= $value['id_pegawai'] ?>" tabindex="-1" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
     <div class="modal-dialog">
@@ -96,7 +97,7 @@ foreach ($first as $key => $value) { ?>
                 <div class="form-group detail-content public-spacebetween">
                     <label for="unit" class="label-width col-sm-4 ">Unit</label>
 
-                    <select name="unit" id="unit" class="form-control col-sm-8" required>
+                    <select name="unit" id="unit<?=$index?>" class="form-control col-sm-8" required>
                         <option value="">--Pilih Unit--</option>
                         <?php foreach ($unit as $key => $value) { ?>
                         <option value="<?=$value['id_unit']?>"><?=$value['nama_unit']?></option>
@@ -105,12 +106,12 @@ foreach ($first as $key => $value) { ?>
                 </div>
                 <div class="form-group detail-content public-spacebetween">
                     <label for="tmt" class="label-width col-sm-4 mt-2">TMT</label>
-                    <input type="date" class="form-control col-sm-8" id="tmt" name="tmt" required>
+                    <input type="date" class="form-control col-sm-8" id="tmt" name="tmt<?=$index?>" required>
                 </div>
                 <div class="form-group detail-content public-spacebetween">
                     <label for="file" class="col-sm-4 col-form-label">Kep</label>
                     <div class="col-sm-8">
-                        <input type="file" name="file" id="file" accept="application/pdf" required>
+                        <input type="file" name="file" id="file<?=$index?>" required>
                     </div>
                 </div>
 
@@ -124,52 +125,37 @@ foreach ($first as $key => $value) { ?>
     </div>
 </div>
 
-
+<?php } ?>
 
 
 <script>
-const unit = document.getElementById("unit");
-const tmt = document.getElementById("tmt");
-const fileInput = document.getElementById("file");
+const dataSets = document.querySelectorAll('.modal-body');
+dataSets.forEach((dataSet, index) => {
+    const unit = dataSet.querySelector(`#unit${index + 1}`);
+    const tmt = dataSet.querySelector(`#tmt${index + 1}`);
+    const kep = dataSet.querySelector(`#file${index + 1}`);
+    const submit = dataSet.querySelector(`.submit`);
 
-fileInput.addEventListener('change', handleFileChange);
-
-function handleFileChange(event) {
-    const selectedFile = event.target.files[0];
-    if (!selectedFile) return;
-
-    if (selectedFile.type !== 'application/pdf') {
-        fileInput.setCustomValidity('Silahkan upload file PDF.');
-    } else {
-        fileInput.setCustomValidity('');
-    }
-}
-
-submit.addEventListener('click', () => {
+    submit.addEventListener('click', () => {
     if (unit.validity.valueMissing) {
-        unit.setCustomValidity('Silahkan pilih unit');
+      unit.setCustomValidity('Silahkan pilih unit');
     } else {
-        unit.setCustomValidity('');
+      unit.setCustomValidity('');
     }
 
     if (tmt.validity.valueMissing) {
-        tmt.setCustomValidity('Silahkan isi tanggal mulai berlaku');
+      tmt.setCustomValidity('Silahkan isi tanggal mulai berlaku');
     } else {
-        tmt.setCustomValidity('');
+      tmt.setCustomValidity('');
     }
 
-    if (fileInput.validity.valueMissing) {
-        fileInput.setCustomValidity('Silahkan upload file');
+    if (kep.validity.valueMissing) {
+      kep.setCustomValidity('Silahkan upload file');
+    } else {
+      kep.setCustomValidity('');
     }
+  });
 })
 
-
-
-// Reset the custom validity on form submit
-// const form = document.querySelector('.modal-content');
-// form.addEventListener('submit', () => {
-//   fileInput.setCustomValidity('');
-// });
 </script>
-<?php } ?>
 <?= $this->endSection() ?>

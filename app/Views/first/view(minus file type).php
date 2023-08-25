@@ -110,10 +110,10 @@ foreach ($first as $key => $value) { ?>
                 <div class="form-group detail-content public-spacebetween">
                     <label for="file" class="col-sm-4 col-form-label">Kep</label>
                     <div class="col-sm-8">
-                        <input type="file" name="file" id="file" accept="application/pdf" required>
+                        <input type="file" name="file" id="file" accept="application/pdf"  required>
                     </div>
                 </div>
-
+               
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -124,29 +124,38 @@ foreach ($first as $key => $value) { ?>
     </div>
 </div>
 
-
+<?php } ?>
 
 
 <script>
-const unit = document.getElementById("unit");
-const tmt = document.getElementById("tmt");
-const fileInput = document.getElementById("file");
+    
+    const unit = document.getElementById("unit");
+    const tmt = document.getElementById("tmt");
+    const kep = document.getElementById("file");
 
-fileInput.addEventListener('change', handleFileChange);
+    const submit = document.getElementById("submit");
 
-function handleFileChange(event) {
-    const selectedFile = event.target.files[0];
-    if (!selectedFile) return;
+    // kep.addEventListener("change", function() {
+    //     var allowedMimeTypes = ['image/jpeg'];
+    //     var fileInput = this;
+    //     var file = fileInput.files[0];
 
-    if (selectedFile.type !== 'application/pdf') {
-        fileInput.setCustomValidity('Silahkan upload file PDF.');
-    } else {
-        fileInput.setCustomValidity('');
-    }
-}
+    //     if (!file) {
+    //         fileInput.setCustomValidity("Silahkan upload file Kep");
+    //     } else {
+    //         var fileMimeType = file.type;
 
-submit.addEventListener('click', () => {
-    if (unit.validity.valueMissing) {
+    //         if (allowedMimeTypes.indexOf(fileMimeType) === -1) {
+    //             fileInput.setCustomValidity("Invalid jenis file. Silahkan upload file PDF");
+    //         } else {
+    //             fileInput.setCustomValidity("");
+    //         }
+    //     }
+    // });
+
+
+    submit.addEventListener('click', () => {
+        if (unit.validity.valueMissing) {
         unit.setCustomValidity('Silahkan pilih unit');
     } else {
         unit.setCustomValidity('');
@@ -157,19 +166,33 @@ submit.addEventListener('click', () => {
     } else {
         tmt.setCustomValidity('');
     }
-
-    if (fileInput.validity.valueMissing) {
-        fileInput.setCustomValidity('Silahkan upload file');
+    if (kep.validity.valueMissing) {
+        kep.setCustomValidity('Silahkan upload file');
+        } else {
+        kep.setCustomValidity('');
     }
-})
 
 
+    // kep.addEventListener("change", function() {
+        var allowedMimeTypes = ['image/jpeg'];
+        var fileInput = this;
+        var file = fileInput.files[0];
 
-// Reset the custom validity on form submit
-// const form = document.querySelector('.modal-content');
-// form.addEventListener('submit', () => {
-//   fileInput.setCustomValidity('');
-// });
+        // if (!file) {
+        //     fileInput.setCustomValidity("Silahkan upload file Kep");
+        // } 
+        // else 
+        // if{
+            var fileMimeType = file.type;
+
+            if (allowedMimeTypes.indexOf(fileMimeType) === -1) {
+                fileInput.setCustomValidity("Invalid jenis file. Silahkan upload file PDF");
+            } else {
+                fileInput.setCustomValidity("");
+            }
+        // }
+    // });
+    })
+
 </script>
-<?php } ?>
 <?= $this->endSection() ?>
