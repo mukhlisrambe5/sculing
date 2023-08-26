@@ -107,8 +107,7 @@ foreach ($pegawai as $key => $value) {  $index= $value['id_pegawai'] ?>
                 </div>
                 <div class="form-group detail-content public-spacebetween">
                     <label for="unit_now" class="label-width col-sm-4 mt-2">Unit Saat ini</label>
-                    <input type="text" class="form-control col-sm-8" id="unit_now" name="unit_now"
-                        value="<?=$value['nama_unit']?>" readonly>
+                    <input type="text" class="form-control col-sm-8" id="unit_now" name="unit_now" value="<?=$value['nama_unit']?>" readonly >
                 </div>
                 <div class="form-group detail-content public-spacebetween">
                     <label for="unit<?=$index?>" class="label-width col-sm-4 ">Rolling ke </label>
@@ -127,7 +126,7 @@ foreach ($pegawai as $key => $value) {  $index= $value['id_pegawai'] ?>
                 <div class="form-group detail-content public-spacebetween">
                     <label for="file<?=$index?>" class="col-sm-4 col-form-label">Kep</label>
                     <div class="col-sm-8">
-                        <input type="file" name="file" id="file<?=$index?>" accept="application/pdf" required>
+                        <input type="file" name="file" id="file<?=$index?>" accept="application/pdf"  required>
                     </div>
                 </div>
             </div>
@@ -138,53 +137,58 @@ foreach ($pegawai as $key => $value) {  $index= $value['id_pegawai'] ?>
             <?= form_close() ?>
         </div>
     </div>
-    <script>
+</div>
+
+<?php } ?>
+
+
+<script>
 const unit<?=$index?> = document.getElementById("unit<?=$index?>");
 const tmt<?=$index?> = document.getElementById("tmt<?=$index?>");
+const kep = document.getElementById("file");
 
 const fileInput<?=$index?> = document.getElementById("file<?=$index?>");
 
-const submit<?=$index?> = document.getElementById('submit<?=$index?>');
+    const submit<?=$index?> = document.getElementById('submit<?=$index?>');
+kep.addEventListener("change", function() {
+        var allowedMimeTypes = ["application/pdf"];
+        var fileInput = this;
+        var file = fileInput.files[0];
 
-fileInput<?=$index?>.addEventListener("change", function() {
-    var allowedMimeTypes = ["application/pdf"];
-    var fileInput = this;
-    var file = fileInput.files[0];
-
-    if (!file) {
-        fileInput.setCustomValidity("Silahkan upload file Kep");
-    } else {
-        var fileMimeType = file.type;
-
-        if (allowedMimeTypes.indexOf(fileMimeType) === -1) {
-            fileInput.setCustomValidity("Invalid jenis file. Silahkan upload file PDF");
+        if (!file) {
+            fileInput.setCustomValidity("Silahkan upload file Kep");
         } else {
-            fileInput.setCustomValidity("");
+            var fileMimeType = file.type;
+
+            if (allowedMimeTypes.indexOf(fileMimeType) === -1) {
+                fileInput.setCustomValidity("Invalid jenis file. Silahkan upload file PDF");
+            } else {
+                fileInput.setCustomValidity("");
+            }
         }
-    }
-});
-
-submit<?=$index?>.addEventListener('click', () => {
-        if (unit<?=$index?>.validity.valueMissing) {
-            unit<?=$index?>.setCustomValidity('Silahkan pilih unit');
-        } else {
-            unit<?=$index?>.setCustomValidity('');
-        }
-
-        if (tmt<?=$index?>.validity.valueMissing) {
-            tmt<?=$index?>.setCustomValidity('Silahkan isi tanggal mulai berlaku');
-        } else {
-            tmt<?=$index?>.setCustomValidity('');
-        }
-
-        if (fileInput<?=$index?>.validity.valueMissing) {
-            fileInput<?=$index?>.setCustomValidity('Silahkan upload file');
-        } 
-
     });
+
+submit.addEventListener('click', () => {
+    if (unit.validity.valueMissing) {
+        unit.setCustomValidity('Silahkan pilih unit');
+    } else {
+        unit.setCustomValidity('');
+    }
+
+    if (tmt.validity.valueMissing) {
+        tmt.setCustomValidity('Silahkan isi tanggal mulai berlaku');
+    } else {
+        tmt.setCustomValidity('');
+    }
+    if (kep.validity.valueMissing) {
+        kep.setCustomValidity('Silahkan upload file');
+        } else {
+        kep.setCustomValidity('');
+    }
+
+    
+})
 </script>
-</div>
-<?php } ?>
 
 
 <?= $this->endSection() ?>
