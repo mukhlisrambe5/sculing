@@ -129,7 +129,22 @@ foreach ($first as $key => $value) { $index= $value['id_pegawai'] ?>
 
     const submit<?=$index?> = document.getElementById('submit<?=$index?>');
 
+    fileInput<?=$index?>.addEventListener("change", function() {
+        var allowedMimeTypes = ['application/pdf'];
+        var fileInput = this;
+        var file = fileInput.files[0];
 
+        if (!file) {
+            fileInput.setCustomValidity("Silahkan upload file Kep");
+        } else {
+            var fileMimeType = file.type;
+            if (allowedMimeTypes.indexOf(fileMimeType) === -1) {
+                fileInput.setCustomValidity("Invalid jenis file. Silahkan upload file PDF");
+            } else {
+                fileInput.setCustomValidity("");
+            }
+        }
+    });
 
     submit<?=$index?>.addEventListener('click', () => {
         if (unit<?=$index?>.validity.valueMissing) {
