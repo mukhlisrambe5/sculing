@@ -66,7 +66,7 @@
 </section>
 <!-- modal tambah skill -->
 <?php
-foreach ($skill_pegawai as $key => $value) { $index= $value['nip_skill'] ?>
+foreach ($skill_pegawai as $key => $value) { ?>
 <div class="modal fade" id="add/<?= $value['nip_skill'] ?>" tabindex="-1" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -82,72 +82,33 @@ foreach ($skill_pegawai as $key => $value) { $index= $value['nip_skill'] ?>
             <div class="modal-body">
                 <input type="hidden" name="nip_skill" value="<?= $value['nip_skill'] ?>">
                 <div class="form-group detail-content public-spacebetween">
-                    <label for="keahlian_<?=$index?>" class="label-width col-sm-4 ">Keahlian</label>
+                    <label for="keahlian" class="label-width col-sm-4 ">Keahlian</label>
 
-                    <select name="keahlian" id="keahlian_<?=$index?>" class="form-control col-sm-8" required>
+                    <select name="keahlian" id="keahlian" class="form-control col-sm-8" required >
                         <option value="">--Pilih Keahlian--</option>
                         <?php foreach($skill as $key=>$value) { ?>
-                        <option value="<?=$value['id_skill']?>"><?=$value['nama_skill']?></option>
+                            <option value="<?=$value['id_skill']?>"><?=$value['nama_skill']?></option>
 
                         <?php }?>
                     </select>
                 </div>
                 <div class="form-group detail-content public-spacebetween">
-                    <label for="file_keahlian_<?=$index?>" class="col-sm-4 col-form-label">Bukti Keahlian</label>
+                    <label for="file_keahlian" class="col-sm-4 col-form-label">Bukti Keahlian</label>
                     <div class="col-sm-8">
-                        <input type="file" name="file_keahlian" id="file_keahlian_<?=$index?>" required>
+                        <input type="file" name="file_keahlian" id="file_keahlian" required >
                     </div>
                 </div>
                 <div class="form-group detail-content public-spacebetween">
-                    <label for="detail_<?=$index?>" class="label-width col-sm-4 mt-2">Detail</label>
-                    <textarea class="col-sm-8" name="detail" id="detail_<?=$index?>" cols="40" rows="10"
-                        placeholder="Optional"></textarea>
+                    <label for="detail" class="label-width col-sm-4 mt-2">Detail</label>
+                   <textarea class="col-sm-8" name="detail" id="detail" cols="40" rows="10" placeholder="Optional"></textarea>
                 </div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="submit" id="submit_<?=$index?>" class="btn btn-primary">Save</button>
+                <button type="submit" id="submit" class="btn btn-primary">Save</button>
             </div>
             <?= form_close() ?>
         </div>
-        <script>
-    //    script add skill pegawai
-    const keahlian_<?=$index?> = document.getElementById("keahlian_<?=$index?>");
-    const fileInput_<?=$index?> = document.getElementById("file_keahlian_<?=$index?>");
-    const detail_<?=$index?> = document.getElementById("detail_<?=$index?>");
-
-    const submit_<?=$index?> = document.getElementById("submit_<?=$index?>");
-
-    fileInput_<?=$index?>.addEventListener("change", function() {
-        var allowedMimeTypes = ["application/pdf"];
-        var fileInput = this;
-        var file = fileInput.files[0];
-
-        if (!file) {
-            fileInput.setCustomValidity("Silahkan upload file Kep");
-        } else {
-            var fileMimeType = file.type;
-
-            if (allowedMimeTypes.indexOf(fileMimeType) === -1) {
-                fileInput.setCustomValidity("Invalid jenis file. Silahkan upload file PDF");
-            } else {
-                fileInput.setCustomValidity("");
-            }
-        }
-    });
-
-    submit_<?=$index?>.addEventListener('click', () => {
-        if (keahlian_<?=$index?>.validity.valueMissing) {
-            keahlian_<?=$index?>.setCustomValidity('Pilih keahlian');
-        } else {
-            keahlian_<?=$index?>.setCustomValidity('');
-        }
-
-        if (fileInput_<?=$index?>.validity.valueMissing) {
-            fileInput_<?=$index?>.setCustomValidity('Upload bukti dukung keahlian');
-        }
-    })
-    </script>
     </div>
 </div>
 
@@ -155,7 +116,7 @@ foreach ($skill_pegawai as $key => $value) { $index= $value['nip_skill'] ?>
 
 <!-- modal edit skill pegawai-->
 <?php
-foreach ($skill_pegawai as $key => $value) { $index= $value['id_skill_pegawai']  ?>
+foreach ($skill_pegawai as $key => $value) { ?>
 <div class="modal fade" id="edit/<?= $value['id_skill_pegawai'] ?>" tabindex="-1" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -171,68 +132,72 @@ foreach ($skill_pegawai as $key => $value) { $index= $value['id_skill_pegawai'] 
             <div class="modal-body">
                 <input type="hidden" name="nip_skill" value="<?= $value['nip_skill'] ?>">
                 <div class="form-group detail-content public-spacebetween">
-                    <label for="keahlian<?=$index?>" class="label-width col-sm-4 ">Keahlian</label>
+                    <label for="keahlian" class="label-width col-sm-4 ">Keahlian</label>
 
-                    <select name="keahlian" id="keahlian<?=$index?>" class="form-control col-sm-8" required>
+                    <select name="keahlian" id="keahlian" class="form-control col-sm-8" required >
                         <option value="<?=$value['keahlian']?>"><?=$value['nama_skill']?></option>
                         <?php foreach($skill as $key=>$val) { ?>
-                        <option value="<?=$val['id_skill']?>"><?=$val['nama_skill']?></option>
+                            <option value="<?=$val['id_skill']?>"><?=$val['nama_skill']?></option>
                         <?php }?>
                     </select>
                 </div>
                 <div class="form-group detail-content public-spacebetween">
-                    <label for="file_keahlian<?=$index?>" class="col-sm-4 col-form-label">Bukti Keahlian <small
-                            class="text-danger">(*Biarkan jika
+                    <label for="file_keahlian" class="col-sm-4 col-form-label">Bukti Keahlian <small class="text-danger">(*Biarkan jika
                             tidak ingin diganti)</small> </label>
                     <div class="col-sm-8">
-                        <input type="file" name="file_keahlian" id="file_keahlian<?=$index?>">
+                        <input type="file" name="file_keahlian" id="file_keahlian">
                     </div>
                 </div>
                 <div class="form-group detail-content public-spacebetween">
-                    <label for="detail<?=$index?>" class="label-width col-sm-4 mt-2">Detail</label>
-                    <textarea class="col-sm-8" name="detail" id="detail<?=$index?>" cols="40" rows="10"
-                        placeholder="Optional"><?=$value['detail']?></textarea>
+                    <label for="detail" class="label-width col-sm-4 mt-2">Detail</label>
+                   <textarea class="col-sm-8" name="detail" id="detail" cols="40" rows="10" placeholder="Optional"><?=$value['detail']?></textarea>
                 </div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="submit" id="submit<?=$index?>" class="btn btn-primary">Save</button>
+                <button type="submit" id="submit" class="btn btn-primary">Save</button>
             </div>
             <?= form_close() ?>
         </div>
     </div>
-  
-    <script>
-    //    script edit skill pegawai
-
-    const keahlian<?=$index?> = document.getElementById("keahlian<?=$index?>");
-    const fileInput<?=$index?> = document.getElementById("file_keahlian<?=$index?>");
-    const detail<?=$index?> = document.getElementById("detail<?=$index?>");
-
-    const submit<?=$index?> = document.getElementById("submit<?=$index?>");
-
-    fileInput<?=$index?>.addEventListener("change", function() {
-        var allowedMimeTypes = ["application/pdf"];
-        var fileInput = this;
-        var file = fileInput.files[0];
-
-        if (!file) {
-            fileInput.setCustomValidity("Silahkan upload file Kep");
-        } else {
-            var fileMimeType = file.type;
-
-            if (allowedMimeTypes.indexOf(fileMimeType) === -1) {
-                fileInput.setCustomValidity("Invalid jenis file. Silahkan upload file PDF");
-            } else {
-                fileInput.setCustomValidity("");
-            }
-        }
-    });
-    </script>
 </div>
 
 <?php } ?>
 
+<script>
+const keahlian = document.getElementById("keahlian");
+const fileKeahlian = document.getElementById("file_keahlian");
+const detail = document.getElementById("detail");
 
+const submit = document.getElementById("submit");
+
+fileKeahlian.addEventListener("change", function() {
+        var allowedMimeTypes = ['application/pdf'];
+        var fileInput = this;
+        var file = fileInput.files[0];
+        var fileMimeType = file.type;
+
+        if (allowedMimeTypes.indexOf(fileMimeType) === -1) {
+            fileInput.setCustomValidity("Invalid jenis file. Silahkan upload file PDF");
+        } else {
+            fileInput.setCustomValidity("");
+        }
+        
+    });
+
+submit.addEventListener('click', () => {
+    if (keahlian.validity.valueMissing) {
+        keahlian.setCustomValidity('Pilih keahlian');
+    } else {
+        keahlian.setCustomValidity('');
+    }
+
+    if (fileKeahlian.validity.valueMissing) {
+        fileKeahlian.setCustomValidity('Upload bukti dukung keahlian');
+    } 
+
+    
+})
+</script>
 
 <?= $this->endSection() ?>

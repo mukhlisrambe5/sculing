@@ -110,44 +110,6 @@ foreach ($skill_pegawai as $key => $value) { $index= $value['nip_skill'] ?>
             </div>
             <?= form_close() ?>
         </div>
-        <script>
-    //    script add skill pegawai
-    const keahlian_<?=$index?> = document.getElementById("keahlian_<?=$index?>");
-    const fileInput_<?=$index?> = document.getElementById("file_keahlian_<?=$index?>");
-    const detail_<?=$index?> = document.getElementById("detail_<?=$index?>");
-
-    const submit_<?=$index?> = document.getElementById("submit_<?=$index?>");
-
-    fileInput_<?=$index?>.addEventListener("change", function() {
-        var allowedMimeTypes = ["application/pdf"];
-        var fileInput = this;
-        var file = fileInput.files[0];
-
-        if (!file) {
-            fileInput.setCustomValidity("Silahkan upload file Kep");
-        } else {
-            var fileMimeType = file.type;
-
-            if (allowedMimeTypes.indexOf(fileMimeType) === -1) {
-                fileInput.setCustomValidity("Invalid jenis file. Silahkan upload file PDF");
-            } else {
-                fileInput.setCustomValidity("");
-            }
-        }
-    });
-
-    submit_<?=$index?>.addEventListener('click', () => {
-        if (keahlian_<?=$index?>.validity.valueMissing) {
-            keahlian_<?=$index?>.setCustomValidity('Pilih keahlian');
-        } else {
-            keahlian_<?=$index?>.setCustomValidity('');
-        }
-
-        if (fileInput_<?=$index?>.validity.valueMissing) {
-            fileInput_<?=$index?>.setCustomValidity('Upload bukti dukung keahlian');
-        }
-    })
-    </script>
     </div>
 </div>
 
@@ -201,7 +163,44 @@ foreach ($skill_pegawai as $key => $value) { $index= $value['id_skill_pegawai'] 
             <?= form_close() ?>
         </div>
     </div>
-  
+    <script>
+    //    script add skill pegawai
+    const keahlian_<?=$index?> = document.getElementById("keahlian_<?=$index?>");
+    const fileInput_<?=$index?> = document.getElementById("file_keahlian_<?=$index?>");
+    const detail_<?=$index?> = document.getElementById("detail_<?=$index?>");
+
+    const submit_<?=$index?> = document.getElementById("submit_<?=$index?>");
+
+    fileInput_<?=$index?>.addEventListener("change", function() {
+        var allowedMimeTypes = ["application/pdf"];
+        var fileInput = this;
+        var file = fileInput.files[0];
+
+        if (!file) {
+            fileInput.setCustomValidity("Silahkan upload file Kep");
+        } else {
+            var fileMimeType = file.type;
+
+            if (allowedMimeTypes.indexOf(fileMimeType) === -1) {
+                fileInput.setCustomValidity("Invalid jenis file. Silahkan upload file PDF");
+            } else {
+                fileInput.setCustomValidity("");
+            }
+        }
+    });
+
+    submit_<?=$index?>.addEventListener('click', () => {
+        if (keahlian_<?=$index?>.validity.valueMissing) {
+            keahlian_<?=$index?>.setCustomValidity('Pilih keahlian');
+        } else {
+            keahlian_<?=$index?>.setCustomValidity('');
+        }
+
+        if (fileInput_<?=$index?>.validity.valueMissing) {
+            fileInput_<?=$index?>.setCustomValidity('Upload bukti dukung keahlian');
+        }
+    })
+    </script>
     <script>
     //    script edit skill pegawai
 
