@@ -66,10 +66,10 @@
 
 </section>
 
-
+</section>
 <!-- modal input rolling -->
 <?php
-foreach ($first as $key => $value) { $index= $value['id_pegawai'] ?>
+foreach ($first as $key => $value) { ?>
 <div class="modal fade" id="edit/<?= $value['id_pegawai'] ?>" tabindex="-1" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
     <div class="modal-dialog">
@@ -94,9 +94,9 @@ foreach ($first as $key => $value) { $index= $value['id_pegawai'] ?>
                         value="<?= $value['nipp'] ?>">
                 </div>
                 <div class="form-group detail-content public-spacebetween">
-                    <label for="unit<?=$index?>" class="label-width col-sm-4 ">Unit</label>
+                    <label for="unit" class="label-width col-sm-4 ">Unit</label>
 
-                    <select name="unit" id="unit<?=$index?>" class="form-control col-sm-8" required>
+                    <select name="unit" id="unit" class="form-control col-sm-8" required>
                         <option value="">--Pilih Unit--</option>
                         <?php foreach ($unit as $key => $value) { ?>
                         <option value="<?=$value['id_unit']?>"><?=$value['nama_unit']?></option>
@@ -104,54 +104,87 @@ foreach ($first as $key => $value) { $index= $value['id_pegawai'] ?>
                     </select>
                 </div>
                 <div class="form-group detail-content public-spacebetween">
-                    <label for="tmt<?=$index?>" class="label-width col-sm-4 mt-2">TMT</label>
-                    <input type="date" class="form-control col-sm-8" id="tmt<?=$index?>" name="tmt" required>
+                    <label for="tmt" class="label-width col-sm-4 mt-2">TMT</label>
+                    <input type="date" class="form-control col-sm-8" id="tmt" name="tmt" required>
                 </div>
                 <div class="form-group detail-content public-spacebetween">
-                    <label for="file<?=$index?>" class="col-sm-4 col-form-label">Kep</label>
+                    <label for="file_<?= $value['id_pegawai'] ?? ''?>" class="col-sm-4 col-form-label">Kep</label>
                     <div class="col-sm-8">
-                        <input type="file" name="file" id="file<?=$index?>" required>
+                        <input type="file" name="file" id="file_<?= $value['id_pegawai'] ?? ''?>"
+                               accept="application/pdf">
                     </div>
                 </div>
 
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="submit" id="submit<?=$index?>" class="btn btn-primary">Save</button>
+                <button type="submit" id="submit" class="btn btn-primary">Save</button>
             </div>
             <?= form_close() ?>
         </div>
     </div>
-    <script>
-    const unit<?=$index?> = document.getElementById("unit<?=$index?>");
-    const tmt<?=$index?> = document.getElementById("tmt<?=$index?>");
-    const fileInput<?=$index?> = document.getElementById("file<?=$index?>");
-
-    const submit<?=$index?> = document.getElementById('submit<?=$index?>');
-
-
-
-    submit<?=$index?>.addEventListener('click', () => {
-        if (unit<?=$index?>.validity.valueMissing) {
-            unit<?=$index?>.setCustomValidity('Silahkan pilih unit');
-        } else {
-            unit<?=$index?>.setCustomValidity('');
-        }
-
-        if (tmt<?=$index?>.validity.valueMissing) {
-            tmt<?=$index?>.setCustomValidity('Silahkan isi tanggal mulai berlaku');
-        } else {
-            tmt<?=$index?>.setCustomValidity('');
-        }
-
-        if (fileInput<?=$index?>.validity.valueMissing) {
-            fileInput<?=$index?>.setCustomValidity('Silahkan upload file');
-        } 
-
-    });
-    </script>
 </div>
-<?php } ?>
 
 
+<?php }?>
+
+<script>
+// const unit = document.getElementById("unit");
+// const tmt = document.getElementById("tmt");
+// const fileInput = document.getElementById("file");
+
+// fileInput.addEventListener('change', handleFileChange);
+
+// function handleFileChange(event) {
+//     const selectedFile = event.target.files[0];
+//     if (!selectedFile) return;
+
+//     if (selectedFile.type !== 'application/pdf') {
+//         fileInput.setCustomValidity('Silahkan upload file PDF.');
+//     } else {
+//         fileInput.setCustomValidity('');
+//     }
+// }
+
+const fileInput_<?= $value['id_pegawai'] ?? ''?> = document.getElementById("file_<?= $value['id_pegawai'] ?? ''?>");
+
+fileInput_<?= $value['id_pegawai'] ?? ''?>.addEventListener('change', handleFileChange_<?= $value['id_pegawai'] ?? ''?>);
+
+function handleFileChange_<?= $value['id_pegawai'] ?? ''?>(event) {
+    const selectedFile = event.target.files[0];
+    if (!selectedFile) return;
+
+    if (selectedFile.type !== 'application/pdf') {
+        event.target.setCustomValidity('Silahkan upload file PDF.');
+    } else {
+        event.target.setCustomValidity('');
+    }
+}
+
+// submit.addEventListener('click', () => {
+//     if (unit.validity.valueMissing) {
+//         unit.setCustomValidity('Silahkan pilih unit');
+//     } else {
+//         unit.setCustomValidity('');
+//     }
+
+//     if (tmt.validity.valueMissing) {
+//         tmt.setCustomValidity('Silahkan isi tanggal mulai berlaku');
+//     } else {
+//         tmt.setCustomValidity('');
+//     }
+
+//     if (fileInput.validity.valueMissing) {
+//         fileInput.setCustomValidity('Silahkan upload file');
+//     }
+// })
+
+
+
+// Reset the custom validity on form submit
+// const form = document.querySelector('.modal-content');
+// form.addEventListener('submit', () => {
+//   fileInput.setCustomValidity('');
+// });
+</script>
 <?= $this->endSection() ?>
