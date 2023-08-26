@@ -70,7 +70,7 @@
 </section>
 <!-- modal input rolling -->
 <?php
-foreach ($pegawai as $key => $value) { $index= $value['id_penempatan'] ?>
+foreach ($pegawai as $key => $value) { $index= $value['id_pegawai'] ?>
 <div class="modal fade" id="edit/<?= $value['id_penempatan'] ?>" tabindex="-1" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
     <div class="modal-dialog  modal-lg">
@@ -134,8 +134,13 @@ foreach ($pegawai as $key => $value) { $index= $value['id_penempatan'] ?>
             <?= form_close() ?>
         </div>
     </div>
-    <script>
+</div>
+
+<?php } ?>
+
+<script>
 const fileInput<?=$index?> = document.getElementById("file<?=$index?>");
+const submit<?=$index?> = document.getElementById('submit<?=$index?>');
 
 fileInput<?=$index?>.addEventListener("change", function() {
     var allowedMimeTypes = ['application/pdf'];
@@ -153,9 +158,13 @@ fileInput<?=$index?>.addEventListener("change", function() {
         }
     }
 });
+
+submit.addEventListener('click', () => {
+    if (kep.validity.valueMissing) {
+        kep.setCustomValidity('Silahkan upload file');
+    } else {
+        kep.setCustomValidity('');
+    }
+})
 </script>
-</div>
-<?php } ?>
-
-
 <?= $this->endSection() ?>
