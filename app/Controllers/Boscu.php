@@ -67,20 +67,14 @@ class Boscu extends BaseController
         return join(", ", $newArray);
     }
 
-    // public function tambahPegawai()
-    // {
-    //     $data = [
-    //         'nama_pegawai' => $this->request->getPost('nama_pegawai'),
-    //         'nip' => $this->request->getPost('nip'),
-    //         'jabatan' => $this->request->getPost('jabatan'),
-    //         'status' => $this->request->getPost('status'),
+    public function add()
+    {
+        return view('boscu/add');
 
-    //     ];
-
-    //     $this->ModelPegawai->add_data($data);
-    //     session()->setFlashdata('success', 'Data Pegawai berhasil ditambahkan');
-    //     return redirect()->to(base_url('pegawai'));
-    // }
+        // $this->ModelPegawai->add_data($data);
+        // session()->setFlashdata('success', 'Data Pegawai berhasil ditambahkan');
+        // return redirect()->to(base_url('pegawai'));
+    }
 
     // public function deletePegawai($id_pegawai)
     // {

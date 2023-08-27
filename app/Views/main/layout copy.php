@@ -32,8 +32,6 @@
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script> -->
     <!-- <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" /> -->
 
-    <!-- jQuery -->
-    <script src="<?= base_url() ?>/public/plugins/jquery/jquery.min.js"></script>
 
     <!--Adjusted Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -208,7 +206,8 @@
         <aside class="control-sidebar control-sidebar-dark"></aside>
     </div>
 
-    
+    <!-- jQuery -->
+    <script src="<?= base_url() ?>/public/plugins/jquery/jquery.min.js"></script>
     <!-- Bootstrap 4 -->
     <script src="<?= base_url() ?>/public/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- AdminLTE App -->

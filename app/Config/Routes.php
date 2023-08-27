@@ -73,6 +73,7 @@ $routes->get('data/skill', 'Data::skill', ['filter' => 'filterLogin']);
 $routes->get('data/detailPenempatan', 'Data::detailPenempatan', ['filter' => 'filterLogin']);
 
 $routes->get('boscu', 'Boscu::index', ['filter' => 'filterLogin']);
+$routes->get('boscu/add', 'Boscu::add', ['filter' => 'filterLogin']);
 
 
 $routes->post('auth/cekLogin', 'Auth::cekLogin');
