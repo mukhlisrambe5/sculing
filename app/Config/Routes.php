@@ -112,6 +112,7 @@ $routes->post('data/dataSkill', 'Data::dataSkill');
 $routes->post('data/dataDetailPenempatan', 'Data::dataDetailPenempatan');
 
 $routes->post('boscu/dataBoscu', 'Boscu::dataBoscu');
+$routes->post('boscu/save', 'Boscu::save');
 
 /*
  * --------------------------------------------------------------------

@@ -10,11 +10,12 @@
                 <div class="card">
                     <div class="card-header">
                         <h3 class="card-title text-bold mt-2">Tabel BOSCU</h3>
-                        <a href="<?=base_url('boscu/add')?>"  class="btn btn-primary float-right"><i class="fas fa-plus mr-2"></i>Rekam Data</a>
+                        <a href="<?= base_url('boscu/add') ?>" class="btn btn-primary float-right"><i
+                                class="fas fa-plus mr-2"></i>Rekam Data</a>
 
                     </div>
                     <div>
-                        <?php if (session()->getFlashdata('success')) {
+                        <?php if (session()->getFlashdata('#')) {
                             echo '<div class="alert alert-success alert-dismissible">
               <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
               <h5><i class="icon fas fa-check"></i>  <span> ';
@@ -113,4 +114,4 @@
         </div>
     </div>
 </div>
-<?=$this->endSection()?>
+<?= $this->endSection() ?>

@@ -7,8 +7,13 @@ use PhpParser\Node\Expr\Isset_;
 
 class ModelBoscu extends Model
 {
-    
 
+
+    public function all_data_pegawai()
+    {
+        return $this->db->table('tbl_pegawai')
+            ->get()->getResultArray();
+    }
     var $column_order = array(null, 'kuartal', 'tahun', 'kandidat', 'terpilih', 'kep', null);
 
     var $order = array('id_boscu' => 'desc');
@@ -81,20 +86,16 @@ class ModelBoscu extends Model
         return $query;
     }
 
-    function get_name($nip){
+    function get_name($nip)
+    {
         return $this->db->table('tbl_pegawai')
-            // ->select('nama_pegawai')
             ->where('tbl_pegawai.nipp', $nip)
             ->get()->getRow();
-            
+    }
 
-              // function detail($id){
-    //     return $this->db->table('tbl_penempatan')
-    //     ->where('id_penempatan', $id)
-    //     ->get()->getRowArray();
-    // }
-
-    
+    function simpandata($data)
+    {
+        $this->db->table('tbl_boscu')->insert($data);
     }
 
     // function add_data($data)
@@ -102,10 +103,7 @@ class ModelBoscu extends Model
     //     $this->db->table('tbl_boscu')->insert($data);
     // }
 
-    // function edit_data($data, $id_boscu)
-    // {
-    //     return $this->db->table('tbl_boscu')->update($data, array('id_boscu' => $id_boscu));
-    // }
+
     // function delete_data($id_boscu)
     // {
     //     return $this->db->table('tbl_boscu')->delete(array('id_boscu' => $id_boscu));

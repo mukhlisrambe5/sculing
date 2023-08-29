@@ -64,6 +64,22 @@
             </div>
 
             <?php
+            $errors = session()->getFlashdata('errors');
+            if (!empty($errors)) { ?>
+                <div class="alert alert-danger alert-dismisable" style="display:none">
+                    <h5>Terdapat Kesalahan:</h5>
+                    <ul>
+                        <?php foreach ($errors as $key => $value) { ?>
+                            <li>
+                                <?= esc($value) ?>
+                            </li>
+                        <?php } ?>
+                    </ul>
+                </div>
+
+            <?php } ?>
+
+            <?php
             if (session()->getFlashdata('success')) {
                 echo '<script type="text/javascript">';
                 echo '
@@ -75,34 +91,37 @@
                         timer: 2000
                     })
                     .then(function(){
-                        window.location="./";    
+                        window.location="./boscu";
                 });';
                 echo '</script>';
             }
             ?>
-            <form action="<?= base_url('boscu/save') ?>" method="post" enctype="multipart/form-data">
+            <form action="<?= base_url('boscu/save') ?>" method="POST">
                 <div class="card-body">
                     <?php
                     $currentYear = date("Y");
-                    $validation = \Config\Services::validation();
                     ?>
                     <div class="form-group">
                         <label for="tahun">Tahun</label>
-                        <input type="text" name="tahun">
-                        <select name="#" id="tahun" class="form-control">
+                        <select name="tahun" id="tahun" class="form-control" value="<?= old('tahun') ?>">
                             <option value="">--Pilih Tahun--</option>
                             <option value="<?= $currentYear - 1 ?>"> <?= $currentYear - 1 ?></option>
                             <option value="<?= $currentYear ?>"> <?= $currentYear ?></option>
                             <option value="<?= $currentYear + 1 ?>"><?= $currentYear + 1 ?></option>
                         </select>
+
+                        <?php if (isset($errors['tahun'])): ?>
+                            <div>
+                                <?php echo $errors['tahun']; ?>
+                            </div>
+                        <?php endif; ?>
                     </div>
-                    <?php if ($validation->hasError('tahun')) {
-                        echo "<div class='warningValidation'>" . $validation->getError('tahun') . "</div>";
-                    } ?>
+
                     <div class="form-group">
                         <label for="kuartal">Kuartal</label>
                         <select name="kuartal" id="kuartal" class="form-control">
                             <option value="">--Pilih Kuartal--</option>
+
                             <option value="I"> I</option>
                             <option value="II"> II</option>
                             <option value="III">III</option>
@@ -117,7 +136,7 @@
                             <option value="">Pilih pegawai</option>
 
                             <?php foreach ($pegawai as $key => $value) { ?>
-                                <option value="<?= $value['nipp'] ?>"><?= $value['nama_pegawai'] ?>
+                                <option value="<?= $value['id_pegawai'] ?>"><?= $value['nama_pegawai'] ?>
                                 </option>
 
                             <?php } ?>
@@ -130,19 +149,19 @@
 
                             <option value="">Pilih pemenang</option>
                             <?php foreach ($pegawai as $key => $value) { ?>
-                                <option value="<?= $value['nipp'] ?>"><?= $value['nama_pegawai'] ?>
+                                <option value="<?= $value['id_pegawai'] ?>"><?= $value['nama_pegawai'] ?>
                                 </option>
 
                             <?php } ?>
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="kep">Kep</label>
+                        <label for="terpilih">Kep</label>
                         <input type="file" name="kep" class="form-control" />
                     </div>
                     <div class="form-group">
-                        <label for="ket">Keterangan</label>
-                        <textarea name="ket" id="" cols="30" rows="4" class="form-control"></textarea>
+                        <label for="terpilih">Keterangan</label>
+                        <textarea name="" id="" cols="30" rows="4" class="form-control"></textarea>
                     </div>
                 </div>
 
