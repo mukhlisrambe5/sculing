@@ -7,6 +7,9 @@ use PhpParser\Node\Expr\Isset_;
 
 class ModelBoscu extends Model
 {
+    protected $table = 'tbl_boscu';
+    protected $primaryKey = 'id_boscu';
+    protected $allowedFields = ['kuartal', 'tahun', 'kandidat', 'terpilih', 'kep', 'ket'];
 
 
     public function all_data_pegawai()
@@ -14,7 +17,7 @@ class ModelBoscu extends Model
         return $this->db->table('tbl_pegawai')
             ->get()->getResultArray();
     }
-    var $column_order = array(null, 'kuartal', 'tahun', 'kandidat', 'terpilih', 'kep', null);
+    var $column_order = array(null, 'tahun', 'kuartal', 'kandidat', 'terpilih', 'kep', null);
 
     var $order = array('id_boscu' => 'desc');
 

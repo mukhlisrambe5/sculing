@@ -84,19 +84,60 @@ class Boscu extends BaseController
         $kep = $this->request->getFile('kep');
         $ket = $this->request->getPost('ket');
 
-        $nama_kep = $kep->getRandomName();
-        $data = [
-            'tahun' => $tahun,
-            'kuartal' => $kuartal,
-            'kandidat' => implode(',', $kandidat),
-            'terpilih' => $terpilih,
-            'kep' => $nama_kep,
-            'ket' => $ket,
-        ];
-        $kep->move('uploaded/kepBoscu', $nama_kep);
-        $this->ModelBoscu->simpandata($data);
-        session()->setFlashdata('success', 'Data berhasil ditambahkan !');
-        return redirect()->to(base_url('boscu/add'));
+        $validation = \Config\Services::validation();
+
+        if (
+            $this->validate([
+                'tahun' => [
+                    'label' => 'Tahun',
+                    'rules' => 'required',
+                    'errors' => [
+                        'required' => '{field} harus dipilih',
+                    ]
+                ],
+
+                'kuartal' => [
+                    'label' => 'Kuartal',
+                    'rules' => 'required',
+                    'errors' => [
+                        'required' => '{field} harus dipilih',
+                    ]
+                ],
+                'kandidat' => [
+                    'label' => 'Kandidat',
+                    'rules' => 'required',
+                    'errors' => [
+                        'required' => '{field} harus dipilih',
+                    ]
+                ],
+                'terpilih' => [
+                    'label' => 'Terpilih',
+                    'rules' => 'required',
+                    'errors' => [
+                        'required' => '{field} harus dipilih',
+                    ]
+                ],
+            ])
+        ) {
+            $nama_kep = $kep->getRandomName();
+
+            $data = [
+                'tahun' => $tahun,
+                'kuartal' => $kuartal,
+                'kandidat' => implode(',', $kandidat),
+                'terpilih' => $terpilih,
+                'kep' => $nama_kep,
+                'ket' => $ket,
+            ];
+            $kep->move('uploaded/kepBoscu', $nama_kep);
+            $this->ModelBoscu->simpandata($data);
+            session()->setFlashdata('success', 'Data berhasil ditambahkan !');
+            return redirect()->to(base_url('boscu/add'));
+        } else {
+            session()->setFlashdata('errors', \Config\Services::validation()->getErrors());
+            // print_r(\Config\Services::validation()->getError('tahun'));
+            return redirect()->to(base_url('boscu/add'))->withInput();
+        }
     }
 
     // public function deletePegawai($id_pegawai)
