@@ -101,10 +101,33 @@ class ModelBoscu extends Model
         $this->db->table('tbl_boscu')->insert($data);
     }
 
-    // function add_data($data)
-    // {
-    //     $this->db->table('tbl_boscu')->insert($data);
-    // }
+
+    function detail($id_boscu)
+    {
+        return $this->db->table('tbl_boscu')
+            ->join('tbl_pegawai', 'tbl_pegawai.nipp= tbl_boscu.terpilih', 'left')
+            ->where('id_boscu', $id_boscu)
+            ->get()->getRowArray();
+    }
+
+    function kandidat($id_boscu)
+    {
+        return $this->db->table('tbl_boscu')
+            ->select('kandidat')
+            // ->select('*')
+            ->join('tbl_pegawai', 'tbl_pegawai.nipp= tbl_boscu.terpilih', 'left')
+            ->where('id_boscu', $id_boscu)
+            ->get()->getRowArray();
+        // ->get()->getResult();
+
+    }
+
+
+    function edit_data($data, $id_boscu)
+    {
+        return $this->db->table('tbl_boscu')->update($data, array('id_boscu' => $id_boscu));
+    }
+
 
 
     // function delete_data($id_boscu)

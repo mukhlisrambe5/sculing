@@ -139,7 +139,7 @@
 
             </div>
             <div class="modal-footer">
-                <a href="<?= base_url('boscu') ?>" class="btn btn-secondary">Close</a>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 <button type="submit" id="submit" class="btn btn-primary">Simpan</button>
             </div>
             <?= form_close() ?>

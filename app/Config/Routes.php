@@ -74,6 +74,7 @@ $routes->get('data/detailPenempatan', 'Data::detailPenempatan', ['filter' => 'fi
 
 $routes->get('boscu', 'Boscu::index', ['filter' => 'filterLogin']);
 $routes->get('boscu/add', 'Boscu::add', ['filter' => 'filterLogin']);
+$routes->get('boscu/edit/(:any)', 'Boscu::edit/$1', ['filter' => 'filterLogin']);
 
 
 $routes->post('auth/cekLogin', 'Auth::cekLogin');
@@ -113,6 +114,7 @@ $routes->post('data/dataDetailPenempatan', 'Data::dataDetailPenempatan');
 
 $routes->post('boscu/dataBoscu', 'Boscu::dataBoscu');
 $routes->post('boscu/save', 'Boscu::save');
+$routes->post('boscu/update/(:any)', 'Boscu::update/$1');
 
 /*
  * --------------------------------------------------------------------

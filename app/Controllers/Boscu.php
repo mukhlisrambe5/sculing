@@ -36,7 +36,8 @@ class Boscu extends BaseController
             $no++;
             $row = array();
 
-            $tomboledit = "<a class=\"btn btn-md btn-success\" data-toggle=\"modal\" data-target=\"#edit\/$key->id_boscu\"><i class=\"fas fa-arrow-right mr-2\"></i>Input Data</a>";
+            // $tomboledit = "<a class=\"btn btn-md btn-warning\" data-toggle=\"modal\" data-target=\"#edit\/$key->id_boscu\"><i class=\"fas fa-pencil-alt mr-2\"></i>Edit Data</a>";
+            $tomboledit = "<a href=\"./boscu/edit/$key->id_boscu  \" class=\"btn btn-md btn-success \" id=\"tomboledit\"><i class=\"fas fa-edit\"></i> Edit</a>";
 
             $row[] = $no;
             $row[] = $key->tahun;
@@ -44,6 +45,7 @@ class Boscu extends BaseController
             $row[] = $this->getName(explode(",", $key->kandidat));
             $row[] = $key->nama_pegawai;
             $row[] = $key->kep;
+            $row[] = $key->ket;
 
             $row[] = "<div class=\"text-center\">" . $tomboledit . "</div>";
             $data[] = $row;
@@ -65,6 +67,16 @@ class Boscu extends BaseController
             array_push($newArray, $data->nama_pegawai);
         }
         return join(", ", $newArray);
+    }
+
+    function geKandidat($array)
+    {
+        $newArray = [];
+        for ($i = 0; $i < count($array); $i++) {
+            $data = $this->ModelBoscu->get_name($array[$i]);
+            array_push($newArray, $data->nama_pegawai);
+        }
+        return $newArray;
     }
 
     public function add()
@@ -98,27 +110,49 @@ class Boscu extends BaseController
         session()->setFlashdata('success', 'Data berhasil ditambahkan !');
         return redirect()->to(base_url('boscu/add'));
     }
+    public function edit($id_boscu)
+    {
+        $data = [
+            'boscu' => $this->ModelBoscu->detail($id_boscu),
+            'id_kandidat' => (explode(',', implode(',', $this->ModelBoscu->kandidat($id_boscu)))),
+            'kandidat' => $this->geKandidat(explode(',', implode(',', $this->ModelBoscu->kandidat($id_boscu)))),
+            'pegawai' => $this->ModelBoscu->all_data_pegawai(),
+        ];
+        return view('boscu/edit', $data);
+    }
 
-    // public function deletePegawai($id_pegawai)
-    // {
-    //     $this->ModelPegawai->delete_data($id_pegawai);
-    //     session()->setFlashdata('successDelete', 'Data berhasil dihapus!');
-    //     return redirect()->to(base_url('pegawai'));
-    // }
+    public function update($id_boscu)
+    {
+        $kep = $this->request->getFile('kep');
+        if ($kep->getError() == 4) {
+            $data = [
+                'tahun' => $this->request->getPost('tahun'),
+                'kuartal' => $this->request->getPost('kuartal'),
+                'kandidat' => implode(',', $this->request->getPost('kandidat')),
+                'terpilih' => $this->request->getPost('terpilih'),
+                'ket' => $this->request->getPost('ket'),
+            ];
+        } else {
+            $rekaman = $this->ModelBoscu->detail($id_boscu);
+            if ($rekaman['kep'] != "") {
+                unlink('uploaded/kepBoscu/' . $rekaman['kep']);
+            }
 
-    // public function rekamFirst($id_pegawai)
-    // {
-    //     $data = [
-    //         'nama_pegawai' => $this->request->getPost('nama_pegawai'),
-    //         // 'nip' => $this->request->getPost('nip'),
-    //         // 'jabatan' => $this->request->getPost('jabatan'),
-    //         // 'status' => $this->request->getPost('status'),
-    //     ];
-    //     $this->ModelPegawai->input_First($data, $id_pegawai);
-    //     session()->setFlashdata('successEdit', 'Data berhasil diupdate!');
-    //     return redirect()->to(base_url('First'));
-    // }
+            $kepName = $kep->getRandomName();
+            $data = [
+                'tahun' => $this->request->getPost('tahun'),
+                'kuartal' => $this->request->getPost('kuartal'),
+                'kandidat' => implode(',', $this->request->getPost('kandidat')),
+                'terpilih' => $this->request->getPost('terpilih'),
+                'kep' => $kepName,
+                'ket' => $this->request->getPost('ket'),
+            ];
+            $kep->move('uploaded/kepBoscu', $kepName);
 
+        }
 
-
+        $this->ModelBoscu->edit_data($data, $id_boscu);
+        session()->setFlashdata('successEdit', 'Data berhasil diupdate!');
+        return redirect()->to(base_url('boscu'));
+    }
 }

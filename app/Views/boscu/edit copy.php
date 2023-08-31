@@ -58,7 +58,7 @@
     <div class="container-fluid">
         <div class="card card-primary mt-6" style="max-width: 600px;  margin:auto">
             <div class="card-header">
-                <h3 class="card-title">Rekam Data BOSCU</h3>
+                <h3 class="card-title">Edit Data BOSCU</h3>
             </div>
             <?php
             if (session()->getFlashdata('success')) {
@@ -68,7 +68,7 @@
                     swal({
                         icon: "success",
                         title: "Sukses",
-                        text: "Perekaman Data BOSCU Berhasil",
+                        text: "Update Data BOSCU Berhasil",
                         timer: 2000
                     })
                     .then(function(){
@@ -85,28 +85,29 @@
                 <div class="form-group">
                     <label for="tahun">Tahun</label>
                     <select name="tahun" id="tahun" class="form-control" required>
-                        <option value="">--Pilih Tahun--</option>
+                        <option value="<?= $boscu['tahun'] ?>">
+                            <?= $boscu['tahun'] ?>
+                        </option>
                         <option value="<?= $currentYear - 1 ?>"><?= $currentYear - 1 ?></option>
                         <option value="<?= $currentYear ?>"><?= $currentYear ?></option>
                         <option value="<?= $currentYear + 1 ?>"><?= $currentYear + 1 ?></option>
                     </select>
                 </div>
+
                 <div class="form-group">
                     <label for="tahun">Kuartal</label>
                     <select name="kuartal" id="kuartal" class="form-control" required>
-                        <option value="">--Pilih Kuartal--</option>
+                        <option value="<?= $boscu['kuartal'] ?>"><?= $boscu['kuartal'] ?></option>
                         <option value="I"> I</option>
                         <option value="II"> II</option>
                         <option value="III">III</option>
                         <option value="IV">IV</option>
                     </select>
                 </div>
-
                 <div class="form-group">
                     <label for="kandidat">Kandidat</label>
                     <select id="kandidat" class="js-example-basic-single form-control" name="kandidat[]" multiple
-                        data-placeholder="Cari dan pilih kandidat" required>
-                        <option value="">Pilih pegawai</option>
+                        required>
 
                         <?php foreach ($pegawai as $key => $value) { ?>
                             <option value="<?= $value['nipp'] ?>"><?= $value['nama_pegawai'] ?>
@@ -119,7 +120,7 @@
                     <label for="terpilih">Terpilih</label>
                     <select id="terpilih" class="js-example-basic-single form-control" name="terpilih" required>
 
-                        <option value="">Pilih pemenang</option>
+                        <option value="<?= $boscu['terpilih'] ?>"><?= $boscu['nama_pegawai'] ?></option>
                         <?php foreach ($pegawai as $key => $value) { ?>
                             <option value="<?= $value['nipp'] ?>"><?= $value['nama_pegawai'] ?>
                             </option>
@@ -128,18 +129,19 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="kep">Kep</label>
-                    <input type="file" name="kep" id="kep" class="form-control" required />
+                    <label for="kep">Kep (<small class="text-danger">Biarkan jika tidak ingin diganti</small>)</label>
+                    <input type="file" name="kep" id="kep" class="form-control" />
                 </div>
                 <div class="form-group">
                     <label for="ket">Keterangan</label>
                     <textarea name="ket" id="ket" cols="30" rows="4" class="form-control"
-                        value="<?= old('ket') ?>"></textarea>
+                        value="<?= old('ket') ?>"><?= $boscu['ket'] ?></textarea>
                 </div>
+
 
             </div>
             <div class="modal-footer">
-                <a href="<?= base_url('boscu') ?>" class="btn btn-secondary">Close</a>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 <button type="submit" id="submit" class="btn btn-primary">Simpan</button>
             </div>
             <?= form_close() ?>
@@ -154,11 +156,16 @@
         $('#kandidat').select2();
         $('#terpilih').select2();
 
+        <?php foreach ($kandidat as $value): ?>
+            $('#kandidat').append(new Option('<?= $value ?>', '<?= $value ?>', true, true))
+        <?php endforeach; ?>
+
         const tahun = document.getElementById("tahun");
         const kuartal = document.getElementById("kuartal");
         const kandidat = document.getElementById("kandidat");
         const terpilih = document.getElementById("terpilih");
         const fileInput = document.getElementById("kep");
+        const ket = document.getElementById("ket");
         const ket = document.getElementById("ket");
 
         const submit = document.getElementById("submit");

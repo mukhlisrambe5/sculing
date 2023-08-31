@@ -52,7 +52,7 @@ class Auth extends BaseController
                     session()->set('username', $data['username']);
                     session()->setFlashdata("success", "Anda berhasil Login ");
 
-                    return redirect()->to('home');
+                    return redirect()->to('data/penempatan');
                 } else {
                     session()->setFlashdata("error", "Username atau Password yang anda masukkan salah ");
                     return redirect()->to('/auth');
