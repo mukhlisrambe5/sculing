@@ -55,17 +55,17 @@
     <!-- </head> -->
 
     <script>
-    $(document).ready(function() {
-        console.log("ready!");
+        $(document).ready(function () {
+            console.log("ready!");
 
-        function validateInput(input) {
-            if (input.value === "") {
-                input.setCustomValidity("This field is required.");
-            } else {
-                input.setCustomValidity(""); // Reset to the default (no error message)
+            function validateInput(input) {
+                if (input.value === "") {
+                    input.setCustomValidity("This field is required.");
+                } else {
+                    input.setCustomValidity(""); // Reset to the default (no error message)
+                }
             }
-        }
-    });
+        });
     </script>
 
 </head>
@@ -208,7 +208,7 @@
         <aside class="control-sidebar control-sidebar-dark"></aside>
     </div>
 
-    
+
     <!-- Bootstrap 4 -->
     <script src="<?= base_url() ?>/public/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- AdminLTE App -->
@@ -241,11 +241,114 @@
     <!-- merge column -->
     <script type="text/javascript"
         src="https://cdn.jsdelivr.net/gh/ashl1/datatables-rowsgroup@fbd569b8768155c7a9a62568e66a64115887d7d0/dataTables.rowsGroup.js">
-    </script>
+        </script>
 
     <script type="text/javascript">
-    $(document).ready(function() {
-        $('#tbl1').DataTable({
+        $(document).ready(function () {
+            $('#tbl1').DataTable({
+                "order": [],
+                "processing": true,
+                "serverSide": true,
+                "responsive": true,
+                "lengthMenu": [
+                    [10, 20, 50, 100],
+                    [10, 20, 50, 100]
+                ],
+                "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"],
+                "ajax": {
+                    "url": "<?= site_url('Admin/dataUsers') ?>",
+                    "type": "POST"
+                },
+                "columnDefs": [{
+                    "targets": [0, 5],
+                    "orderable": false
+                }],
+            }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
+
+            $('#tblData').DataTable({
+                "order": [],
+                "processing": true,
+                "serverSide": true,
+                "responsive": true,
+                "lengthMenu": [
+                    [10, 20, 50, 100],
+                    [10, 20, 50, 100]
+                ],
+                "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"],
+                "dom": 'Blfrtip',
+                "ajax": {
+                    "url": "<?= site_url('Data/dataBase') ?>",
+                    "type": "POST"
+                },
+                "columnDefs": [{
+                    "targets": [0, 9],
+                    "orderable": false
+                }],
+            }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
+
+            $('#tblUnit').DataTable({
+                "order": [],
+                "processing": true,
+                "serverSide": true,
+                "responsive": true,
+                "lengthMenu": [
+                    [10, 20, 50, 100],
+                    [10, 20, 50, 100]
+                ],
+                "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"],
+                "ajax": {
+                    "url": "<?= site_url('Unit/dataUnit') ?>",
+                    "type": "POST"
+                },
+                "columnDefs": [{
+                    "targets": [0, 2],
+                    "orderable": false
+                }],
+            }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
+
+            $('#tblPegawai').DataTable({
+                "order": [],
+                "processing": true,
+                "serverSide": true,
+                "responsive": true,
+                "lengthMenu": [
+                    [10, 20, 50, 100],
+                    [10, 20, 50, 100]
+                ],
+                "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"],
+                "dom": 'Blfrtip',
+                "ajax": {
+                    "url": "<?= site_url('pegawai/dataPegawai') ?>",
+                    "type": "POST"
+                },
+                "columnDefs": [{
+                    "targets": [0, 5],
+                    "orderable": false
+                }],
+            }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
+
+            $('#tblSkill').DataTable({
+                "order": [],
+                "processing": true,
+                "serverSide": true,
+                "responsive": true,
+                "lengthMenu": [
+                    [10, 20, 50, 100],
+                    [10, 20, 50, 100]
+                ],
+                "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"],
+                "ajax": {
+                    "url": "<?= site_url('skill/dataSkill') ?>",
+                    "type": "POST"
+                },
+                "columnDefs": [{
+                    "targets": [0, 2],
+                    "orderable": false
+                }],
+            }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
+        });
+
+        $('#tblFirst').DataTable({
             "order": [],
             "processing": true,
             "serverSide": true,
@@ -256,37 +359,16 @@
             ],
             "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"],
             "ajax": {
-                "url": "<?= site_url('Admin/dataUsers') ?>",
+                "url": "<?= site_url('first/dataFirst') ?>",
                 "type": "POST"
             },
             "columnDefs": [{
-                "targets": [0, 5],
+                "targets": [0, 4],
                 "orderable": false
             }],
         }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
 
-        $('#tblData').DataTable({
-            "order": [],
-            "processing": true,
-            "serverSide": true,
-            "responsive": true,
-            "lengthMenu": [
-                [10, 20, 50, 100],
-                [10, 20, 50, 100]
-            ],
-            "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"],
-            "dom": 'Blfrtip',
-            "ajax": {
-                "url": "<?= site_url('Data/dataBase') ?>",
-                "type": "POST"
-            },
-            "columnDefs": [{
-                "targets": [0, 9],
-                "orderable": false
-            }],
-        }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
-
-        $('#tblUnit').DataTable({
+        $('#tblRolling').DataTable({
             "order": [],
             "processing": true,
             "serverSide": true,
@@ -297,37 +379,16 @@
             ],
             "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"],
             "ajax": {
-                "url": "<?= site_url('Unit/dataUnit') ?>",
+                "url": "<?= site_url('rolling/dataRolling') ?>",
                 "type": "POST"
             },
             "columnDefs": [{
-                "targets": [0, 2],
+                "targets": [0, 3],
                 "orderable": false
             }],
         }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
 
-        $('#tblPegawai').DataTable({
-            "order": [],
-            "processing": true,
-            "serverSide": true,
-            "responsive": true,
-            "lengthMenu": [
-                [10, 20, 50, 100],
-                [10, 20, 50, 100]
-            ],
-            "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"],
-            "dom": 'Blfrtip',
-            "ajax": {
-                "url": "<?= site_url('pegawai/dataPegawai') ?>",
-                "type": "POST"
-            },
-            "columnDefs": [{
-                "targets": [0, 5],
-                "orderable": false
-            }],
-        }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
-
-        $('#tblSkill').DataTable({
+        $('#tblPenempatan').DataTable({
             "order": [],
             "processing": true,
             "serverSide": true,
@@ -338,94 +399,31 @@
             ],
             "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"],
             "ajax": {
-                "url": "<?= site_url('skill/dataSkill') ?>",
+                "url": "<?= site_url('data/dataPenempatan') ?>",
                 "type": "POST"
             },
             "columnDefs": [{
-                "targets": [0, 2],
+                "targets": [0, 7],
                 "orderable": false
             }],
         }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
-    });
 
-    $('#tblFirst').DataTable({
-        "order": [],
-        "processing": true,
-        "serverSide": true,
-        "responsive": true,
-        "lengthMenu": [
-            [10, 20, 50, 100],
-            [10, 20, 50, 100]
-        ],
-        "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"],
-        "ajax": {
-            "url": "<?= site_url('first/dataFirst') ?>",
-            // "url": "<?= site_url('first/dataFirst') ?>",
-
-            "type": "POST"
-        },
-        "columnDefs": [{
-            "targets": [0, 3],
-            "orderable": false
-        }],
-    }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
-
-    $('#tblRolling').DataTable({
-        "order": [],
-        "processing": true,
-        "serverSide": true,
-        "responsive": true,
-        "lengthMenu": [
-            [10, 20, 50, 100],
-            [10, 20, 50, 100]
-        ],
-        "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"],
-        "ajax": {
-            "url": "<?= site_url('rolling/dataRolling') ?>",
-            "type": "POST"
-        },
-        "columnDefs": [{
-            "targets": [0, 3],
-            "orderable": false
-        }],
-    }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
-
-    $('#tblPenempatan').DataTable({
-        "order": [],
-        "processing": true,
-        "serverSide": true,
-        "responsive": true,
-        "lengthMenu": [
-            [10, 20, 50, 100],
-            [10, 20, 50, 100]
-        ],
-        "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"],
-        "ajax": {
-            "url": "<?= site_url('data/dataPenempatan') ?>",
-            "type": "POST"
-        },
-        "columnDefs": [{
-            "targets": [0, 6],
-            "orderable": false
-        }],
-    }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
-
-    $('#tblDetailPenempatan').DataTable({
-        "order": [],
-        'rowsGroup': [1, 2, 3],
-        "processing": true,
-        "serverSide": true,
-        "responsive": true,
-        "lengthMenu": [
-            [10, 20, 50, 100],
-            [10, 20, 50, 100]
-        ],
-        "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"],
-        "ajax": {
-            "url": "<?= site_url('data/dataDetailPenempatan') ?>",
-            "type": "POST"
-        },
-        "columnDefs": [{
+        $('#tblDetailPenempatan').DataTable({
+            "order": [],
+            'rowsGroup': [1, 2, 3],
+            "processing": true,
+            "serverSide": true,
+            "responsive": true,
+            "lengthMenu": [
+                [10, 20, 50, 100],
+                [10, 20, 50, 100]
+            ],
+            "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"],
+            "ajax": {
+                "url": "<?= site_url('data/dataDetailPenempatan') ?>",
+                "type": "POST"
+            },
+            "columnDefs": [{
                 "targets": [0, 6],
                 "orderable": false
             },
@@ -433,27 +431,27 @@
                 "targets": [0],
                 "visible": false
             }
-        ],
+            ],
 
-    }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
+        }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
 
 
-    var table = $('#tblSkillPegawai').DataTable({
-        "order": [],
-        'rowsGroup': [1, 2, 3],
-        "processing": true,
-        "serverSide": true,
-        "responsive": true,
-        "lengthMenu": [
-            [10, 20, 50, 100],
-            [10, 20, 50, 100]
-        ],
-        "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"],
-        "ajax": {
-            "url": "<?= site_url('data/dataSkill') ?>",
-            "type": "POST"
-        },
-        "columnDefs": [{
+        var table = $('#tblSkillPegawai').DataTable({
+            "order": [],
+            'rowsGroup': [1, 2, 3],
+            "processing": true,
+            "serverSide": true,
+            "responsive": true,
+            "lengthMenu": [
+                [10, 20, 50, 100],
+                [10, 20, 50, 100]
+            ],
+            "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"],
+            "ajax": {
+                "url": "<?= site_url('data/dataSkill') ?>",
+                "type": "POST"
+            },
+            "columnDefs": [{
                 "targets": [0, 4, 5, 6],
                 "orderable": false
             },
@@ -461,37 +459,37 @@
                 "targets": [0],
                 "visible": false
             }
-        ],
-    }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
+            ],
+        }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
 
-    var table = $('#tblBoscu').DataTable({
-        "order": [],
-        "processing": true,
-        "serverSide": true,
-        "responsive": true,
-        "lengthMenu": [
-            [10, 20, 50, 100],
-            [10, 20, 50, 100]
-        ],
-        "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"],
-        "ajax": {
-            "url": "<?= site_url('boscu/dataBoscu') ?>",
-            "type": "POST"
-        },
-        "columnDefs": [{
-            "targets": [0, 5, 6],
-            "orderable": false
-        }],
-    }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
+        var table = $('#tblBoscu').DataTable({
+            "order": [],
+            "processing": true,
+            "serverSide": true,
+            "responsive": true,
+            "lengthMenu": [
+                [10, 20, 50, 100],
+                [10, 20, 50, 100]
+            ],
+            "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"],
+            "ajax": {
+                "url": "<?= site_url('boscu/dataBoscu') ?>",
+                "type": "POST"
+            },
+            "columnDefs": [{
+                "targets": [0, 5, 6],
+                "orderable": false
+            }],
+        }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
     </script>
 
     <!-- script untuk menghilngkan flashdata otomatis -->
     <script>
-    window.setTimeout(function() {
-        $('.alert').fadeTo(500, 0).slideUp(500, function() {
-            $(this).remove();
-        });
-    }, 2000);
+        window.setTimeout(function () {
+            $('.alert').fadeTo(500, 0).slideUp(500, function () {
+                $(this).remove();
+            });
+        }, 2000);
     </script>
     <script src="<?= base_url() ?>/public/dist/js/jam_digital.js"></script>
 

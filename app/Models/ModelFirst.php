@@ -17,7 +17,7 @@ class ModelFirst extends Model
 
 
 
-    var $column_order = array(null, 'nama_pegawai', 'nipp', null);
+    var $column_order = array(null, 'nama_pegawai', 'nipp', 'jabatan', null);
     var $order = array('nama_pegawai' => 'asc');
 
 
@@ -28,7 +28,7 @@ class ModelFirst extends Model
 
             $search = $_POST['search']['value'];
 
-            $kondisi_search = "nama_pegawai LIKE '%$search%' OR nipp LIKE '%$search%' ";
+            $kondisi_search = "nama_pegawai LIKE '%$search%' OR nipp LIKE '%$search%' OR jabatan LIKE '%$search%'";
 
         } else {
             $kondisi_search = "id_pegawai!= ''";
@@ -58,6 +58,8 @@ class ModelFirst extends Model
                 ->where('tbl_penempatan.nip', null)
                 ->orWhere('tbl_penempatan.nip', null)
                 ->like('tbl_pegawai.nama_pegawai', $search)
+                ->orWhere('tbl_penempatan.nip', null)
+                ->like('tbl_pegawai.jabatan', $search)
                 ->orderBy($result_order, $result_dir)
                 ->limit($_POST['length'], $_POST['start'])
                 ->get();
@@ -79,7 +81,7 @@ class ModelFirst extends Model
 
         if (isset($_POST['search']['value'])) {
             $search = $_POST['search']['value'];
-            $kondisi_search = "AND (nama_pegawai LIKE '%$search%' OR nipp LIKE '%$search%')";
+            $kondisi_search = "AND (nama_pegawai LIKE '%$search%' OR nipp LIKE '%$search%'  OR jabatan LIKE '%$search%')";
         } else {
             $kondisi_search = "";
         }
@@ -91,20 +93,5 @@ class ModelFirst extends Model
         $query = $db->query($sQuery)->getRow();
         return $query;
     }
-
-    // function add_data($data)
-    // {
-    //     $this->db->table('tbl_pegawai')->insert($data);
-    // }
-
-    // function edit_data($data, $id_pegawai)
-    // {
-    //     return $this->db->table('tbl_pegawai')->update($data, array('id_pegawai' => $id_pegawai));
-    // }
-    // function delete_data($id_pegawai)
-    // {
-    //     return $this->db->table('tbl_pegawai')->delete(array('id_pegawai' => $id_pegawai));
-    // }
-
 
 }
