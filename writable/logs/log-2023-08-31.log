@@ -1064,3 +1064,52 @@ INFO - 2023-08-31 09:22:47 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-08-31 09:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-08-31 09:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-08-31 09:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-31 09:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-31 09:27:54 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in C:\wamp64\www\sculing\app\Models\ModelData.php on line 50
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 APPPATH\Models\ModelData.php(50): CodeIgniter\Database\BaseBuilder->orderBy(null, 'asc')
+ 2 APPPATH\Controllers\Data.php(53): App\Models\ModelData->get_datatables()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 09:27:57 --> Undefined offset: 6
+in APPPATH\Models\ModelData.php on line 31.
+ 1 APPPATH\Models\ModelData.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 6', 'C:\\wamp64\\www\\sculing\\app\\Models\\ModelData.php', 31, [...])
+ 2 APPPATH\Controllers\Data.php(53): App\Models\ModelData->get_datatables()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 09:27:59 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in C:\wamp64\www\sculing\app\Models\ModelData.php on line 50
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 APPPATH\Models\ModelData.php(50): CodeIgniter\Database\BaseBuilder->orderBy(null, 'asc')
+ 2 APPPATH\Controllers\Data.php(53): App\Models\ModelData->get_datatables()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 09:28:03 --> Undefined offset: 6
+in APPPATH\Models\ModelData.php on line 31.
+ 1 APPPATH\Models\ModelData.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 6', 'C:\\wamp64\\www\\sculing\\app\\Models\\ModelData.php', 31, [...])
+ 2 APPPATH\Controllers\Data.php(53): App\Models\ModelData->get_datatables()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 09:28:05 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in C:\wamp64\www\sculing\app\Models\ModelData.php on line 50
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 APPPATH\Models\ModelData.php(50): CodeIgniter\Database\BaseBuilder->orderBy(null, 'asc')
+ 2 APPPATH\Controllers\Data.php(53): App\Models\ModelData->get_datatables()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 09:28:07 --> Undefined offset: 6
+in APPPATH\Models\ModelData.php on line 31.
+ 1 APPPATH\Models\ModelData.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 6', 'C:\\wamp64\\www\\sculing\\app\\Models\\ModelData.php', 31, [...])
+ 2 APPPATH\Controllers\Data.php(53): App\Models\ModelData->get_datatables()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

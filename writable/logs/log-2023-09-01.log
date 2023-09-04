@@ -1,0 +1,985 @@
+INFO - 2023-09-01 03:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 03:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 03:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 03:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 03:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 03:53:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 03:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 03:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 03:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 03:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 03:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 03:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 03:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 04:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 04:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 04:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 04:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-01 04:00:53 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in C:\wamp64\www\sculing\app\Models\ModelData.php on line 50
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 APPPATH\Models\ModelData.php(50): CodeIgniter\Database\BaseBuilder->orderBy(null, 'asc')
+ 2 APPPATH\Controllers\Data.php(53): App\Models\ModelData->get_datatables()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-01 04:00:57 --> Undefined offset: 6
+in APPPATH\Models\ModelData.php on line 31.
+ 1 APPPATH\Models\ModelData.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 6', 'C:\\wamp64\\www\\sculing\\app\\Models\\ModelData.php', 31, [...])
+ 2 APPPATH\Controllers\Data.php(53): App\Models\ModelData->get_datatables()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-01 04:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 04:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-01 04:02:08 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in C:\wamp64\www\sculing\app\Models\ModelData.php on line 50
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 APPPATH\Models\ModelData.php(50): CodeIgniter\Database\BaseBuilder->orderBy(null, 'asc')
+ 2 APPPATH\Controllers\Data.php(53): App\Models\ModelData->get_datatables()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-01 04:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-01 04:02:52 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in C:\wamp64\www\sculing\app\Models\ModelData.php on line 50
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 APPPATH\Models\ModelData.php(50): CodeIgniter\Database\BaseBuilder->orderBy(null, 'asc')
+ 2 APPPATH\Controllers\Data.php(53): App\Models\ModelData->get_datatables()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-01 04:02:58 --> Undefined offset: 6
+in APPPATH\Models\ModelData.php on line 31.
+ 1 APPPATH\Models\ModelData.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 6', 'C:\\wamp64\\www\\sculing\\app\\Models\\ModelData.php', 31, [...])
+ 2 APPPATH\Controllers\Data.php(53): App\Models\ModelData->get_datatables()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-01 04:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 04:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 04:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 04:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 04:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 04:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 04:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 04:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 04:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 04:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 04:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 04:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-01 04:07:16 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Rolling.php(31): CodeIgniter\HTTP\Files\UploadedFile->move('uploaded/fileKep/', '1693541236_9964decac5bf0e6b4607.pdf')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Rolling->rekamRolling()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolling))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-01 04:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 04:07:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 04:07:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 04:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 04:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 04:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 04:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 04:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 04:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 04:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 04:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 04:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-01 04:56:27 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in C:\wamp64\www\sculing\app\Models\ModelData.php on line 50
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 APPPATH\Models\ModelData.php(50): CodeIgniter\Database\BaseBuilder->orderBy(null, 'asc')
+ 2 APPPATH\Controllers\Data.php(53): App\Models\ModelData->get_datatables()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-01 04:56:31 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in C:\wamp64\www\sculing\app\Models\ModelData.php on line 50
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 APPPATH\Models\ModelData.php(50): CodeIgniter\Database\BaseBuilder->orderBy(null, 'asc')
+ 2 APPPATH\Controllers\Data.php(53): App\Models\ModelData->get_datatables()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-01 04:56:33 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in C:\wamp64\www\sculing\app\Models\ModelData.php on line 50
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 APPPATH\Models\ModelData.php(50): CodeIgniter\Database\BaseBuilder->orderBy(null, 'asc')
+ 2 APPPATH\Controllers\Data.php(53): App\Models\ModelData->get_datatables()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-01 04:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 04:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 04:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 05:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-01 05:00:40 --> mysqli_sql_exception: Unknown column 'nama_unit' in 'on clause' in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DI...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DI...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DI...')
+#3 C:\wamp64\www\sculing\app\Models\ModelData.php(80): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DI...')
+#4 C:\wamp64\www\sculing\app\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-01 05:00:40 --> Unknown column 'nama_unit' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nip LIKE \'%%\' OR  jabatan LIKE \'%%\'  OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nip LIKE \'%%\' OR  jabatan LIKE \'%%\'  OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nip LIKE \'%%\' OR  jabatan LIKE \'%%\'  OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')')
+ 4 APPPATH\Models\ModelData.php(80): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nip LIKE \'%%\' OR  jabatan LIKE \'%%\'  OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')')
+ 5 APPPATH\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-01 05:00:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 05:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 05:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 05:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 05:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-01 05:01:13 --> mysqli_sql_exception: Unknown column 'nama_unit' in 'on clause' in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DI...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DI...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DI...')
+#3 C:\wamp64\www\sculing\app\Models\ModelData.php(80): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DI...')
+#4 C:\wamp64\www\sculing\app\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-01 05:01:13 --> Unknown column 'nama_unit' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nip LIKE \'%%\' OR  jabatan LIKE \'%%\'  OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nip LIKE \'%%\' OR  jabatan LIKE \'%%\'  OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nip LIKE \'%%\' OR  jabatan LIKE \'%%\'  OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')')
+ 4 APPPATH\Models\ModelData.php(80): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nip LIKE \'%%\' OR  jabatan LIKE \'%%\'  OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')')
+ 5 APPPATH\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-01 05:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 05:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 05:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-01 05:01:24 --> mysqli_sql_exception: Unknown column 'nama_unit' in 'on clause' in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DI...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DI...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DI...')
+#3 C:\wamp64\www\sculing\app\Models\ModelData.php(80): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DI...')
+#4 C:\wamp64\www\sculing\app\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-01 05:01:24 --> Unknown column 'nama_unit' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nip LIKE \'%%\' OR  jabatan LIKE \'%%\'  OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nip LIKE \'%%\' OR  jabatan LIKE \'%%\'  OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nip LIKE \'%%\' OR  jabatan LIKE \'%%\'  OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')')
+ 4 APPPATH\Models\ModelData.php(80): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nip LIKE \'%%\' OR  jabatan LIKE \'%%\'  OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')')
+ 5 APPPATH\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-01 05:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 05:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 05:01:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-01 05:01:31 --> mysqli_sql_exception: Unknown column 'nama_unit' in 'on clause' in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DI...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DI...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DI...')
+#3 C:\wamp64\www\sculing\app\Models\ModelData.php(80): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DI...')
+#4 C:\wamp64\www\sculing\app\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-01 05:01:31 --> Unknown column 'nama_unit' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nip LIKE \'%%\' OR  jabatan LIKE \'%%\'  OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nip LIKE \'%%\' OR  jabatan LIKE \'%%\'  OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nip LIKE \'%%\' OR  jabatan LIKE \'%%\'  OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')')
+ 4 APPPATH\Models\ModelData.php(80): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nip LIKE \'%%\' OR  jabatan LIKE \'%%\'  OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')')
+ 5 APPPATH\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-01 05:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-01 05:02:17 --> mysqli_sql_exception: Unknown column 'nama_unit' in 'on clause' in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DI...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DI...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DI...')
+#3 C:\wamp64\www\sculing\app\Models\ModelData.php(80): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DI...')
+#4 C:\wamp64\www\sculing\app\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-01 05:02:17 --> Unknown column 'nama_unit' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nip LIKE \'%%\' OR  jabatan LIKE \'%%\'  OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nip LIKE \'%%\' OR  jabatan LIKE \'%%\'  OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nip LIKE \'%%\' OR  jabatan LIKE \'%%\'  OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')')
+ 4 APPPATH\Models\ModelData.php(80): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nip LIKE \'%%\' OR  jabatan LIKE \'%%\'  OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')')
+ 5 APPPATH\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-01 05:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-01 05:03:06 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in C:\wamp64\www\sculing\app\Models\ModelData.php on line 50
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 APPPATH\Models\ModelData.php(50): CodeIgniter\Database\BaseBuilder->orderBy(null, 'asc')
+ 2 APPPATH\Controllers\Data.php(53): App\Models\ModelData->get_datatables()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-01 05:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 05:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 05:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-01 05:06:24 --> mysqli_sql_exception: Unknown column 'nama_unit' in 'on clause' in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DI...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DI...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DI...')
+#3 C:\wamp64\www\sculing\app\Models\ModelData.php(80): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DI...')
+#4 C:\wamp64\www\sculing\app\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-01 05:06:24 --> Unknown column 'nama_unit' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nip LIKE \'%%\' OR  jabatan LIKE \'%%\'  OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nip LIKE \'%%\' OR  jabatan LIKE \'%%\'  OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nip LIKE \'%%\' OR  jabatan LIKE \'%%\'  OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')')
+ 4 APPPATH\Models\ModelData.php(80): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nip LIKE \'%%\' OR  jabatan LIKE \'%%\'  OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')')
+ 5 APPPATH\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-01 05:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-01 05:06:27 --> mysqli_sql_exception: Unknown column 'nama_unit' in 'on clause' in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DI...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DI...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DI...')
+#3 C:\wamp64\www\sculing\app\Models\ModelData.php(80): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DI...')
+#4 C:\wamp64\www\sculing\app\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-01 05:06:27 --> Unknown column 'nama_unit' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nip LIKE \'%%\' OR  jabatan LIKE \'%%\'  OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nip LIKE \'%%\' OR  jabatan LIKE \'%%\'  OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nip LIKE \'%%\' OR  jabatan LIKE \'%%\'  OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')')
+ 4 APPPATH\Models\ModelData.php(80): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nip LIKE \'%%\' OR  jabatan LIKE \'%%\'  OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')')
+ 5 APPPATH\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-01 05:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-01 05:06:34 --> mysqli_sql_exception: Unknown column 'nama_unit' in 'on clause' in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DI...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DI...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DI...')
+#3 C:\wamp64\www\sculing\app\Models\ModelData.php(80): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DI...')
+#4 C:\wamp64\www\sculing\app\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-01 05:06:34 --> Unknown column 'nama_unit' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nip LIKE \'%%\' OR  jabatan LIKE \'%%\'  OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nip LIKE \'%%\' OR  jabatan LIKE \'%%\'  OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nip LIKE \'%%\' OR  jabatan LIKE \'%%\'  OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')')
+ 4 APPPATH\Models\ModelData.php(80): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR nip LIKE \'%%\' OR  jabatan LIKE \'%%\'  OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')')
+ 5 APPPATH\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-01 05:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-01 05:07:25 --> mysqli_sql_exception: Unknown column 'nama_unit' in 'on clause' in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DI...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DI...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DI...')
+#3 C:\wamp64\www\sculing\app\Models\ModelData.php(80): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DI...')
+#4 C:\wamp64\www\sculing\app\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-01 05:07:25 --> Unknown column 'nama_unit' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')')
+ 4 APPPATH\Models\ModelData.php(80): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')')
+ 5 APPPATH\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-01 05:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-01 05:08:44 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ON tbl_unit.id_unit= tbl_penempatan.unit_now AND id_penempatan != ''  AND (nama_' at line 1 in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DI...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DI...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DI...')
+#3 C:\wamp64\www\sculing\app\Models\ModelData.php(80): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DI...')
+#4 C:\wamp64\www\sculing\app\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-01 05:08:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ON tbl_unit.id_unit= tbl_penempatan.unit_now AND id_penempatan != ''  AND (nama_' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND tbl_pegawai ON tbl_unit.id_unit= tbl_penempatan.unit_now AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND tbl_pegawai ON tbl_unit.id_unit= tbl_penempatan.unit_now AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND tbl_pegawai ON tbl_unit.id_unit= tbl_penempatan.unit_now AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')')
+ 4 APPPATH\Models\ModelData.php(80): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DISTINCT nip) as jml FROM tbl_penempatan RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp= tbl_penempatan.nip AND tbl_pegawai ON tbl_unit.id_unit= tbl_penempatan.unit_now AND id_penempatan != \'\'  AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\')')
+ 5 APPPATH\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-01 05:11:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-01 05:11:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (nama_pegawai LIKE '%%' OR  nip LIKE '%%' OR  jabatan LIKE '%%' OR nama_unit' at line 5 in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DI...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DI...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DI...')
+#3 C:\wamp64\www\sculing\app\Models\ModelData.php(87): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DI...')
+#4 C:\wamp64\www\sculing\app\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-01 05:11:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (nama_pegawai LIKE '%%' OR  nip LIKE '%%' OR  jabatan LIKE '%%' OR nama_unit' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DISTINCT nip) as jml
+        FROM tbl_penempatan
+        RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp = tbl_penempatan.nip
+        JOIN tbl_unit ON tbl_unit.id_unit = tbl_penempatan.unit_now
+        WHERE id_penempatan != \'\' AND AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\');', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DISTINCT nip) as jml
+        FROM tbl_penempatan
+        RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp = tbl_penempatan.nip
+        JOIN tbl_unit ON tbl_unit.id_unit = tbl_penempatan.unit_now
+        WHERE id_penempatan != \'\' AND AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\');')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DISTINCT nip) as jml
+        FROM tbl_penempatan
+        RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp = tbl_penempatan.nip
+        JOIN tbl_unit ON tbl_unit.id_unit = tbl_penempatan.unit_now
+        WHERE id_penempatan != \'\' AND AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\');')
+ 4 APPPATH\Models\ModelData.php(87): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DISTINCT nip) as jml
+        FROM tbl_penempatan
+        RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp = tbl_penempatan.nip
+        JOIN tbl_unit ON tbl_unit.id_unit = tbl_penempatan.unit_now
+        WHERE id_penempatan != \'\' AND AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\');')
+ 5 APPPATH\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-01 05:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-01 05:11:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (nama_pegawai LIKE '%%' OR  nip LIKE '%%' OR  jabatan LIKE '%%' OR nama_unit' at line 5 in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DI...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DI...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DI...')
+#3 C:\wamp64\www\sculing\app\Models\ModelData.php(87): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DI...')
+#4 C:\wamp64\www\sculing\app\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-01 05:11:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (nama_pegawai LIKE '%%' OR  nip LIKE '%%' OR  jabatan LIKE '%%' OR nama_unit' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DISTINCT nip) as jml
+        FROM tbl_penempatan
+        RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp = tbl_penempatan.nip
+        JOIN tbl_unit ON tbl_unit.id_unit = tbl_penempatan.unit_now
+        WHERE id_penempatan != \'\' AND AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\');', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DISTINCT nip) as jml
+        FROM tbl_penempatan
+        RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp = tbl_penempatan.nip
+        JOIN tbl_unit ON tbl_unit.id_unit = tbl_penempatan.unit_now
+        WHERE id_penempatan != \'\' AND AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\');')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DISTINCT nip) as jml
+        FROM tbl_penempatan
+        RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp = tbl_penempatan.nip
+        JOIN tbl_unit ON tbl_unit.id_unit = tbl_penempatan.unit_now
+        WHERE id_penempatan != \'\' AND AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\');')
+ 4 APPPATH\Models\ModelData.php(87): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DISTINCT nip) as jml
+        FROM tbl_penempatan
+        RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp = tbl_penempatan.nip
+        JOIN tbl_unit ON tbl_unit.id_unit = tbl_penempatan.unit_now
+        WHERE id_penempatan != \'\' AND AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\');')
+ 5 APPPATH\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-01 05:11:38 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (nama_pegawai LIKE '%%' OR  nip LIKE '%%' OR  jabatan LIKE '%%' OR nama_unit' at line 5 in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DI...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DI...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DI...')
+#3 C:\wamp64\www\sculing\app\Models\ModelData.php(87): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DI...')
+#4 C:\wamp64\www\sculing\app\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-01 05:11:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (nama_pegawai LIKE '%%' OR  nip LIKE '%%' OR  jabatan LIKE '%%' OR nama_unit' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DISTINCT nip) as jml
+        FROM tbl_penempatan
+        RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp = tbl_penempatan.nip
+        JOIN tbl_unit ON tbl_unit.id_unit = tbl_penempatan.unit_now
+        WHERE id_penempatan != \'\' AND AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\');', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DISTINCT nip) as jml
+        FROM tbl_penempatan
+        RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp = tbl_penempatan.nip
+        JOIN tbl_unit ON tbl_unit.id_unit = tbl_penempatan.unit_now
+        WHERE id_penempatan != \'\' AND AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\');')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DISTINCT nip) as jml
+        FROM tbl_penempatan
+        RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp = tbl_penempatan.nip
+        JOIN tbl_unit ON tbl_unit.id_unit = tbl_penempatan.unit_now
+        WHERE id_penempatan != \'\' AND AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\');')
+ 4 APPPATH\Models\ModelData.php(87): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DISTINCT nip) as jml
+        FROM tbl_penempatan
+        RIGHT JOIN tbl_pegawai ON tbl_pegawai.nipp = tbl_penempatan.nip
+        JOIN tbl_unit ON tbl_unit.id_unit = tbl_penempatan.unit_now
+        WHERE id_penempatan != \'\' AND AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\');')
+ 5 APPPATH\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-01 05:12:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (nama_pegawai LIKE '%%' OR  nip LIKE '%%' OR  jabatan LIKE '%%' OR nama_unit' at line 5 in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DI...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DI...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DI...')
+#3 C:\wamp64\www\sculing\app\Models\ModelData.php(87): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DI...')
+#4 C:\wamp64\www\sculing\app\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-01 05:12:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (nama_pegawai LIKE '%%' OR  nip LIKE '%%' OR  jabatan LIKE '%%' OR nama_unit' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DISTINCT nip) as jml
+        FROM tbl_penempatan
+        JOIN tbl_pegawai ON tbl_pegawai.nipp = tbl_penempatan.nip
+        JOIN tbl_unit ON tbl_unit.id_unit = tbl_penempatan.unit_now
+        WHERE id_penempatan != \'\' AND AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\');', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DISTINCT nip) as jml
+        FROM tbl_penempatan
+        JOIN tbl_pegawai ON tbl_pegawai.nipp = tbl_penempatan.nip
+        JOIN tbl_unit ON tbl_unit.id_unit = tbl_penempatan.unit_now
+        WHERE id_penempatan != \'\' AND AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\');')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DISTINCT nip) as jml
+        FROM tbl_penempatan
+        JOIN tbl_pegawai ON tbl_pegawai.nipp = tbl_penempatan.nip
+        JOIN tbl_unit ON tbl_unit.id_unit = tbl_penempatan.unit_now
+        WHERE id_penempatan != \'\' AND AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\');')
+ 4 APPPATH\Models\ModelData.php(87): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DISTINCT nip) as jml
+        FROM tbl_penempatan
+        JOIN tbl_pegawai ON tbl_pegawai.nipp = tbl_penempatan.nip
+        JOIN tbl_unit ON tbl_unit.id_unit = tbl_penempatan.unit_now
+        WHERE id_penempatan != \'\' AND AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\');')
+ 5 APPPATH\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-01 05:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-01 05:12:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (nama_pegawai LIKE '%%' OR  nip LIKE '%%' OR  jabatan LIKE '%%' OR nama_unit' at line 5 in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DI...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DI...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DI...')
+#3 C:\wamp64\www\sculing\app\Models\ModelData.php(87): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DI...')
+#4 C:\wamp64\www\sculing\app\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-01 05:12:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (nama_pegawai LIKE '%%' OR  nip LIKE '%%' OR  jabatan LIKE '%%' OR nama_unit' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DISTINCT nip) as jml
+        FROM tbl_penempatan
+        JOIN tbl_pegawai ON tbl_pegawai.nipp = tbl_penempatan.nip
+        JOIN tbl_unit ON tbl_unit.id_unit = tbl_penempatan.unit_now
+        WHERE id_penempatan != \'\' AND AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\');', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DISTINCT nip) as jml
+        FROM tbl_penempatan
+        JOIN tbl_pegawai ON tbl_pegawai.nipp = tbl_penempatan.nip
+        JOIN tbl_unit ON tbl_unit.id_unit = tbl_penempatan.unit_now
+        WHERE id_penempatan != \'\' AND AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\');')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DISTINCT nip) as jml
+        FROM tbl_penempatan
+        JOIN tbl_pegawai ON tbl_pegawai.nipp = tbl_penempatan.nip
+        JOIN tbl_unit ON tbl_unit.id_unit = tbl_penempatan.unit_now
+        WHERE id_penempatan != \'\' AND AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\');')
+ 4 APPPATH\Models\ModelData.php(87): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DISTINCT nip) as jml
+        FROM tbl_penempatan
+        JOIN tbl_pegawai ON tbl_pegawai.nipp = tbl_penempatan.nip
+        JOIN tbl_unit ON tbl_unit.id_unit = tbl_penempatan.unit_now
+        WHERE id_penempatan != \'\' AND AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\');')
+ 5 APPPATH\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-01 05:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-01 05:13:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (nama_pegawai LIKE '%%' OR  nip LIKE '%%' OR  jabatan LIKE '%%' OR nama_unit' at line 5 in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DI...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DI...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DI...')
+#3 C:\wamp64\www\sculing\app\Models\ModelData.php(88): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DI...')
+#4 C:\wamp64\www\sculing\app\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-01 05:13:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (nama_pegawai LIKE '%%' OR  nip LIKE '%%' OR  jabatan LIKE '%%' OR nama_unit' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DISTINCT nip) as jml
+        FROM tbl_penempatan
+        LEFT JOIN tbl_pegawai ON tbl_pegawai.nipp = tbl_penempatan.nip
+        LEFT JOIN tbl_unit ON tbl_unit.id_unit = tbl_penempatan.unit_now
+        WHERE id_penempatan != \'\' AND AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\');', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DISTINCT nip) as jml
+        FROM tbl_penempatan
+        LEFT JOIN tbl_pegawai ON tbl_pegawai.nipp = tbl_penempatan.nip
+        LEFT JOIN tbl_unit ON tbl_unit.id_unit = tbl_penempatan.unit_now
+        WHERE id_penempatan != \'\' AND AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\');')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DISTINCT nip) as jml
+        FROM tbl_penempatan
+        LEFT JOIN tbl_pegawai ON tbl_pegawai.nipp = tbl_penempatan.nip
+        LEFT JOIN tbl_unit ON tbl_unit.id_unit = tbl_penempatan.unit_now
+        WHERE id_penempatan != \'\' AND AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\');')
+ 4 APPPATH\Models\ModelData.php(88): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DISTINCT nip) as jml
+        FROM tbl_penempatan
+        LEFT JOIN tbl_pegawai ON tbl_pegawai.nipp = tbl_penempatan.nip
+        LEFT JOIN tbl_unit ON tbl_unit.id_unit = tbl_penempatan.unit_now
+        WHERE id_penempatan != \'\' AND AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\');')
+ 5 APPPATH\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-01 05:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-01 05:14:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (nama_pegawai LIKE '%%' OR  nip LIKE '%%' OR  jabatan LIKE '%%' OR nama_unit' at line 5 in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DI...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DI...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DI...')
+#3 C:\wamp64\www\sculing\app\Models\ModelData.php(88): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DI...')
+#4 C:\wamp64\www\sculing\app\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-01 05:14:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (nama_pegawai LIKE '%%' OR  nip LIKE '%%' OR  jabatan LIKE '%%' OR nama_unit' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DISTINCT nip) as jml
+        FROM tbl_penempatan
+        LEFT JOIN tbl_pegawai ON tbl_pegawai.nipp = tbl_penempatan.nip
+        -- LEFT JOIN tbl_unit ON tbl_unit.id_unit = tbl_penempatan.unit_now
+        WHERE id_penempatan != \'\' AND AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\');', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DISTINCT nip) as jml
+        FROM tbl_penempatan
+        LEFT JOIN tbl_pegawai ON tbl_pegawai.nipp = tbl_penempatan.nip
+        -- LEFT JOIN tbl_unit ON tbl_unit.id_unit = tbl_penempatan.unit_now
+        WHERE id_penempatan != \'\' AND AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\');')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DISTINCT nip) as jml
+        FROM tbl_penempatan
+        LEFT JOIN tbl_pegawai ON tbl_pegawai.nipp = tbl_penempatan.nip
+        -- LEFT JOIN tbl_unit ON tbl_unit.id_unit = tbl_penempatan.unit_now
+        WHERE id_penempatan != \'\' AND AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\');')
+ 4 APPPATH\Models\ModelData.php(88): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DISTINCT nip) as jml
+        FROM tbl_penempatan
+        LEFT JOIN tbl_pegawai ON tbl_pegawai.nipp = tbl_penempatan.nip
+        -- LEFT JOIN tbl_unit ON tbl_unit.id_unit = tbl_penempatan.unit_now
+        WHERE id_penempatan != \'\' AND AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR nama_unit LIKE \'%%\' OR tmt LIKE \'%%\');')
+ 5 APPPATH\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-01 05:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-01 05:14:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (nama_pegawai LIKE '%%' OR  nip LIKE '%%' OR  jabatan LIKE '%%' OR id_unit L' at line 5 in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DI...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DI...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DI...')
+#3 C:\wamp64\www\sculing\app\Models\ModelData.php(88): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DI...')
+#4 C:\wamp64\www\sculing\app\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-01 05:14:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (nama_pegawai LIKE '%%' OR  nip LIKE '%%' OR  jabatan LIKE '%%' OR id_unit L' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DISTINCT nip) as jml
+        FROM tbl_penempatan
+        LEFT JOIN tbl_pegawai ON tbl_pegawai.nipp = tbl_penempatan.nip
+        LEFT JOIN tbl_unit ON tbl_unit.id_unit = tbl_penempatan.unit_now
+        WHERE id_penempatan != \'\' AND AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR id_unit LIKE \'%%\' OR tmt LIKE \'%%\');', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DISTINCT nip) as jml
+        FROM tbl_penempatan
+        LEFT JOIN tbl_pegawai ON tbl_pegawai.nipp = tbl_penempatan.nip
+        LEFT JOIN tbl_unit ON tbl_unit.id_unit = tbl_penempatan.unit_now
+        WHERE id_penempatan != \'\' AND AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR id_unit LIKE \'%%\' OR tmt LIKE \'%%\');')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DISTINCT nip) as jml
+        FROM tbl_penempatan
+        LEFT JOIN tbl_pegawai ON tbl_pegawai.nipp = tbl_penempatan.nip
+        LEFT JOIN tbl_unit ON tbl_unit.id_unit = tbl_penempatan.unit_now
+        WHERE id_penempatan != \'\' AND AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR id_unit LIKE \'%%\' OR tmt LIKE \'%%\');')
+ 4 APPPATH\Models\ModelData.php(88): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DISTINCT nip) as jml
+        FROM tbl_penempatan
+        LEFT JOIN tbl_pegawai ON tbl_pegawai.nipp = tbl_penempatan.nip
+        LEFT JOIN tbl_unit ON tbl_unit.id_unit = tbl_penempatan.unit_now
+        WHERE id_penempatan != \'\' AND AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR id_unit LIKE \'%%\' OR tmt LIKE \'%%\');')
+ 5 APPPATH\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-01 05:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-01 05:14:52 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (nama_pegawai LIKE '%%' OR  nip LIKE '%%' OR  jabatan LIKE '%%' OR unit_now ' at line 5 in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DI...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DI...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DI...')
+#3 C:\wamp64\www\sculing\app\Models\ModelData.php(88): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DI...')
+#4 C:\wamp64\www\sculing\app\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-01 05:14:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (nama_pegawai LIKE '%%' OR  nip LIKE '%%' OR  jabatan LIKE '%%' OR unit_now ' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DISTINCT nip) as jml
+        FROM tbl_penempatan
+        LEFT JOIN tbl_pegawai ON tbl_pegawai.nipp = tbl_penempatan.nip
+        LEFT JOIN tbl_unit ON tbl_unit.id_unit = tbl_penempatan.unit_now
+        WHERE id_penempatan != \'\' AND AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR unit_now LIKE \'%%\' OR tmt LIKE \'%%\');', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DISTINCT nip) as jml
+        FROM tbl_penempatan
+        LEFT JOIN tbl_pegawai ON tbl_pegawai.nipp = tbl_penempatan.nip
+        LEFT JOIN tbl_unit ON tbl_unit.id_unit = tbl_penempatan.unit_now
+        WHERE id_penempatan != \'\' AND AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR unit_now LIKE \'%%\' OR tmt LIKE \'%%\');')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DISTINCT nip) as jml
+        FROM tbl_penempatan
+        LEFT JOIN tbl_pegawai ON tbl_pegawai.nipp = tbl_penempatan.nip
+        LEFT JOIN tbl_unit ON tbl_unit.id_unit = tbl_penempatan.unit_now
+        WHERE id_penempatan != \'\' AND AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR unit_now LIKE \'%%\' OR tmt LIKE \'%%\');')
+ 4 APPPATH\Models\ModelData.php(88): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DISTINCT nip) as jml
+        FROM tbl_penempatan
+        LEFT JOIN tbl_pegawai ON tbl_pegawai.nipp = tbl_penempatan.nip
+        LEFT JOIN tbl_unit ON tbl_unit.id_unit = tbl_penempatan.unit_now
+        WHERE id_penempatan != \'\' AND AND (nama_pegawai LIKE \'%%\' OR  nip LIKE \'%%\' OR  jabatan LIKE \'%%\' OR unit_now LIKE \'%%\' OR tmt LIKE \'%%\');')
+ 5 APPPATH\Controllers\Data.php(55): App\Models\ModelData->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->dataPenempatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-01 05:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 05:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 05:17:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 05:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 05:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 05:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 05:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 05:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 05:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 05:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 05:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 05:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 05:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 05:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 05:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 05:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 05:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 05:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 05:24:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 05:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:10:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:10:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:10:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:13:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:15:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:15:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:15:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:16:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-01 08:17:59 --> Undefined variable: value
+in APPPATH\Views\data\skill\view.php on line 14.
+ 1 APPPATH\Views\data\skill\view.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'C:\\wamp64\\www\\sculing\\app\\Views\\data\\skill\\view.php', 14, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\data\\skill\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('data/skill/view', [], true)
+ 5 APPPATH\Controllers\Data.php(92): view('data/skill/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->skill()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-01 08:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-01 08:21:13 --> Undefined variable: value
+in APPPATH\Views\data\skill\view.php on line 14.
+ 1 APPPATH\Views\data\skill\view.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'C:\\wamp64\\www\\sculing\\app\\Views\\data\\skill\\view.php', 14, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\data\\skill\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('data/skill/view', [], true)
+ 5 APPPATH\Controllers\Data.php(92): view('data/skill/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->skill()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-01 08:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-01 08:21:15 --> Undefined variable: value
+in APPPATH\Views\data\skill\view.php on line 14.
+ 1 APPPATH\Views\data\skill\view.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'C:\\wamp64\\www\\sculing\\app\\Views\\data\\skill\\view.php', 14, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\data\\skill\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('data/skill/view', [], true)
+ 5 APPPATH\Controllers\Data.php(92): view('data/skill/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->skill()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-01 08:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-01 08:21:41 --> Undefined variable: value
+in APPPATH\Views\data\skill\view.php on line 14.
+ 1 APPPATH\Views\data\skill\view.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'C:\\wamp64\\www\\sculing\\app\\Views\\data\\skill\\view.php', 14, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\data\\skill\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('data/skill/view', [], true)
+ 5 APPPATH\Controllers\Data.php(92): view('data/skill/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->skill()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-01 08:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:28:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:29:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:31:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:33:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-01 08:39:49 --> Undefined variable: index
+in APPPATH\Views\data\skill\view.php on line 94.
+ 1 APPPATH\Views\data\skill\view.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: index', 'C:\\wamp64\\www\\sculing\\app\\Views\\data\\skill\\view.php', 94, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\data\\skill\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('data/skill/view', [], true)
+ 5 APPPATH\Controllers\Data.php(92): view('data/skill/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->skill()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-01 08:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-01 08:40:14 --> Undefined variable: index
+in APPPATH\Views\data\skill\view.php on line 94.
+ 1 APPPATH\Views\data\skill\view.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: index', 'C:\\wamp64\\www\\sculing\\app\\Views\\data\\skill\\view.php', 94, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\sculing\\app\\Views\\data\\skill\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('data/skill/view', [], true)
+ 5 APPPATH\Controllers\Data.php(92): view('data/skill/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->skill()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-01 08:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:42:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-01 08:42:57 --> mysqli_sql_exception: Unknown column 'username' in 'where clause' in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\wamp64\www\sculing\app\Models\ModelUnit.php(79): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\wamp64\www\sculing\app\Controllers\Unit.php(31): App\Models\ModelUnit->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Unit->dataUnit()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-01 08:42:57 --> Unknown column 'username' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id_unit) as jml FROM tbl_unit WHERE id_unit != \'\' AND (username LIKE \'%%\' OR password LIKE \'%%\' OR level LIKE \'%%\' OR status LIKE \'%%\' OR info LIKE \'%%\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id_unit) as jml FROM tbl_unit WHERE id_unit != \'\' AND (username LIKE \'%%\' OR password LIKE \'%%\' OR level LIKE \'%%\' OR status LIKE \'%%\' OR info LIKE \'%%\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id_unit) as jml FROM tbl_unit WHERE id_unit != \'\' AND (username LIKE \'%%\' OR password LIKE \'%%\' OR level LIKE \'%%\' OR status LIKE \'%%\' OR info LIKE \'%%\')')
+ 4 APPPATH\Models\ModelUnit.php(79): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id_unit) as jml FROM tbl_unit WHERE id_unit != \'\' AND (username LIKE \'%%\' OR password LIKE \'%%\' OR level LIKE \'%%\' OR status LIKE \'%%\' OR info LIKE \'%%\')')
+ 5 APPPATH\Controllers\Unit.php(31): App\Models\ModelUnit->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Unit->dataUnit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-01 08:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-01 08:43:03 --> mysqli_sql_exception: Unknown column 'username' in 'where clause' in C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\sculing\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\wamp64\www\sculing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\wamp64\www\sculing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\wamp64\www\sculing\app\Models\ModelUnit.php(79): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\wamp64\www\sculing\app\Controllers\Unit.php(31): App\Models\ModelUnit->jumlah_filter()
+#5 C:\wamp64\www\sculing\system\CodeIgniter.php(932): App\Controllers\Unit->dataUnit()
+#6 C:\wamp64\www\sculing\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+#7 C:\wamp64\www\sculing\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sculing\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-01 08:43:03 --> Unknown column 'username' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id_unit) as jml FROM tbl_unit WHERE id_unit != \'\' AND (username LIKE \'%%\' OR password LIKE \'%%\' OR level LIKE \'%%\' OR status LIKE \'%%\' OR info LIKE \'%%\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id_unit) as jml FROM tbl_unit WHERE id_unit != \'\' AND (username LIKE \'%%\' OR password LIKE \'%%\' OR level LIKE \'%%\' OR status LIKE \'%%\' OR info LIKE \'%%\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id_unit) as jml FROM tbl_unit WHERE id_unit != \'\' AND (username LIKE \'%%\' OR password LIKE \'%%\' OR level LIKE \'%%\' OR status LIKE \'%%\' OR info LIKE \'%%\')')
+ 4 APPPATH\Models\ModelUnit.php(79): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id_unit) as jml FROM tbl_unit WHERE id_unit != \'\' AND (username LIKE \'%%\' OR password LIKE \'%%\' OR level LIKE \'%%\' OR status LIKE \'%%\' OR info LIKE \'%%\')')
+ 5 APPPATH\Controllers\Unit.php(31): App\Models\ModelUnit->jumlah_filter()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Unit->dataUnit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unit))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-01 08:43:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:45:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:45:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:48:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-01 08:53:14 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Data.php(188): CodeIgniter\Model->__call('detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->downloadFileKep('93')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-01 08:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:53:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-01 08:53:23 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Data.php(188): CodeIgniter\Model->__call('detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->downloadFileKep('93')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-01 08:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-01 08:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

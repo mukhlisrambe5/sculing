@@ -29,8 +29,6 @@ class ModelUnit extends Model
             $kondisi_search = "id_unit!= ''";
         }
 
-
-
         // order
         if (isset($_POST['order'])) {
             $result_order = $this->column_order[$_POST['order']['0']['column']];
@@ -58,11 +56,9 @@ class ModelUnit extends Model
 
     }
 
-
-
     function jumlah_semua()
     {
-        $sQuery = "SELECT COUNT(id_user) as jml FROM tbl_user";
+        $sQuery = "SELECT COUNT(id_unit) as jml FROM tbl_unit";
         $db = db_connect();
         $query = $db->query($sQuery)->getRow();
         return $query;
@@ -73,12 +69,12 @@ class ModelUnit extends Model
 
         if (isset($_POST['search']['value'])) {
             $search = $_POST['search']['value'];
-            $kondisi_search = "AND (username LIKE '%$search%' OR password LIKE '%$search%' OR level LIKE '%$search%' OR status LIKE '%$search%' OR info LIKE '%$search%')";
+            $kondisi_search = "AND (nama_unit LIKE '%$search%')";
         } else {
             $kondisi_search = "";
         }
 
-        $sQuery = "SELECT COUNT(id_user) as jml FROM tbl_user WHERE id_user != '' $kondisi_search";
+        $sQuery = "SELECT COUNT(id_unit) as jml FROM tbl_unit WHERE id_unit != '' $kondisi_search";
         $db = db_connect();
         $query = $db->query($sQuery)->getRow();
         return $query;

@@ -8,7 +8,7 @@ use PhpParser\Node\Expr\Isset_;
 class ModelData extends Model
 {
 
-    var $column_order = array(null, 'nama_pegawai', 'nip', 'nama_unit', 'tmt', null);
+    var $column_order = array(null, 'nama_pegawai', 'nip', 'jabatan', 'unit_now', 'tmt', null, null);
     var $order = array('nama_pegawai' => 'asc');
 
 
@@ -19,7 +19,7 @@ class ModelData extends Model
         if (isset($_POST['search']['value'])) {
 
             $search = $_POST['search']['value'];
-            $kondisi_search = "nama_pegawai LIKE '%$search%' OR  nip LIKE '%$search%' OR unit_now LIKE '%$search%' OR tmt LIKE '%$search%'";
+            $kondisi_search = "nama_pegawai LIKE '%$search%' OR  nip LIKE '%$search%' OR  jabatan LIKE '%$search%' OR unit_now LIKE '%$search%' OR tmt LIKE '%$search%'";
         } else {
             $kondisi_search = "id_penempatan != ''";
         }
@@ -64,13 +64,13 @@ class ModelData extends Model
         return $query;
     }
 
-    
+
     function jumlah_filter()
     {
 
         if (isset($_POST['search']['value'])) {
             $search = $_POST['search']['value'];
-            $kondisi_search = "AND (nama_pegawai LIKE '%$search%' OR nip LIKE '%$search%' OR unit_now LIKE '%$search%' OR tmt LIKE '%$search%')";
+            $kondisi_search = "AND (nama_pegawai LIKE '%$search%' OR nip LIKE '%$search%' OR  jabatan LIKE '%$search%'  OR unit_now LIKE '%$search%' OR tmt LIKE '%$search%')";
         } else {
             $kondisi_search = "";
         }
@@ -80,34 +80,5 @@ class ModelData extends Model
         $query = $db->query($sQuery)->getRow();
         return $query;
     }
-
-    // function add_data($data)
-    // {
-    //     $this->db->table('tbl_penempatan')->insert($data);
-    // }
-
-    // // function edit_data($data, $id_penempatan)
-    // // {
-    // //     return $this->db->table('tbl_user')->update($data, array('id_user' => $id_user));
-    // // }
-    // function update_data($data)
-    // {
-    //     return $this->db->table('tbl_penempatan')
-    //     ->where('id_penempatan', $data['id_penempatan'])
-    //     ->update($data);
-    // }
-
-    // function delete_data($id_penempatan)
-    // {
-    //     return $this->db->table('tbl_penempatan')->delete(array('id_penempatan' => $id_penempatan));
-    // }
-    // function detail($id){
-    //     return $this->db->table('tbl_penempatan')
-    //     ->where('id_penempatan', $id)
-    //     ->get()->getRowArray();
-    // }
-
-
-
 
 }

@@ -389,6 +389,12 @@
         }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
 
         $('#tblPenempatan').DataTable({
+            // "search": {
+            //     "searchPlaceholder": "Enter search term"
+            // },
+            "language": {
+                "searchPlaceholder": "Cari Nama / NIP"
+            },
             "order": [],
             "processing": true,
             "serverSide": true,
@@ -409,6 +415,9 @@
         }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');
 
         $('#tblDetailPenempatan').DataTable({
+            "language": {
+                "searchPlaceholder": "Cari Nama / NIP"
+            },
             "order": [],
             'rowsGroup': [1, 2, 3],
             "processing": true,

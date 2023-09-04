@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Aug 21, 2023 at 12:33 AM
+-- Generation Time: Sep 04, 2023 at 01:48 AM
 -- Server version: 8.0.31
 -- PHP Version: 7.4.33
 
@@ -35,8 +35,16 @@ CREATE TABLE IF NOT EXISTS `tbl_boscu` (
   `kandidat` varchar(200) NOT NULL,
   `terpilih` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
   `kep` varchar(225) NOT NULL,
+  `ket` text NOT NULL,
   PRIMARY KEY (`id_boscu`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=49 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+--
+-- Dumping data for table `tbl_boscu`
+--
+
+INSERT INTO `tbl_boscu` (`id_boscu`, `kuartal`, `tahun`, `kandidat`, `terpilih`, `kep`, `ket`) VALUES
+(48, 'I', '2023', '123451,123452,123453', '123451', '1693556937_aff78f40fa1ef409ea86.pdf', 'detail');
 
 -- --------------------------------------------------------
 
@@ -59,13 +67,6 @@ CREATE TABLE IF NOT EXISTS `tbl_data` (
   PRIMARY KEY (`id_data`)
 ) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
---
--- Dumping data for table `tbl_data`
---
-
-INSERT INTO `tbl_data` (`id_data`, `elemenVar`, `elemenNum`, `elementSelect`, `elementRadio`, `elementCheck`, `elementTextArea`, `elementDate`, `elementImg`, `elementFile`) VALUES
-(4, 'Tes 1', 123456, '1', 1, '1<br>3', 'asdsfsdfdsf', '2023-08-05', '1691191774_59edc21277b4666c18ec.png', '1691191774_177925051fb74582cf58.pdf');
-
 -- --------------------------------------------------------
 
 --
@@ -80,7 +81,7 @@ CREATE TABLE IF NOT EXISTS `tbl_pegawai` (
   `jabatan` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
   `status` varchar(25) NOT NULL,
   PRIMARY KEY (`id_pegawai`)
-) ENGINE=MyISAM AUTO_INCREMENT=18 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=31 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Dumping data for table `tbl_pegawai`
@@ -100,7 +101,19 @@ INSERT INTO `tbl_pegawai` (`id_pegawai`, `nama_pegawai`, `nipp`, `jabatan`, `sta
 (14, 'Kuma', '123461', 'Fungsional', 'Aktif'),
 (15, 'Leni', '123462', 'Pelaksana', 'Tidak Aktif'),
 (16, 'Mia', '123463', 'Fungsional', 'Aktif'),
-(17, 'Nani', '123464', 'Pelaksana', 'Tidak Aktif');
+(18, 'Nani', '123464', 'Fungsional', 'Aktif'),
+(19, 'Omar', '123465', 'Pelaksana', 'Aktif'),
+(20, 'Pasa', '123466', 'Pelaksana', 'Aktif'),
+(21, 'Queq', '123467', 'Fungsional', 'Aktif'),
+(22, 'Rasudi', '123468', 'Pelaksana', 'Aktif'),
+(23, 'Salma', '123469', 'Fungsional', 'Aktif'),
+(24, 'Tira', '123470', 'Fungsional', 'Aktif'),
+(25, 'Umar', '123471', 'Fungsional', 'Aktif'),
+(26, 'Viaas', '123472', 'Fungsional', 'Aktif'),
+(27, 'Wano', '123473', 'Pelaksana', 'Aktif'),
+(28, 'Xavi', '123474', 'Fungsional', 'Aktif'),
+(29, 'Yati', '123475', 'Pelaksana', 'Aktif'),
+(30, 'Zoro', '567567', 'Pelaksana', 'Aktif');
 
 -- --------------------------------------------------------
 
@@ -116,64 +129,18 @@ CREATE TABLE IF NOT EXISTS `tbl_penempatan` (
   `kep` varchar(225) NOT NULL,
   `tmt` date NOT NULL,
   PRIMARY KEY (`id_penempatan`)
-) ENGINE=MyISAM AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=96 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Dumping data for table `tbl_penempatan`
 --
 
 INSERT INTO `tbl_penempatan` (`id_penempatan`, `nip`, `unit_now`, `kep`, `tmt`) VALUES
-(1, '123451', 1, 'kep1.pdf', '2023-01-02'),
-(3, '123452', 3, 'kep2.pdf', '2022-09-01'),
-(5, '123452', 1, 'kep3.pdf', '2023-08-01'),
-(4, '123452', 4, 'kep4.pdf', '2023-08-02'),
-(6, '123451', 1, 'kep5.pdf', '2023-03-01'),
-(7, '123457', 3, 'kep6.pdf', '2023-08-02'),
-(9, '123458', 4, 'kep7.pdf', '2023-08-07');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `tbl_penempatancopy`
---
-
-DROP TABLE IF EXISTS `tbl_penempatancopy`;
-CREATE TABLE IF NOT EXISTS `tbl_penempatancopy` (
-  `id_penempatan` int NOT NULL AUTO_INCREMENT,
-  `nip` varchar(16) NOT NULL,
-  `masa_kerja` varchar(50) NOT NULL,
-  `unit_now` int NOT NULL,
-  `lama_unit_now` varchar(50) NOT NULL,
-  `status_warning` int NOT NULL,
-  `kep` varchar(225) NOT NULL,
-  `tmt` date NOT NULL,
-  PRIMARY KEY (`id_penempatan`)
-) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-
---
--- Dumping data for table `tbl_penempatancopy`
---
-
-INSERT INTO `tbl_penempatancopy` (`id_penempatan`, `nip`, `masa_kerja`, `unit_now`, `lama_unit_now`, `status_warning`, `kep`, `tmt`) VALUES
-(1, '12312002', '-', 1, '-', 0, 'kep.pdf', '2023-01-02'),
-(2, '123123', '', 3, '', 0, '', '0000-00-00'),
-(3, '123123', '', 1, '', 0, '', '0000-00-00');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `tbl_rolling`
---
-
-DROP TABLE IF EXISTS `tbl_rolling`;
-CREATE TABLE IF NOT EXISTS `tbl_rolling` (
-  `id_rolling` int NOT NULL,
-  `nip` varchar(16) NOT NULL,
-  `nama_pegawai` varchar(100) NOT NULL,
-  `unit` int NOT NULL,
-  `tmt` date NOT NULL,
-  `kep` varchar(225) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+(95, '123453', 5, '1693555829_8edcf2c7d49a71b2387f.pdf', '2022-09-01'),
+(94, '123452', 4, '1693541252_deef8080406f2337b9e3.pdf', '2023-09-01'),
+(93, '123451', 3, '1693540814_e466b96b952f51f1aa8c.pdf', '2023-01-01'),
+(92, '123452', 3, '1693472079_337c20d434c675c9e8be.pdf', '2022-01-01'),
+(91, '123451', 1, '1693472050_3d65f3606502ce126898.pdf', '2022-01-01');
 
 -- --------------------------------------------------------
 
@@ -186,7 +153,7 @@ CREATE TABLE IF NOT EXISTS `tbl_skill` (
   `id_skill` int NOT NULL AUTO_INCREMENT,
   `nama_skill` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
   PRIMARY KEY (`id_skill`)
-) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Dumping data for table `tbl_skill`
@@ -194,9 +161,11 @@ CREATE TABLE IF NOT EXISTS `tbl_skill` (
 
 INSERT INTO `tbl_skill` (`id_skill`, `nama_skill`) VALUES
 (1, 'Music'),
-(4, 'Programming'),
+(7, 'Fotography'),
 (3, 'Bahasa Mandarin'),
-(5, 'Bahasa Inggris');
+(5, 'Bahasa Inggris'),
+(6, 'Desain Grafis'),
+(8, 'Video Editing');
 
 -- --------------------------------------------------------
 
@@ -212,17 +181,14 @@ CREATE TABLE IF NOT EXISTS `tbl_skill_pegawai` (
   `file_keahlian` varchar(200) NOT NULL,
   `detail` text NOT NULL,
   PRIMARY KEY (`id_skill_pegawai`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=15 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Dumping data for table `tbl_skill_pegawai`
 --
 
 INSERT INTO `tbl_skill_pegawai` (`id_skill_pegawai`, `nip_skill`, `keahlian`, `file_keahlian`, `detail`) VALUES
-(1, 123451, 1, 'file1.pdf', 'detail keahlian'),
-(2, 123451, 3, 'file2.pdf', 'detail keahlian 2'),
-(3, 123453, 4, 'file3.pdf', 'detail keahlian '),
-(4, 123453, 5, 'file4.pdf', 'detail keahlian 2');
+(14, 123451, 7, '1693557232_3d8aceba84b6e96c4615.pdf', 'detail');
 
 -- --------------------------------------------------------
 
@@ -235,7 +201,7 @@ CREATE TABLE IF NOT EXISTS `tbl_unit` (
   `id_unit` int NOT NULL AUTO_INCREMENT,
   `nama_unit` varchar(100) NOT NULL,
   PRIMARY KEY (`id_unit`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Dumping data for table `tbl_unit`
@@ -244,7 +210,9 @@ CREATE TABLE IF NOT EXISTS `tbl_unit` (
 INSERT INTO `tbl_unit` (`id_unit`, `nama_unit`) VALUES
 (1, 'Subbagian Umum'),
 (3, 'Seksi Perbendaharaan'),
-(4, 'Seksi Penindakan dan Penyidikan ');
+(4, 'Seksi Penindakan dan Penyidikan '),
+(5, 'Seksi Kepatuhan Internal dan Penyuluhan'),
+(6, 'Seksi Pelayanan Kepabeanan dan Cukai dan Dukungan Teknis');
 
 -- --------------------------------------------------------
 
@@ -261,14 +229,15 @@ CREATE TABLE IF NOT EXISTS `tbl_user` (
   `status` varchar(25) NOT NULL,
   `info` varchar(225) NOT NULL,
   PRIMARY KEY (`id_user`)
-) ENGINE=MyISAM AUTO_INCREMENT=36 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=37 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Dumping data for table `tbl_user`
 --
 
 INSERT INTO `tbl_user` (`id_user`, `username`, `password`, `level`, `status`, `info`) VALUES
-(33, 'Mukhlis', '7c4a8d09ca3762af61e59520943dc26494f8941b', 1, 'Aktif', '');
+(33, 'Mukhlis', '7c4a8d09ca3762af61e59520943dc26494f8941b', 1, 'Aktif', ''),
+(36, 'Admin', '7c4a8d09ca3762af61e59520943dc26494f8941b', 1, 'Tidak Aktif', '');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

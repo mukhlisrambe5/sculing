@@ -40,7 +40,7 @@ class Data extends BaseController
     {
         $data = [
             'pegawai' => $this->ModelPegawai->all_data_penempatan(),
-            'unit' => $this->ModelUnit->all_data(),        
+            'unit' => $this->ModelUnit->all_data(),
 
         ];
         return view('data/penempatan/view', $data);
@@ -69,7 +69,7 @@ class Data extends BaseController
             $row[] = $key->nama_unit;
 
             $row[] = Time::parse($key->max_tmt)->toLocalizedString('dd-MMM-yyyy');
-            $row[] = Time::parse($key->max_tmt)->difference(Time::parse(date('Y-m-d')))->getYears() . " Tahun " . (Time::parse($key->max_tmt)->difference(Time::parse(date('Y-m-d')))->getMonths() % 12). " Bulan ";
+            $row[] = Time::parse($key->max_tmt)->difference(Time::parse(date('Y-m-d')))->getYears() . " Tahun " . (Time::parse($key->max_tmt)->difference(Time::parse(date('Y-m-d')))->getMonths() % 12) . " Bulan ";
 
             $row[] = "<div class=\"text-center\">" . $tomboledit . "</div>";
             $data[] = $row;
@@ -87,7 +87,7 @@ class Data extends BaseController
     {
         $data = [
             'skill_pegawai' => $this->ModelDataSkill->all_data(),
-            'skill'=>$this->ModelSkill->all_data()
+            'skill' => $this->ModelSkill->all_data()
         ];
         return view('data/skill/view', $data);
     }
@@ -128,7 +128,8 @@ class Data extends BaseController
         echo json_encode($output);
     }
 
-    public function addSkill(){
+    public function addSkill()
+    {
 
     }
 
@@ -136,7 +137,7 @@ class Data extends BaseController
     {
         $data = [
             'pegawai' => $this->ModelPegawai->all_data_penempatan(),
-            'unit' => $this->ModelUnit->all_data(),        
+            'unit' => $this->ModelUnit->all_data(),
 
         ];
         return view('data/penempatan/viewDetail', $data);
@@ -165,7 +166,8 @@ class Data extends BaseController
             $row[] = $key->jabatan;
             $row[] = $key->nama_unit;
             $row[] = Time::parse($key->tmt)->toLocalizedString('dd-MMM-yyyy');
-            $row[] = $key->kep;
+            // $row[] = $key->kep;
+            $row[] = "<a href=\"./downloadFileKep/$key->id_penempatan\" target=\"_blank\" >$key->kep</a>";
 
             $row[] = "<div class=\"text-center\">" . $tomboledit . "</div> ";
             $data[] = $row;
@@ -178,5 +180,13 @@ class Data extends BaseController
         );
         echo json_encode($output);
 
+    }
+
+    function downloadFileKep($id)
+    {
+        $model = new ModelDataDetail();
+        $berkas = $model->detail($id);
+        $data = $berkas['kep'];
+        return $this->response->download('uploaded/fileKep/' . $data, null);
     }
 }

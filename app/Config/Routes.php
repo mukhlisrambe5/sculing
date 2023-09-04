@@ -71,6 +71,7 @@ $routes->get('data', 'Data::index', ['filter' => 'filterLogin']);
 $routes->get('data/penempatan', 'Data::penempatan', ['filter' => 'filterLogin']);
 $routes->get('data/skill', 'Data::skill', ['filter' => 'filterLogin']);
 $routes->get('data/detailPenempatan', 'Data::detailPenempatan', ['filter' => 'filterLogin']);
+$routes->get('data/downloadFileKep/(:any)', 'Data::downloadFileKep/$1', ['filter' => 'filterLogin']);
 
 $routes->get('boscu', 'Boscu::index', ['filter' => 'filterLogin']);
 $routes->get('boscu/add', 'Boscu::add', ['filter' => 'filterLogin']);

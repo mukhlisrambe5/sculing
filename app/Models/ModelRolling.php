@@ -96,9 +96,9 @@ class ModelRolling extends Model
 
     public function detail_data($id_penempatan)
     {
-    return $this->db->table('tbl_penempatan')
-    ->where('id_penempatan', $id_penempatan)
-    ->get()->getRowArray();
+        return $this->db->table('tbl_penempatan')
+            ->where('id_penempatan', $id_penempatan)
+            ->get()->getRowArray();
     }
 
 
