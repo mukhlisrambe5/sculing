@@ -3,62 +3,10 @@
 
 <?= $this->section('content') ?>
 <section class="content mt-3">
-    <style>
-        .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
-            background-color: transparent;
-            color: #999;
-            cursor: pointer;
-            font-size: 1em;
-            font-weight: bold;
-            padding: 0 4px;
-            position: relative;
-            left: 0;
-            top: 0;
-            right: 0;
-            color: #000;
-            margin-right: -0.65rem;
-        }
-
-        .select2-container--default .select2-selection--multiple .select2-selection__choice {
-            background-color: transparent;
-            color: #000;
-            padding: 0 10px;
-            margin-top: 0.31rem;
-        }
-
-        .select2-container--default .select2-selection--single .select2-selection__rendered {
-            color: #444;
-            line-height: 28px;
-
-        }
-
-        .select2-container .select2-search--inline .select2-search__field {
-            box-sizing: border-box;
-            border: none;
-            font-size: 95%;
-            margin-top: 0px;
-            margin-left: 12px;
-            margin-bottom: 2px;
-            padding: 0;
-            max-width: 100%;
-            resize: none;
-            height: 20px;
-            vertical-align: bottom;
-            font-family: sans-serif;
-            overflow: hidden;
-            word-break: keep-all;
-        }
-
-        .select2-container .select2-selection--single .select2-selection__rendered {
-            padding-left: 0px;
-            padding-right: 20px;
-            margin-top: -10px;
-        }
-    </style>
-
     <div class="container-fluid">
         <div class="row">
             <div class="col-12">
+
                 <div class="card">
                     <div class="card-header">
                         <button type="button" class="btn btn-primary float-right" data-toggle="modal"
@@ -108,9 +56,13 @@
                             </tbody>
                         </table>
                     </div>
+
                 </div>
+
             </div>
+
         </div>
+
     </div>
 
 </section>
@@ -125,23 +77,40 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <?= form_open_multipart('pegawai/tambahSkillPegawai') ?>
+            <?= form_open('pegawai/tambahSkillPegawai') ?>
             <div class="modal-body">
                 <div class="form-group detail-content public-spacebetween">
-                    <label for="pegawai" class="label-width col-sm-4 ">Pegawai</label>
-                    <select name="pegawai" id="pegawai" class="form-control col-sm-8" required>
-                        <option value="">--Pilih Pegawai--</option>
+                    <label for="nama_pegawai" class="label-width col-sm-4">Nama Pegawai</label>
+                    <input type="text" class="form-control col-sm-8" id="nama_pegawai" name="nama_pegawai" required
+                        minlength=4>
+
+                    <select id="kandidat" class="js-example-basic-single form-control" name="kandidat[]" multiple
+                        data-placeholder="Cari dan pilih kandidat" required>
+                        <option value="">Pilih pegawai</option>
+
                         <?php foreach ($pegawai as $key => $value) { ?>
-                            <option value="<?= $value['nipp'] ?>"><?= $value['nama_pegawai'] ?></option>
+                            <option value="<?= $value['nipp'] ?>"><?= $value['nama_pegawai'] ?>
+                            </option>
+
                         <?php } ?>
                     </select>
                 </div>
+
+
+
+                <div class="form-group detail-content public-spacebetween">
+                    <label for="text" class="label-width col-sm-4 ">NIP</label>
+                    <input type="number" class="form-control col-sm-8" id="nipp" name="nipp" required>
+                </div>
+
                 <div class="form-group detail-content public-spacebetween">
                     <label for="keahlian" class="label-width col-sm-4 ">Keahlian</label>
+
                     <select name="keahlian" id="keahlian" class="form-control col-sm-8" required>
                         <option value="">--Pilih Keahlian--</option>
                         <?php foreach ($skill as $key => $value) { ?>
                             <option value="<?= $value['id_skill'] ?>"><?= $value['nama_skill'] ?></option>
+
                         <?php } ?>
                     </select>
                 </div>
@@ -156,6 +125,9 @@
                     <textarea class="col-sm-8" name="detail" id="detail" cols="40" rows="10"
                         placeholder="Optional"></textarea>
                 </div>
+                <input type="hidden" class="form-control col-sm-9" id="status" name="status" value="Aktif">
+
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -164,59 +136,7 @@
             <?= form_close() ?>
         </div>
     </div>
-
-    <script>
-
-        $(document).ready(function () {
-            // $('#pegawai').select2();
-
-            const pegawai = document.getElementById("pegawai");
-            const keahlian = document.getElementById("keahlian");
-            const fileInput = document.getElementById("file_keahlian");
-            const detail = document.getElementById("detail");
-
-            const submit = document.getElementById("submit");
-
-            fileInput.addEventListener("change", function () {
-                var allowedMimeTypes = ["application/pdf"];
-                var fileInput = this;
-                var file = fileInput.files[0];
-
-                if (!file) {
-                    fileInput.setCustomValidity("Silahkan upload file Kep");
-                } else {
-                    var fileMimeType = file.type;
-
-                    if (allowedMimeTypes.indexOf(fileMimeType) === -1) {
-                        fileInput.setCustomValidity("Invalid jenis file. Silahkan upload file PDF");
-                    } else {
-                        fileInput.setCustomValidity("");
-                    }
-                }
-            });
-
-            submit.addEventListener('click', () => {
-                if (pegawai.validity.valueMissing) {
-                    pegawai.setCustomValidity('Pilih pegawai');
-                } else {
-                    pegawai.setCustomValidity('');
-                }
-
-                if (keahlian.validity.valueMissing) {
-                    keahlian.setCustomValidity('Pilih keahlian');
-                } else {
-                    keahlian.setCustomValidity('');
-                }
-
-                if (fileInput.validity.valueMissing) {
-                    fileInput.setCustomValidity('Upload bukti dukung keahlian');
-                }
-            })
-
-        });
-    </script>
 </div>
-
 
 <!-- modal tambah skill pegawai yang sudah ada di tabel -->
 <?php
@@ -392,6 +312,7 @@ foreach ($skill_pegawai as $key => $value) {
     </div>
 
 <?php } ?>
+
 
 
 <?= $this->endSection() ?>

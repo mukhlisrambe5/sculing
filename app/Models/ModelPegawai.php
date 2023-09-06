@@ -16,11 +16,11 @@ class ModelPegawai extends Model
     public function all_data_penempatan()
     {
         return $this->db->table('tbl_pegawai')
-        // return $this->db->table('tbl_penempatan')
-        // ->join('tbl_pegawai', 'tbl_pegawai.nipp= tbl_penempatan.nip', 'left')
-        ->join('tbl_penempatan', 'tbl_pegawai.nipp= tbl_penempatan.nip', 'left')
-        ->join('tbl_unit', 'tbl_unit.id_unit = tbl_penempatan.unit_now', 'left')
-        ->get()->getResultArray();
+            // return $this->db->table('tbl_penempatan')
+            // ->join('tbl_pegawai', 'tbl_pegawai.nipp= tbl_penempatan.nip', 'left')
+            ->join('tbl_penempatan', 'tbl_pegawai.nipp= tbl_penempatan.nip', 'left')
+            ->join('tbl_unit', 'tbl_unit.id_unit = tbl_penempatan.unit_now', 'left')
+            ->get()->getResultArray();
     }
 
     var $column_order = array(null, 'nama_pegawai', 'nipp', 'jabatan', 'status', null);
@@ -107,12 +107,5 @@ class ModelPegawai extends Model
     {
         return $this->db->table('tbl_pegawai')->delete(array('id_pegawai' => $id_pegawai));
     }
-
-
-
-
-
-
-
 
 }

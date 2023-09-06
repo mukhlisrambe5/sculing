@@ -94,6 +94,8 @@ $routes->post('unit/editUnit/(:any)', 'Unit::editUnit/$1');
 $routes->post('pegawai/dataPegawai', 'Pegawai::dataPegawai');
 $routes->post('pegawai/tambahPegawai', 'Pegawai::tambahPegawai');
 $routes->post('pegawai/editPegawai/(:any)', 'Pegawai::editPegawai/$1');
+$routes->post('pegawai/tambahSkillPegawai', 'Pegawai::tambahSkillPegawai');
+
 
 $routes->post('skill/dataSkill', 'Skill::dataSkill');
 $routes->post('skill/tambahSkill', 'Skill::tambahSkill');

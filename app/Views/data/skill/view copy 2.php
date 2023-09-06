@@ -108,9 +108,18 @@
                             </tbody>
                         </table>
                     </div>
+
                 </div>
+
             </div>
+
         </div>
+        <script>
+            $(document).ready(function () {
+                $('#pegawai').select2();
+            });
+        </script>
+
     </div>
 
 </section>
@@ -125,15 +134,12 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <?= form_open_multipart('pegawai/tambahSkillPegawai') ?>
+            <?= form_open('pegawai/tambahSkillPegawai') ?>
             <div class="modal-body">
                 <div class="form-group detail-content public-spacebetween">
-                    <label for="pegawai" class="label-width col-sm-4 ">Pegawai</label>
-                    <select name="pegawai" id="pegawai" class="form-control col-sm-8" required>
-                        <option value="">--Pilih Pegawai--</option>
-                        <?php foreach ($pegawai as $key => $value) { ?>
-                            <option value="<?= $value['nipp'] ?>"><?= $value['nama_pegawai'] ?></option>
-                        <?php } ?>
+                    <label for="keahlian" class="label-width col-sm-4 ">Keahlian</label>
+                    <select name="keahlian" id="keahlian" class="form-control col-sm-8" required>
+
                     </select>
                 </div>
                 <div class="form-group detail-content public-spacebetween">
@@ -156,6 +162,7 @@
                     <textarea class="col-sm-8" name="detail" id="detail" cols="40" rows="10"
                         placeholder="Optional"></textarea>
                 </div>
+                <input type="hidden" class="form-control col-sm-9" id="status" name="status" value="Aktif">
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -216,7 +223,6 @@
         });
     </script>
 </div>
-
 
 <!-- modal tambah skill pegawai yang sudah ada di tabel -->
 <?php
@@ -392,6 +398,5 @@ foreach ($skill_pegawai as $key => $value) {
     </div>
 
 <?php } ?>
-
 
 <?= $this->endSection() ?>

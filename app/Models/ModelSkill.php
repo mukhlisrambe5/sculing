@@ -109,16 +109,15 @@ class ModelSkill extends Model
 
     public function detail_data($id_skill_pegawai)
     {
-    return $this->db->table('tbl_skill_pegawai')
-    ->where('id_skill_pegawai', $id_skill_pegawai)
-    ->get()->getRowArray();
+        return $this->db->table('tbl_skill_pegawai')
+            ->where('id_skill_pegawai', $id_skill_pegawai)
+            ->get()->getRowArray();
     }
 
-
-
-
-
-
+    public function add_skill_pegawai($data)
+    {
+        $this->db->table('tbl_skill_pegawai')->insert($data);
+    }
 
 
 }

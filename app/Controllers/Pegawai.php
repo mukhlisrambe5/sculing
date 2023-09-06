@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use App\Models\ModelPegawai;
 use App\Models\ModelUnit;
+use App\Models\ModelSkill;
 
 
 class Pegawai extends BaseController
@@ -12,6 +13,7 @@ class Pegawai extends BaseController
     {
         $this->ModelPegawai = new ModelPegawai();
         $this->ModelUnit = new ModelUnit();
+        $this->ModelSkill = new ModelSkill();
 
         helper('form');
 
@@ -98,6 +100,26 @@ class Pegawai extends BaseController
         return redirect()->to(base_url('pegawai'));
     }
 
+    public function tambahSkillPegawai()
+    {
+        $nip_pegawai = $this->request->getPost('pegawai');
+        $keahlian = $this->request->getPost('keahlian');
+        $file = $this->request->getFile('file_keahlian');
+        $detail = $this->request->getPost('detail');
+        $fileName = $file->getRandomName();
+
+        $data = [
+            'nip_skill' => $nip_pegawai,
+            'keahlian' => $keahlian,
+            'file_keahlian' => $fileName,
+            'detail' => $detail,
+        ];
+
+        $this->ModelSkill->add_skill_pegawai($data);
+        $file->move('uploaded/fileSkill', $fileName);
+        session()->setFlashdata('success', 'Data skill berhasil diupdate');
+        return redirect()->to(base_url('data/skill'));
+    }
 
 
 }

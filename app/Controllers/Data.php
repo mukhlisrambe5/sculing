@@ -87,7 +87,9 @@ class Data extends BaseController
     {
         $data = [
             'skill_pegawai' => $this->ModelDataSkill->all_data(),
-            'skill' => $this->ModelSkill->all_data()
+            'skill' => $this->ModelSkill->all_data(),
+            'pegawai' => $this->ModelPegawai->all_data(),
+
         ];
         return view('data/skill/view', $data);
     }
