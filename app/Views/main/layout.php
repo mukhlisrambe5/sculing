@@ -121,6 +121,12 @@
                     data-accordion="false">
                     <li class="nav-header">Menu Utama</li>
                     <li class="nav-item">
+                        <a href="<?= base_url('data/test') ?>" class="nav-link">
+                            <i class="fa fa-share text-success"></i>
+                            <p class="text ml-2">Test</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
                         <a href="<?= base_url('first') ?>" class="nav-link">
                             <i class="fa fa-share text-success"></i>
                             <p class="text ml-2">Penempatan Pertama</p>
@@ -393,7 +399,7 @@
             //     "searchPlaceholder": "Enter search term"
             // },
             "language": {
-                "searchPlaceholder": "Cari Nama / NIP"
+                "searchPlaceholder": "Cari Nama / NIP / Unit"
             },
             "order": [],
             "processing": true,
@@ -433,7 +439,7 @@
                 "type": "POST"
             },
             "columnDefs": [{
-                "targets": [0, 6],
+                "targets": [0, 3, 4, 5, 6, 7],
                 "orderable": false
             },
             {
@@ -461,7 +467,7 @@
                 "type": "POST"
             },
             "columnDefs": [{
-                "targets": [0, 4, 5, 6],
+                "targets": [0, 1, 4, 5, 6, 7],
                 "orderable": false
             },
             {
@@ -486,7 +492,7 @@
                 "type": "POST"
             },
             "columnDefs": [{
-                "targets": [0, 5, 6],
+                "targets": [0, 5, 6, 7],
                 "orderable": false
             }],
         }).buttons().container().appendTo('#tbl1_wrapper .col-md-6:eq(0)');

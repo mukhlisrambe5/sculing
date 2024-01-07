@@ -102,16 +102,24 @@
                         <option value="<?= $boscu['tahun'] ?>">
                             <?= $boscu['tahun'] ?>
                         </option>
-                        <option value="<?= $currentYear - 1 ?>"><?= $currentYear - 1 ?></option>
-                        <option value="<?= $currentYear ?>"><?= $currentYear ?></option>
-                        <option value="<?= $currentYear + 1 ?>"><?= $currentYear + 1 ?></option>
+                        <option value="<?= $currentYear - 1 ?>">
+                            <?= $currentYear - 1 ?>
+                        </option>
+                        <option value="<?= $currentYear ?>">
+                            <?= $currentYear ?>
+                        </option>
+                        <option value="<?= $currentYear + 1 ?>">
+                            <?= $currentYear + 1 ?>
+                        </option>
                     </select>
                 </div>
 
                 <div class="form-group">
                     <label for="tahun">Kuartal</label>
                     <select name="kuartal" id="kuartal" class="form-control" required>
-                        <option value="<?= $boscu['kuartal'] ?>"><?= $boscu['kuartal'] ?></option>
+                        <option value="<?= $boscu['kuartal'] ?>">
+                            <?= $boscu['kuartal'] ?>
+                        </option>
                         <option value="I"> I</option>
                         <option value="II"> II</option>
                         <option value="III">III</option>
@@ -124,7 +132,8 @@
                         required>
 
                         <?php foreach ($pegawai as $key => $value) { ?>
-                            <option value="<?= $value['nipp'] ?>"><?= $value['nama_pegawai'] ?>
+                            <option value="<?= $value['nipp'] ?>">
+                                <?= $value['nama_pegawai'] ?>
                             </option>
 
                         <?php } ?>
@@ -134,9 +143,12 @@
                     <label for="terpilih">Terpilih</label>
                     <select id="terpilih" class="js-example-basic-single form-control" name="terpilih" required>
 
-                        <option value="<?= $boscu['terpilih'] ?>"><?= $boscu['nama_pegawai'] ?></option>
+                        <option value="<?= $boscu['terpilih'] ?>">
+                            <?= $boscu['nama_pegawai'] ?>
+                        </option>
                         <?php foreach ($pegawai as $key => $value) { ?>
-                            <option value="<?= $value['nipp'] ?>"><?= $value['nama_pegawai'] ?>
+                            <option value="<?= $value['nipp'] ?>">
+                                <?= $value['nama_pegawai'] ?>
                             </option>
 
                         <?php } ?>
@@ -191,7 +203,7 @@
         const submit = document.getElementById("submit");
 
         fileInput.addEventListener('change', function () {
-            var allowedMimeTypes = ['application/pdf'];
+            var allowedMimeTypes = ['application/pdf', 'image/jpeg', 'image/png', 'image/jpg'];
             var fileInput = this;
             var file = fileInput.files[0];
 
@@ -200,7 +212,7 @@
             } else {
                 var fileMimeType = file.type;
                 if (allowedMimeTypes.indexOf(fileMimeType) === -1) {
-                    fileInput.setCustomValidity("Invalid jenis file. Silahkan upload file PDF");
+                    fileInput.setCustomValidity("Invalid jenis file. Silahkan upload file PDF/JPG/JPEG/PNG");
                 } else {
                     fileInput.setCustomValidity("");
                 }

@@ -36,18 +36,21 @@ class Boscu extends BaseController
             $no++;
             $row = array();
 
-            // $tomboledit = "<a class=\"btn btn-md btn-warning\" data-toggle=\"modal\" data-target=\"#edit\/$key->id_boscu\"><i class=\"fas fa-pencil-alt mr-2\"></i>Edit Data</a>";
-            $tomboledit = "<a href=\"./boscu/edit/$key->id_boscu  \" class=\"btn btn-md btn-success \" id=\"tomboledit\"><i class=\"fas fa-edit\"></i> Edit</a>";
+            $tomboledit = "<a href=\"./boscu/edit/$key->id_boscu  \" class=\"btn btn-md btn-warning \" id=\"tomboledit\"><i class=\"fas fa-edit\"></i> Edit</a>";
+            $tombolhapus = "<a href=\"./boscu/hapus/$key->id_boscu  \" class=\"btn btn-md btn-danger \" id=\"tombolhapus\" onclick=\"return confirm('Yakin ingin menghapus data ini')\"><i class=\"fas fa-trash\"></i> Delete</a>";
+
+
 
             $row[] = $no;
             $row[] = $key->tahun;
             $row[] = $key->kuartal;
             $row[] = $this->getName(explode(",", $key->kandidat));
             $row[] = $key->nama_pegawai;
-            $row[] = $key->kep;
+            $row[] = "<a href=\"./boscu/downloadFileBoscu/$key->id_boscu\" target=\"_blank\">$key->kep</a>";
+
             $row[] = $key->ket;
 
-            $row[] = "<div class=\"text-center\">" . $tomboledit . "</div>";
+            $row[] = "<div class=\"text-center\">" . $tomboledit . " " . $tombolhapus . "</div>";
             $data[] = $row;
         }
         $output = array(
@@ -153,6 +156,27 @@ class Boscu extends BaseController
 
         $this->ModelBoscu->edit_data($data, $id_boscu);
         session()->setFlashdata('successEdit', 'Data berhasil diupdate!');
+        return redirect()->to(base_url('boscu'));
+    }
+
+    function downloadFileBoscu($id)
+    {
+        $model = new ModelBoscu();
+        $berkas = $model->detail($id);
+        $data = $berkas['kep'];
+        return $this->response->download('uploaded/kepBoscu/' . $data, null);
+    }
+
+    public function hapus($id_boscu)
+    {
+
+        $berkas = $this->ModelBoscu->detail($id_boscu);
+        if ($berkas['kep'] !== "") {
+            unlink('uploaded/kepBoscu/' . $berkas['kep']);
+        }
+
+        $this->ModelBoscu->hapus($id_boscu);
+        session()->setFlashdata('successDelete', 'Data berhasil dihapus!');
         return redirect()->to(base_url('boscu'));
     }
 }

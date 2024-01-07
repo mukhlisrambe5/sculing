@@ -86,9 +86,15 @@
                     <label for="tahun">Tahun</label>
                     <select name="tahun" id="tahun" class="form-control" required>
                         <option value="">--Pilih Tahun--</option>
-                        <option value="<?= $currentYear - 1 ?>"><?= $currentYear - 1 ?></option>
-                        <option value="<?= $currentYear ?>"><?= $currentYear ?></option>
-                        <option value="<?= $currentYear + 1 ?>"><?= $currentYear + 1 ?></option>
+                        <option value="<?= $currentYear - 1 ?>">
+                            <?= $currentYear - 1 ?>
+                        </option>
+                        <option value="<?= $currentYear ?>">
+                            <?= $currentYear ?>
+                        </option>
+                        <option value="<?= $currentYear + 1 ?>">
+                            <?= $currentYear + 1 ?>
+                        </option>
                     </select>
                 </div>
                 <div class="form-group">
@@ -109,7 +115,8 @@
                         <option value="">Pilih pegawai</option>
 
                         <?php foreach ($pegawai as $key => $value) { ?>
-                            <option value="<?= $value['nipp'] ?>"><?= $value['nama_pegawai'] ?>
+                            <option value="<?= $value['nipp'] ?>">
+                                <?= $value['nama_pegawai'] ?>
                             </option>
 
                         <?php } ?>
@@ -121,7 +128,8 @@
 
                         <option value="">Pilih pemenang</option>
                         <?php foreach ($pegawai as $key => $value) { ?>
-                            <option value="<?= $value['nipp'] ?>"><?= $value['nama_pegawai'] ?>
+                            <option value="<?= $value['nipp'] ?>">
+                                <?= $value['nama_pegawai'] ?>
                             </option>
 
                         <?php } ?>
@@ -164,7 +172,7 @@
         const submit = document.getElementById("submit");
 
         fileInput.addEventListener('change', function () {
-            var allowedMimeTypes = ['application/pdf'];
+            var allowedMimeTypes = ['application/pdf', 'image/jpeg', 'image/png', 'image/jpg'];
             var fileInput = this;
             var file = fileInput.files[0];
 
@@ -173,7 +181,7 @@
             } else {
                 var fileMimeType = file.type;
                 if (allowedMimeTypes.indexOf(fileMimeType) === -1) {
-                    fileInput.setCustomValidity("Invalid jenis file. Silahkan upload file PDF");
+                    fileInput.setCustomValidity("Invalid jenis file. Silahkan upload file PDF/JPG/JPEG/PNG");
                 } else {
                     fileInput.setCustomValidity("");
                 }

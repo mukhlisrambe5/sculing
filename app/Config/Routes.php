@@ -72,10 +72,22 @@ $routes->get('data/penempatan', 'Data::penempatan', ['filter' => 'filterLogin'])
 $routes->get('data/skill', 'Data::skill', ['filter' => 'filterLogin']);
 $routes->get('data/detailPenempatan', 'Data::detailPenempatan', ['filter' => 'filterLogin']);
 $routes->get('data/downloadFileKep/(:any)', 'Data::downloadFileKep/$1', ['filter' => 'filterLogin']);
+$routes->get('data/downloadFileSkill/(:any)', 'Data::downloadFileSkill/$1', ['filter' => 'filterLogin']);
+$routes->get('data/hapus/(:any)', 'Data::hapus/$1', ['filter' => 'filterLogin']);
+$routes->get('data/hapusSkill/(:any)', 'Data::hapusSkill/$1', ['filter' => 'filterLogin']);
+$routes->get('data/updateDurasi', 'Data::updateDurasi', ['filter' => 'filterLogin']);
+
+$routes->get('data/test', 'Data::test', ['filter' => 'filterLogin']);
+
+
+
 
 $routes->get('boscu', 'Boscu::index', ['filter' => 'filterLogin']);
 $routes->get('boscu/add', 'Boscu::add', ['filter' => 'filterLogin']);
 $routes->get('boscu/edit/(:any)', 'Boscu::edit/$1', ['filter' => 'filterLogin']);
+$routes->get('boscu/downloadFileBoscu/(:any)', 'Boscu::downloadFileBoscu/$1', ['filter' => 'filterLogin']);
+$routes->get('boscu/hapus/(:any)', 'Boscu::hapus/$1', ['filter' => 'filterLogin']);
+
 
 
 $routes->post('auth/cekLogin', 'Auth::cekLogin');

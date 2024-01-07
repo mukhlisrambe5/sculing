@@ -13,13 +13,14 @@ class ModelDataSkill extends Model
 
     var $order = array('nama_pegawai' => 'asc');
 
-    function all_data(){
+    function all_data()
+    {
         return $this->db->table('tbl_skill_pegawai')
-        ->join('tbl_pegawai', 'tbl_pegawai.nipp= tbl_skill_pegawai.nip_skill', 'left')
-        ->join('tbl_skill', 'tbl_skill.id_skill= tbl_skill_pegawai.keahlian', 'left')
+            ->join('tbl_pegawai', 'tbl_pegawai.nipp= tbl_skill_pegawai.nip_skill', 'left')
+            ->join('tbl_skill', 'tbl_skill.id_skill= tbl_skill_pegawai.keahlian', 'left')
 
-        // ->where('tbl_penempatan.nip', null)
-        ->get()->getResultArray();
+            // ->where('tbl_penempatan.nip', null)
+            ->get()->getResultArray();
     }
 
     function get_datatables()
@@ -88,8 +89,17 @@ class ModelDataSkill extends Model
         $query = $db->query($sQuery)->getRow();
         return $query;
 
-        
     }
 
+    function detail($id_skill_pegawai)
+    {
+        return $this->db->table('tbl_skill_pegawai')
+            ->where('id_skill_pegawai', $id_skill_pegawai)
+            ->get()->getRowArray();
+    }
 
+    function hapus($id_skill_pegawai)
+    {
+        return $this->db->table('tbl_skill_pegawai')->delete(array('id_skill_pegawai' => $id_skill_pegawai));
+    }
 }

@@ -51,7 +51,7 @@
                                     <th>Terpilih</th>
                                     <th>Kep</th>
                                     <th>Keterangan</th>
-                                    <th class="text-center" width="170px">Action</th>
+                                    <th class="text-center" width="200px">Action</th>
                                 </tr>
                             </thead>
                             <tbody>

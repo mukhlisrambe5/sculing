@@ -1,0 +1,1350 @@
+INFO - 2023-11-30 09:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-30 09:57:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Auth.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:57:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Auth.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 09:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 09:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-30 09:57:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:57:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:57:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:57:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:57:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:57:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:57:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:57:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:57:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:57:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:57:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:57:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 09:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-30 09:57:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:57:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:57:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:57:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:57:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:57:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:58:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:58:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:58:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:58:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:58:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:58:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:58:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:58:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:58:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:58:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:58:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:58:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:58:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:58:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:58:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:58:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:58:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:58:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:58:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:58:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:58:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:58:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:58:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 09:58:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 23:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-30 23:09:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Auth.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:09:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Auth.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 23:09:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 23:09:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-30 23:09:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:09:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:09:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:09:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:09:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:09:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:09:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:09:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:09:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:09:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:09:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:09:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 23:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-30 23:09:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:09:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:09:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:09:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:09:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:09:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 23:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-30 23:15:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:15:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:15:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:15:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:15:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:15:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:15:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:15:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:15:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:15:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:15:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:15:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 23:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-30 23:15:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:15:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:15:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:15:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:15:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:15:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 23:15:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-30 23:15:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:15:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:15:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:15:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:15:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:15:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:15:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:15:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:15:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:15:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:15:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:15:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 23:15:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-30 23:15:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:15:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:15:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:15:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:15:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:15:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 23:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-30 23:19:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:19:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:19:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:19:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:19:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:19:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:19:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:19:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:19:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:19:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:19:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:19:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 23:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-30 23:19:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:19:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:19:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:19:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:19:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:19:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 23:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 23:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-30 23:34:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:34:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:34:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:34:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:34:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:34:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:34:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:34:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:34:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:34:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:34:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:34:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 23:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-30 23:34:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:34:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:34:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:34:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:34:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:34:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 23:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 23:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-30 23:46:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:46:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:46:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:46:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:46:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:46:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:46:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:46:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:46:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:46:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:46:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:46:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 23:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-30 23:46:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:46:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:46:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:46:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:46:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:46:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 23:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 23:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-30 23:47:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:47:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:47:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:47:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:47:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:47:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:47:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:47:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:47:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:47:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:47:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:47:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 23:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-30 23:47:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:47:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:47:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:47:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:47:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:47:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 23:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-30 23:47:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Auth.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 23:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 23:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-30 23:58:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:58:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:58:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:58:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:58:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:58:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:58:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:58:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:58:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:58:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:58:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:58:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 23:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-30 23:58:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:58:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:58:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:58:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:58:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:58:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 23:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-30 23:58:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:58:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:58:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:58:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:58:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:58:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 23:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-30 23:59:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 23:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-30 23:59:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 23:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-30 23:59:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 23:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-30 23:59:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 23:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-30 23:59:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 23:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-30 23:59:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 23:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-30 23:59:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelData is deprecated in APPPATH\Controllers\Data.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataSkill is deprecated in APPPATH\Controllers\Data.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelPegawai is deprecated in APPPATH\Controllers\Data.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelUnit is deprecated in APPPATH\Controllers\Data.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelDataDetail is deprecated in APPPATH\Controllers\Data.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-30 23:59:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Data::$ModelSkill is deprecated in APPPATH\Controllers\Data.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

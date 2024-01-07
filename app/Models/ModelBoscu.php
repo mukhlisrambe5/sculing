@@ -60,7 +60,12 @@ class ModelBoscu extends Model
             return $query->getResult();
         }
 
-
+        function detail($id_boscu)
+        {
+            return $this->db->table('tbl_boscu')
+                ->where('id_boscu', $id_boscu)
+                ->get()->getRowArray();
+        }
     }
 
 
@@ -129,17 +134,8 @@ class ModelBoscu extends Model
     }
 
 
-
-    // function delete_data($id_boscu)
-    // {
-    //     return $this->db->table('tbl_boscu')->delete(array('id_boscu' => $id_boscu));
-    // }
-
-
-
-
-
-
-
-
+    function hapus($id_boscu)
+    {
+        return $this->db->table('tbl_boscu')->delete(array('id_boscu' => $id_boscu));
+    }
 }

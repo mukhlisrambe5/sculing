@@ -101,7 +101,7 @@
                                     <th>Keahlian</th>
                                     <th>Bukti</th>
                                     <th>Detail</th>
-                                    <th class="text-center" width="150px">Action</th>
+                                    <th class="text-center" width="200px">Action</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -132,7 +132,9 @@
                     <select name="pegawai" id="pegawai" class="form-control col-sm-8" required>
                         <option value="">--Pilih Pegawai--</option>
                         <?php foreach ($pegawai as $key => $value) { ?>
-                            <option value="<?= $value['nipp'] ?>"><?= $value['nama_pegawai'] ?></option>
+                            <option value="<?= $value['nipp'] ?>">
+                                <?= $value['nama_pegawai'] ?>
+                            </option>
                         <?php } ?>
                     </select>
                 </div>
@@ -141,7 +143,9 @@
                     <select name="keahlian" id="keahlian" class="form-control col-sm-8" required>
                         <option value="">--Pilih Keahlian--</option>
                         <?php foreach ($skill as $key => $value) { ?>
-                            <option value="<?= $value['id_skill'] ?>"><?= $value['nama_skill'] ?></option>
+                            <option value="<?= $value['id_skill'] ?>">
+                                <?= $value['nama_skill'] ?>
+                            </option>
                         <?php } ?>
                     </select>
                 </div>
@@ -178,7 +182,7 @@
             const submit = document.getElementById("submit");
 
             fileInput.addEventListener("change", function () {
-                var allowedMimeTypes = ["application/pdf"];
+                var allowedMimeTypes = ['application/pdf', 'image/jpeg', 'image/png', 'image/jpg'];
                 var fileInput = this;
                 var file = fileInput.files[0];
 
@@ -188,7 +192,7 @@
                     var fileMimeType = file.type;
 
                     if (allowedMimeTypes.indexOf(fileMimeType) === -1) {
-                        fileInput.setCustomValidity("Invalid jenis file. Silahkan upload file PDF");
+                        fileInput.setCustomValidity("Invalid jenis file. Silahkan upload file PDF/JPG/JPEG/PNG");
                     } else {
                         fileInput.setCustomValidity("");
                     }
@@ -244,7 +248,9 @@ foreach ($skill_pegawai as $key => $value) {
                         <select name="keahlian" id="keahlian_<?= $index ?>" class="form-control col-sm-8" required>
                             <option value="">--Pilih Keahlian--</option>
                             <?php foreach ($skill as $key => $value) { ?>
-                                <option value="<?= $value['id_skill'] ?>"><?= $value['nama_skill'] ?></option>
+                                <option value="<?= $value['id_skill'] ?>">
+                                    <?= $value['nama_skill'] ?>
+                                </option>
 
                             <?php } ?>
                         </select>
@@ -334,9 +340,13 @@ foreach ($skill_pegawai as $key => $value) {
                         <label for="keahlian<?= $index ?>" class="label-width col-sm-4 ">Keahlian</label>
 
                         <select name="keahlian" id="keahlian<?= $index ?>" class="form-control col-sm-8" required>
-                            <option value="<?= $value['keahlian'] ?>"><?= $value['nama_skill'] ?></option>
+                            <option value="<?= $value['keahlian'] ?>">
+                                <?= $value['nama_skill'] ?>
+                            </option>
                             <?php foreach ($skill as $key => $val) { ?>
-                                <option value="<?= $val['id_skill'] ?>"><?= $val['nama_skill'] ?></option>
+                                <option value="<?= $val['id_skill'] ?>">
+                                    <?= $val['nama_skill'] ?>
+                                </option>
                             <?php } ?>
                         </select>
                     </div>
@@ -372,7 +382,7 @@ foreach ($skill_pegawai as $key => $value) {
             const submit<?= $index ?> = document.getElementById("submit<?= $index ?>");
 
             fileInput<?= $index ?>.addEventListener("change", function () {
-                var allowedMimeTypes = ["application/pdf"];
+                var allowedMimeTypes = ['application/pdf', 'image/jpeg', 'image/png', 'image/jpg'];
                 var fileInput = this;
                 var file = fileInput.files[0];
 
@@ -382,7 +392,7 @@ foreach ($skill_pegawai as $key => $value) {
                     var fileMimeType = file.type;
 
                     if (allowedMimeTypes.indexOf(fileMimeType) === -1) {
-                        fileInput.setCustomValidity("Invalid jenis file. Silahkan upload file PDF");
+                        fileInput.setCustomValidity("Invalid jenis file. Silahkan upload file PDF/JPG/JPEG/PNG");
                     } else {
                         fileInput.setCustomValidity("");
                     }
